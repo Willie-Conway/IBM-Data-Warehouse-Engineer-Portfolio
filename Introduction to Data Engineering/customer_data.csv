@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,email,signup_date,location
+C001,Emily,Stone,emily.stone@example.com,2024-05-14,New York
+C002,David,Nguyen,david.nguyen@example.com,2024-06-01,San Francisco
+C003,Ava,Martinez,ava.martinez@example.com,2024-06-20,Chicago
+C004,Liam,Johnson,liam.johnson@example.com,2024-07-02,Houston
+C005,Sophia,Chen,sophia.chen@example.com,2024-07-15,Seattle
+C006,Noah,Smith,noah.smith@example.com,2024-08-01,Miami
+C007,Isabella,Khan,isabella.khan@example.com,2024-08-12,Boston
+C008,James,Brown,james.brown@example.com,2024-08-20,Denver
+C009,Mia,Garcia,mia.garcia@example.com,2024-09-01,Atlanta
+C010,Benjamin,Taylor,ben.taylor@example.com,2024-09-12,Los Angeles
