@@ -1,0 +1,5 @@
+mysql> CREATE INDEX idx_billedamount ON billdata(billedamount);
+Query OK, 0 rows affected (0.95 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> 

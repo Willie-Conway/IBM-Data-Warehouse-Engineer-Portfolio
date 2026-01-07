@@ -1,0 +1,16 @@
+demo=# \d aircrafts_data
+                Table "bookings.aircrafts_data"
+    Column     |     Type     | Collation | Nullable | Default 
+---------------+--------------+-----------+----------+---------
+ aircraft_code | character(3) |           | not null | 
+ model         | jsonb        |           | not null | 
+ range         | integer      |           | not null | 
+Indexes:
+    "aircrafts_pkey" PRIMARY KEY, btree (aircraft_code)
+Check constraints:
+    "aircrafts_range_check" CHECK (range > 0)
+Referenced by:
+    TABLE "flights" CONSTRAINT "flights_aircraft_code_fkey" FOREIGN KEY (aircraft_code) REFERENCES aircrafts_data(aircraft_code)
+    TABLE "seats" CONSTRAINT "seats_aircraft_code_fkey" FOREIGN KEY (aircraft_code) REFERENCES aircrafts_data(aircraft_code) ON DELETE CASCADE
+
+demo=# 

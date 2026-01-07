@@ -1,0 +1,25 @@
+demo=# theia@theiadocker-hirewillieco:/home/project$ psql --username=postgres --halhostca
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+Type "help" for help.
+
+postgres=# \connect demo
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+You are now connected to database "demo" as user "postgres".
+demo=# \timing
+Timing is on.
+demo=# SELECT * FROM aircrafts_data;
+ aircraft_code |             model             | range 
+---------------+-------------------------------+-------
+ 773           | {"en": "Boeing 777-300"}      | 11100
+ 763           | {"en": "Boeing 767-300"}      |  7900
+ SU9           | {"en": "Sukhoi Superjet-100"} |  3000
+ 320           | {"en": "Airbus A320-200"}     |  5700
+ 321           | {"en": "Airbus A321-200"}     |  5600
+ 319           | {"en": "Airbus A319-100"}     |  6700
+ 733           | {"en": "Boeing 737-300"}      |  4200
+ CN1           | {"en": "Cessna 208 Caravan"}  |  1200
+ CR2           | {"en": "Bombardier CRJ-200"}  |  2700
+(9 rows)
+
+Time: 3.851 ms
+demo=# 

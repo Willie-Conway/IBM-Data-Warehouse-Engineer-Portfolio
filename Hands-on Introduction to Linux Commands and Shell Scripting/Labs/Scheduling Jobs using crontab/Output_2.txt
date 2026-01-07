@@ -1,0 +1,5 @@
+theia@theia-hirewillieco:/home/project$ chmod u+x /home/project/diskusage.sh
+theia@theia-hirewillieco:/home/project$ ./diskusage.sh
+theia@theia-hirewillieco:/home/project$ crontab -e
+crontab: installing new crontab
+theia@theia-hirewillieco:/home/project$ 

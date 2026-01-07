@@ -1,0 +1,14 @@
+theia@theia-hirewillieco:/home/project$ chmod +x schedule_every_minute.sh
+theia@theia-hirewillieco:/home/project$ ./schedule_every_minute.sh
+🕒 Cron job added: * * * * * date >> /tmp/everymin.txt
+📋 Current crontab:
+
+* * * * * date >> /tmp/everymin.txt
+theia@theia-hirewillieco:/home/project$ crontab -l
+
+* * * * * date >> /tmp/everymin.txt
+theia@theia-hirewillieco:/home/project$ cat /tmp/everymin.txt
+Sat Jul 12 22:56:01 EDT 2025
+Sat Jul 12 22:57:01 EDT 2025
+Sat Jul 12 22:58:01 EDT 2025
+theia@theia-hirewillieco:/home/project$ 

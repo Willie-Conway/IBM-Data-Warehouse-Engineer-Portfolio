@@ -1,0 +1,19 @@
+theia@theia-hirewillieco:/home/project$ chmod +x permissions_practice.sh
+theia@theia-hirewillieco:/home/project$ ./permissions_practice.sh
+Downloading usdoi.txt...
+
+Initial permissions for usdoi.txt:
+-rw-r--r-- 1 theia users 8121 Sep 28  2022 usdoi.txt
+
+Revoking read permission for all users...
+--w------- 1 theia users 8121 Sep 28  2022 usdoi.txt
+
+Granting read permission to all users...
+-rw-r--r-- 1 theia users 8121 Sep 28  2022 usdoi.txt
+
+Revoking read permission only for 'others'...
+-rw-r----- 1 theia users 8121 Sep 28  2022 usdoi.txt
+
+✅ Script complete. Current permissions for usdoi.txt:
+-rw-r----- 1 theia users 8121 Sep 28  2022 usdoi.txt
+theia@theia-hirewillieco:/home/project$ 

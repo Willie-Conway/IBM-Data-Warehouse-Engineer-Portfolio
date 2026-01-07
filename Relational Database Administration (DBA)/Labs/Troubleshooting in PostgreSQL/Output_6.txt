@@ -1,0 +1,12 @@
+theia@theiadocker-hirewillieco:/home/project$ psql --username=postgres --host=localhost
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+Type "help" for help.
+
+postgres=# \connect demo
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+You are now connected to database "demo" as user "postgres".
+demo=# UPDATE boarding_passes SET ticket_no = ticket_no, flight_id = flight_id, boarding_no = boarding_no, seat_no = seat_no;
+UPDATE 579686
+Time: 10187.875 ms (00:10.188)
+demo=# 
+

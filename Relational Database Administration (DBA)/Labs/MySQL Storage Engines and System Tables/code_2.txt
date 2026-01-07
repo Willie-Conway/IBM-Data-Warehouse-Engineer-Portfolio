@@ -1,0 +1,90 @@
+theia@theiadocker-hirewillieco:/home/project$ mysql --host=172.21.168.150 --port=3306 --user=root --password=XE4O8vxYtu9rJ7XljlRVeFXw
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 5436
+Server version: 8.0.37 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> USE world;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+mysql> SHOW TABLES;
++-----------------+
+| Tables_in_world |
++-----------------+
+| city            |
+| country         |
+| countrylanguage |
++-----------------+
+3 rows in set (0.00 sec)
+
+mysql> -- View available storage engines
+mysql> SHOW ENGINES;
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| Engine             | Support | Comment                                                        | Transactions | XA   | Savepoints |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| ndbcluster         | NO      | Clustered, fault-tolerant tables                               | NULL         | NULL | NULL       |
+| MEMORY             | YES     | Hash based, stored in memory, useful for temporary tables      | NO           | NO   | NO         |
+| InnoDB             | DEFAULT | Supports transactions, row-level locking, and foreign keys     | YES          | YES  | YES        |
+| PERFORMANCE_SCHEMA | YES     | Performance Schema                                             | NO           | NO   | NO         |
+| MyISAM             | YES     | MyISAM storage engine                                          | NO           | NO   | NO         |
+| FEDERATED          | NO      | Federated MySQL storage engine                                 | NULL         | NULL | NULL       |
+| ndbinfo            | NO      | MySQL Cluster system information storage engine                | NULL         | NULL | NULL       |
+| MRG_MYISAM         | YES     | Collection of identical MyISAM tables                          | NO           | NO   | NO         |
+| BLACKHOLE          | YES     | /dev/null storage engine (anything you write to it disappears) | NO           | NO   | NO         |
+| CSV                | YES     | CSV storage engine                                             | NO           | NO   | NO         |
+| ARCHIVE            | YES     | Archive storage engine                                         | NO           | NO   | NO         |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+11 rows in set (0.00 sec)
+
+mysql> 
+mysql> -- Create a CSV-based table
+mysql> CREATE TABLE csv_test (
+    ->     i INT NOT NULL,
+    ->     c CHAR(10) NOT NULL
+    -> ) ENGINE = CSV;
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> 
+mysql> -- Confirm the table was created
+mysql> SHOW TABLES;
++-----------------+
+| Tables_in_world |
++-----------------+
+| city            |
+| country         |
+| countrylanguage |
+| csv_test        |
++-----------------+
+4 rows in set (0.00 sec)
+
+mysql> 
+mysql> -- Insert sample data
+mysql> INSERT INTO csv_test VALUES
+    -> (1, 'data one'),
+    -> (2, 'data two'),
+    -> (3, 'data three');
+Query OK, 3 rows affected (0.02 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> 
+mysql> -- View inserted data
+mysql> SELECT * FROM csv_test;
++---+------------+
+| i | c          |
++---+------------+
+| 1 | data one   |
+| 2 | data two   |
+| 3 | data three |
++---+------------+
+3 rows in set (0.00 sec)
+
+mysql> 

@@ -1,0 +1,762 @@
+theia@theia-hirewillieco:/home/project$ chmod +x browse_dirs.sh
+theia@theia-hirewillieco:/home/project$ ./browse_dirs.sh
+===============================
+ Step 1.1: Current Directory 
+===============================
+/home/project
+
+Contents of current directory:
+browse_dirs.sh
+
+==================================
+ Step 1.2: Root Directory / 
+==================================
+README.md             flutter_linux_3.24.1-stable.tar.xz  media  sbin
+bin                   home                                mnt    srv
+boot                  lib                                 opt    sys
+chromedriver-linux64  lib32                               proc   tmp
+dev                   lib64                               root   usr
+etc                   libx32                              run    var
+
+==================================
+ Step 1.3: /bin (System Commands)
+==================================
+ 2to3-3.8                             login
+ FileCheck-17                         loginctl
+ GET                                  logname
+ HEAD                                 logresolve
+ POST                                 look
+ UnicodeNameMappingGenerator-17       ls
+ X11                                  lsattr
+ Xvfb                                 lsb_release
+'['                                   lsblk
+ aa-enabled                           lscpu
+ aa-exec                              lsipc
+ aa-features-abi                      lslocks
+ ab                                   lslogins
+ aclocal                              lsmem
+ aclocal-1.16                         lsns
+ add-apt-repository                   lspgpot
+ addpart                              lto-dump-11
+ addr2line                            luit
+ amdgpu-arch-17                       lwp-download
+ analyze-build-17                     lwp-dump
+ ant                                  lwp-mirror
+ appres                               lwp-request
+ appsody                              lzcat
+ apropos                              lzcmp
+ apt                                  lzdiff
+ apt-add-repository                   lzegrep
+ apt-cache                            lzfgrep
+ apt-cdrom                            lzgrep
+ apt-config                           lzless
+ apt-get                              lzma
+ apt-key                              lzmainfo
+ apt-mark                             lzmore
+ ar                                   m4
+ arch                                 make
+ as                                   make-first-existing-target
+ asan_symbolize-17                    makeconv
+ auditlogviewer                       man
+ autoconf                             man-recode
+ autoheader                           mandb
+ autom4te                             manpath
+ automake                             mawk
+ automake-1.16                        mcookie
+ autoreconf                           md5sum
+ autoscan                             md5sum.textutils
+ autoupdate                           memusage
+ awk                                  memusagestat
+ b2sum                                mesg
+ base32                               migrate-pubring-from-classic-gpg
+ base64                               mimeopen
+ basename                             mimetype
+ basenc                               mkdir
+ bash                                 mkfifo
+ bashbug                              mkfontdir
+ bdftopcf                             mkfontscale
+ bdftruncate                          mknod
+ bison                                mktemp
+ bison.yacc                           modularize-17
+ bnd                                  mongod
+ bootctl                              mongodump
+ broadwayd                            mongoexport
+ browse                               mongofiles
+ bsondump                             mongoimport
+ bugpoint-17                          mongorestore
+ bunzip2                              mongos
+ busctl                               mongosh
+ bzcat                                mongostat
+ bzcmp                                mongotop
+ bzdiff                               more
+ bzegrep                              mount
+ bzexe                                mountpoint
+ bzfgrep                              mpicalc
+ bzgrep                               mtrace
+ bzip2                                mv
+ bzip2recover                         myisam_ftdump
+ bzless                               mysql
+ bzmore                               mysql_config_editor
+ c++                                  mysqladmin
+ c++filt                              mysqlanalyze
+ c-index-test-17                      mysqlcheck
+ c89                                  mysqldump
+ c89-gcc                              mysqldumpslow
+ c99                                  mysqlimport
+ c99-gcc                              mysqloptimize
+ c_rehash                             mysqlpump
+ captoinfo                            mysqlrepair
+ cassandra-stress                     mysqlreport
+ cat                                  mysqlshow
+ catman                               mysqlslap
+ cautious-launcher                    namei
+ cc                                   nano
+ ccmake                               nawk
+ chage                                ncurses5-config
+ chattr                               ncurses6-config
+ chcon                                ncursesw5-config
+ checkgid                             ncursesw6-config
+ chfn                                 neqn
+ chgrp                                netstat
+ chmod                                networkctl
+ choom                                networkd-dispatcher
+ chown                                newgrp
+ chromedriver                         ngettext
+ chrt                                 nice
+ chsh                                 nisdomainname
+ cksum                                nl
+ clang                                nm
+ clang++                              node
+ clang++-17                           nodejs
+ clang-17                             nodetool
+ clang-apply-replacements-17          nohup
+ clang-change-namespace-17            not-17
+ clang-check-17                       npm
+ clang-cl                             nproc
+ clang-cl-17                          npx
+ clang-cpp                            nroff
+ clang-cpp-17                         nsenter
+ clang-doc-17                         numfmt
+ clang-extdef-mapping-17              nvptx-arch-17
+ clang-include-cleaner-17             obj2yaml-17
+ clang-include-fixer-17               objcopy
+ clang-linker-wrapper-17              objdump
+ clang-move-17                        od
+ clang-offload-bundler-17             open
+ clang-offload-packager-17            openssl
+ clang-pseudo-17                      opt-17
+ clang-query-17                       pack200
+ clang-refactor-17                    pager
+ clang-rename-17                      partx
+ clang-reorder-fields-17              passwd
+ clang-repl-17                        paste
+ clang-scan-deps-17                   patch
+ clang-tblgen-17                      pathchk
+ clang-tidy                           pcre-config
+ clang-tidy-17                        pcre2-config
+ clang-tidy-diff-17.py                pdb3
+ clangd                               pdb3.10
+ clangd-17                            pdb3.11
+ clear                                pdb3.8
+ clear_console                        peekfd
+ clusterdb                            perl
+ cmake                                perl5.34-x86_64-linux-gnu
+ cmake-gui                            perl5.34.0
+ cmp                                  perlbug
+ col                                  perldoc
+ colcrt                               perlivp
+ colrm                                perlthanks
+ column                               pg_basebackup
+ comm                                 pg_config
+ compose                              pg_dump
+ containerd                           pg_dumpall
+ containerd-shim                      pg_isready
+ containerd-shim-runc-v1              pg_receivewal
+ containerd-shim-runc-v2              pg_receivexlog
+ corelist                             pg_recvlogical
+ corepack                             pg_restore
+ count-17                             pgbench
+ cp                                   pgrep
+ cpack                                phar
+ cpan                                 phar.phar
+ cpan5.34-x86_64-linux-gnu            phar.phar8.1
+ cpp                                  phar8.1
+ cpp-11                               phar8.1.phar
+ cqlsh                                php
+ cqlsh.py                             php8.1
+ createdb                             pic
+ createlang                           pico
+ createuser                           piconv
+ crontab                              pidof
+ csplit                               pidwait
+ ctest                                pigz
+ ctr                                  pinentry
+ curl                                 pinentry-curses
+ curl-config                          ping
+ cut                                  ping6
+ cvtsudoers                           pinky
+ dash                                 pip
+ date                                 pip3
+ dbus-cleanup-sockets                 pip3.10
+ dbus-daemon                          pkaction
+ dbus-monitor                         pkcheck
+ dbus-run-session                     pkcon
+ dbus-send                            pkexec
+ dbus-update-activation-environment   pkg-config
+ dbus-uuidgen                         pkgdata
+ dd                                   pkill
+ deb-systemd-helper                   pkmon
+ deb-systemd-invoke                   pkttyagent
+ debconf                              pl2pm
+ debconf-apt-progress                 pldd
+ debconf-communicate                  pmap
+ debconf-copydb                       pod2html
+ debconf-escape                       pod2man
+ debconf-set-selections               pod2text
+ debconf-show                         pod2usage
+ delpart                              podchecker
+ derb                                 pp-trace-17
+ df                                   pr
+ dh_autotools-dev_restoreconfig       preconv
+ dh_autotools-dev_updateconfig        print
+ dh_perl_openssl                      printenv
+ diagtool-17                          printf
+ diff                                 prlimit
+ diff3                                prove
+ dir                                  prtstat
+ dircolors                            ps
+ dirmngr                              pslog
+ dirmngr-client                       psql
+ dirname                              pstree
+ dmesg                                pstree.x11
+ dnsdomainname                        ptar
+ docker                               ptardiff
+ docker-proxy                         ptargrep
+ dockerd                              ptx
+ dockerd-rootless-setuptool.sh        pwd
+ dockerd-rootless.sh                  pwdx
+ domainname                           py3clean
+ dotnet                               py3compile
+ dpkg                                 py3versions
+ dpkg-architecture                    pydoc3
+ dpkg-buildflags                      pydoc3.10
+ dpkg-buildpackage                    pydoc3.11
+ dpkg-checkbuilddeps                  pydoc3.8
+ dpkg-deb                             pygettext3
+ dpkg-distaddfile                     pygettext3.10
+ dpkg-divert                          pygettext3.11
+ dpkg-genbuildinfo                    pygettext3.8
+ dpkg-genchanges                      pygmentize
+ dpkg-gencontrol                      python3
+ dpkg-gensymbols                      python3-config
+ dpkg-maintscript-helper              python3.10
+ dpkg-mergechangelogs                 python3.10-config
+ dpkg-name                            python3.11
+ dpkg-parsechangelog                  python3.11-config
+ dpkg-query                           python3.8
+ dpkg-realpath                        python3.8-config
+ dpkg-scanpackages                    ranlib
+ dpkg-scansources                     rbash
+ dpkg-shlibdeps                       rcp
+ dpkg-source                          readelf
+ dpkg-split                           readlink
+ dpkg-statoverride                    realpath
+ dpkg-trigger                         reindexdb
+ dpkg-vendor                          renice
+ dropdb                               reset
+ droplang                             resizepart
+ dropuser                             resolvectl
+ dsymutil-17                          rev
+ du                                   rgrep
+ dumpsexp                             rlogin
+ dwp                                  rm
+ echo                                 rmdir
+ edit                                 rmid
+ editor                               rmiregistry
+ editres                              rnano
+ egrep                                rootlesskit
+ elfedit                              rotatelogs
+ enc2xs                               rpcgen
+ encguess                             rsh
+ env                                  run-clang-tidy-17
+ envsubst                             run-clang-tidy-17.py
+ eqn                                  run-mailcap
+ expand                               run-parts
+ expiry                               runantlr
+ expr                                 runc
+ factor                               runcon
+ faillog                              sancov-17
+ faked-sysv                           sanstats-17
+ faked-tcp                            savelog
+ fakeroot                             scan-build-17
+ fakeroot-sysv                        scan-build-py-17
+ fakeroot-tcp                         scan-view-17
+ fallocate                            scp
+ false                                script
+ fc-cache                             scriptlive
+ fc-cat                               scriptreplay
+ fc-conflist                          sdiff
+ fc-list                              sed
+ fc-match                             see
+ fc-pattern                           select-editor
+ fc-query                             sensible-browser
+ fc-scan                              sensible-editor
+ fc-validate                          sensible-pager
+ fcgistarter                          seq
+ fgrep                                serialver
+ file                                 session-migration
+ fincore                              sessreg
+ find                                 setarch
+ find-all-symbols-17                  setpriv
+ findmnt                              setsid
+ firefox                              setterm
+ flock                                setxkbmap
+ fmt                                  sftp
+ fold                                 sg
+ fonttosfnt                           sh
+ fqltool                              sha1sum
+ free                                 sha224sum
+ funzip                               sha256sum
+ fuser                                sha384sum
+ g++                                  sha512sum
+ g++-11                               shasum
+ gapplication                         showrgb
+ gcc                                  shred
+ gcc-11                               shuf
+ gcc-ar                               size
+ gcc-ar-11                            skill
+ gcc-nm                               slabtop
+ gcc-nm-11                            sleep
+ gcc-ranlib                           slirp4netns
+ gcc-ranlib-11                        slogin
+ gcore                                snice
+ gcov                                 soelim
+ gcov-11                              sort
+ gcov-dump                            sotruss
+ gcov-dump-11                         splain
+ gcov-tool                            split
+ gcov-tool-11                         split-file-17
+ gdb                                  sprof
+ gdb-add-index                        ssh
+ gdbtui                               ssh-add
+ gdbus                                ssh-agent
+ gdbus-codegen                        ssh-argv0
+ gdk-pixbuf-csource                   ssh-copy-id
+ gdk-pixbuf-pixdata                   ssh-import-id
+ gdk-pixbuf-thumbnailer               ssh-import-id-gh
+ geckodriver                          ssh-import-id-lp
+ genbrk                               ssh-keygen
+ gencat                               ssh-keyscan
+ gencfu                               sstableloader
+ gencnval                             sstablescrub
+ gendict                              sstableupgrade
+ genrb                                sstableutil
+ geqn                                 sstableverify
+ getconf                              startGroovy
+ getent                               stat
+ getopt                               stdbuf
+ gettext                              streamzip
+ gettext.sh                           strings
+ gio                                  strip
+ gio-querymodules                     stty
+ git                                  su
+ git-receive-pack                     sudo
+ git-shell                            sudoedit
+ git-upload-archive                   sudoreplay
+ git-upload-pack                      sum
+ glib-compile-resources               sync
+ glib-compile-schemas                 systemctl
+ glib-genmarshal                      systemd
+ glib-gettextize                      systemd-analyze
+ glib-mkenums                         systemd-ask-password
+ gmake                                systemd-cat
+ gnome-www-browser                    systemd-cgls
+ gobject-query                        systemd-cgtop
+ gold                                 systemd-cryptenroll
+ google-chrome                        systemd-delta
+ gpasswd                              systemd-detect-virt
+ gpg                                  systemd-escape
+ gpg-agent                            systemd-id128
+ gpg-connect-agent                    systemd-inhibit
+ gpg-error-config                     systemd-machine-id-setup
+ gpg-wks-server                       systemd-mount
+ gpg-zip                              systemd-notify
+ gpg2                                 systemd-path
+ gpgcompose                           systemd-run
+ gpgconf                              systemd-socket-activate
+ gpgparsemail                         systemd-stdio-bridge
+ gpgrt-config                         systemd-sysext
+ gpgsm                                systemd-sysusers
+ gpgsplit                             systemd-tmpfiles
+ gpgtar                               systemd-tty-ask-password-agent
+ gpgv                                 systemd-umount
+ gpic                                 tabs
+ gprof                                tac
+ gradle                               tail
+ grape                                tar
+ grep                                 taskset
+ gresource                            tbl
+ groff                                tee
+ grog                                 tempfile
+ groovy                               test
+ groovyConsole                        tic
+ groovyc                              tilix
+ groovydoc                            tilix.wrapper
+ groovysh                             timedatectl
+ grops                                timeout
+ grotty                               tload
+ groups                               toe
+ gsettings                            top
+ gtbl                                 touch
+ gtester                              tput
+ gtester-report                       tr
+ gtk-builder-tool                     troff
+ gtk-encode-symbolic-svg              true
+ gtk-launch                           truncate
+ gtk-query-settings                   tset
+ gtk-update-icon-cache                tsort
+ gunzip                               tty
+ gzexe                                tzselect
+ gzip                                 ucf
+ h2ph                                 ucfq
+ h2xs                                 ucfr
+ hardlink                             uclampset
+ hd                                   uconv
+ head                                 ucs2any
+ hexdump                              ul
+ hmac256                              umount
+ hmaptool-17                          uname
+ hostid                               unattended-upgrade
+ hostname                             unattended-upgrades
+ hostnamectl                          uncompress
+ htcacheclean                         unexpand
+ htdbm                                uniq
+ htdigest                             unlink
+ htpasswd                             unlzma
+ hwasan_symbolize-17                  unpack200
+ i386                                 unpigz
+ iceauth                              unshare
+ iconv                                unxz
+ icuexportdata                        unzip
+ icuinfo                              unzipsfx
+ id                                   update-alternatives
+ ifnames                              update-mime-database
+ infocmp                              uptime
+ infotocap                            users
+ install                              utmpdump
+ install_compass                      vacuumdb
+ instmodsh                            vacuumlo
+ intercept-build-17                   vdir
+ ionice                               verify-uselistorder-17
+ ipcmk                                viewres
+ ipcrm                                vmstat
+ ipcs                                 w
+ iptables-xml                         wall
+ ischroot                             watch
+ jar                                  watchgnupg
+ jarsigner                            wc
+ java                                 wdctl
+ java2groovy                          wget
+ javac                                whatis
+ javadoc                              whereis
+ javap                                which
+ jcmd                                 which.debianutils
+ jconsole                             who
+ jdb                                  whoami
+ jdeprscan                            write
+ jdeps                                write.ul
+ jexec                                x-terminal-emulator
+ jfr                                  x-www-browser
+ jhsdb                                x86_64
+ jimage                               x86_64-linux-gnu-addr2line
+ jinfo                                x86_64-linux-gnu-ar
+ jjs                                  x86_64-linux-gnu-as
+ jlink                                x86_64-linux-gnu-c++filt
+ jmap                                 x86_64-linux-gnu-cpp
+ jmod                                 x86_64-linux-gnu-cpp-11
+ jmxtool                              x86_64-linux-gnu-dwp
+ join                                 x86_64-linux-gnu-elfedit
+ journalctl                           x86_64-linux-gnu-g++
+ jpackage                             x86_64-linux-gnu-g++-11
+ jps                                  x86_64-linux-gnu-gcc
+ jq                                   x86_64-linux-gnu-gcc-11
+ jrunscript                           x86_64-linux-gnu-gcc-ar
+ jshell                               x86_64-linux-gnu-gcc-ar-11
+ json_pp                              x86_64-linux-gnu-gcc-nm
+ jstack                               x86_64-linux-gnu-gcc-nm-11
+ jstat                                x86_64-linux-gnu-gcc-ranlib
+ jstatd                               x86_64-linux-gnu-gcc-ranlib-11
+ jwebserver                           x86_64-linux-gnu-gcov
+ kbxutil                              x86_64-linux-gnu-gcov-11
+ kernel-install                       x86_64-linux-gnu-gcov-dump
+ keyring                              x86_64-linux-gnu-gcov-dump-11
+ keytool                              x86_64-linux-gnu-gcov-tool
+ kill                                 x86_64-linux-gnu-gcov-tool-11
+ killall                              x86_64-linux-gnu-gold
+ last                                 x86_64-linux-gnu-gprof
+ lastb                                x86_64-linux-gnu-ld
+ lastlog                              x86_64-linux-gnu-ld.bfd
+ lcf                                  x86_64-linux-gnu-ld.gold
+ ld                                   x86_64-linux-gnu-lto-dump-11
+ ld.bfd                               x86_64-linux-gnu-nm
+ ld.gold                              x86_64-linux-gnu-objcopy
+ ldd                                  x86_64-linux-gnu-objdump
+ less                                 x86_64-linux-gnu-pkg-config
+ lessecho                             x86_64-linux-gnu-python3-config
+ lessfile                             x86_64-linux-gnu-python3.10-config
+ lesskey                              x86_64-linux-gnu-python3.11-config
+ lesspipe                             x86_64-linux-gnu-python3.8-config
+ lexgrog                              x86_64-linux-gnu-ranlib
+ libgcrypt-config                     x86_64-linux-gnu-readelf
+ libnetcfg                            x86_64-linux-gnu-size
+ link                                 x86_64-linux-gnu-strings
+ linux32                              x86_64-linux-gnu-strip
+ linux64                              x86_64-pc-linux-gnu-pkg-config
+ listres                              xargs
+ llc-17                               xauth
+ lli-17                               xcmsdb
+ lli-child-target-17                  xdg-desktop-icon
+ llvm-PerfectShuffle-17               xdg-desktop-menu
+ llvm-addr2line-17                    xdg-email
+ llvm-ar-17                           xdg-icon-resource
+ llvm-as-17                           xdg-mime
+ llvm-bcanalyzer-17                   xdg-open
+ llvm-bitcode-strip-17                xdg-screensaver
+ llvm-c-test-17                       xdg-settings
+ llvm-cat-17                          xdg-user-dir
+ llvm-cfi-verify-17                   xdg-user-dirs-update
+ llvm-config-17                       xdpyinfo
+ llvm-cov-17                          xdriinfo
+ llvm-cvtres-17                       xev
+ llvm-cxxdump-17                      xfd
+ llvm-cxxfilt-17                      xfontsel
+ llvm-cxxmap-17                       xgamma
+ llvm-debuginfo-analyzer-17           xhost
+ llvm-debuginfod-17                   xkbbell
+ llvm-debuginfod-find-17              xkbcomp
+ llvm-diff-17                         xkbevd
+ llvm-dis-17                          xkbprint
+ llvm-dlltool-17                      xkbvleds
+ llvm-dwarfdump-17                    xkbwatch
+ llvm-dwarfutil-17                    xkeystone
+ llvm-dwp-17                          xkill
+ llvm-exegesis-17                     xlsatoms
+ llvm-extract-17                      xlsclients
+ llvm-gsymutil-17                     xlsfonts
+ llvm-ifs-17                          xmessage
+ llvm-install-name-tool-17            xml2-config
+ llvm-jitlink-17                      xmodmap
+ llvm-jitlink-executor-17             xprop
+ llvm-lib-17                          xrandr
+ llvm-libtool-darwin-17               xrdb
+ llvm-link-17                         xrefresh
+ llvm-lipo-17                         xset
+ llvm-lto-17                          xsetmode
+ llvm-lto2-17                         xsetpointer
+ llvm-mc-17                           xsetroot
+ llvm-mca-17                          xstdcmap
+ llvm-ml-17                           xsubpp
+ llvm-modextract-17                   xvfb-run
+ llvm-mt-17                           xvidtune
+ llvm-nm-17                           xvinfo
+ llvm-objcopy-17                      xwininfo
+ llvm-objdump-17                      xz
+ llvm-opt-report-17                   xzcat
+ llvm-otool-17                        xzcmp
+ llvm-pdbutil-17                      xzdiff
+ llvm-profdata-17                     xzegrep
+ llvm-profgen-17                      xzfgrep
+ llvm-ranlib-17                       xzgrep
+ llvm-rc-17                           xzless
+ llvm-readelf-17                      xzmore
+ llvm-readobj-17                      yacc
+ llvm-reduce-17                       yaml-bench-17
+ llvm-remark-size-diff-17             yaml2obj-17
+ llvm-remarkutil-17                   yes
+ llvm-rtdyld-17                       ypdomainname
+ llvm-sim-17                          zcat
+ llvm-size-17                         zcmp
+ llvm-split-17                        zdiff
+ llvm-stress-17                       zdump
+ llvm-strings-17                      zegrep
+ llvm-strip-17                        zfgrep
+ llvm-symbolizer-17                   zforce
+ llvm-tapi-diff-17                    zgrep
+ llvm-tblgen-17                       zip
+ llvm-tli-checker-17                  zipcloak
+ llvm-undname-17                      zipdetails
+ llvm-windres-17                      zipgrep
+ llvm-xray-17                         zipinfo
+ ln                                   zipnote
+ locale                               zipsplit
+ locale-check                         zless
+ localectl                            zmore
+ localedef                            znew
+ logger
+
+==================================
+ Step 1.4: /sbin (Admin Tools)
+==================================
+a2disconf                 ip6tables-restore
+a2dismod                  ip6tables-restore-translate
+a2dissite                 ip6tables-save
+a2enconf                  ip6tables-translate
+a2enmod                   ipmaddr
+a2ensite                  iptables
+a2query                   iptables-apply
+aa-remove-unknown         iptables-legacy
+aa-status                 iptables-legacy-restore
+aa-teardown               iptables-legacy-save
+accessdb                  iptables-nft
+add-shell                 iptables-nft-restore
+addgnupghome              iptables-nft-save
+addgroup                  iptables-restore
+adduser                   iptables-restore-translate
+agetty                    iptables-save
+apache2                   iptables-translate
+apache2ctl                iptunnel
+apachectl                 isosize
+apparmor_parser           killall5
+apparmor_status           ldattach
+applygnupgdefaults        ldconfig
+arp                       ldconfig.real
+arptables                 locale-gen
+arptables-nft             logsave
+arptables-nft-restore     losetup
+arptables-nft-save        make-ssl-cert
+arptables-restore         mii-tool
+arptables-save            mke2fs
+badblocks                 mkfs
+blkdeactivate             mkfs.bfs
+blkdiscard                mkfs.cramfs
+blkid                     mkfs.ext2
+blkzone                   mkfs.ext3
+blockdev                  mkfs.ext4
+capsh                     mkfs.minix
+cassandra                 mkhomedir_helper
+chcpu                     mklost+found
+check_forensic            mkswap
+chgpasswd                 nameif
+chmem                     newusers
+chpasswd                  nfnl_osf
+chroot                    nologin
+cpgr                      pam-auth-update
+cppw                      pam_extrausers_chkpwd
+cron                      pam_extrausers_update
+ctrlaltdel                pam_getenv
+debugfs                   pam_timestamp_check
+delgroup                  phpdismod
+deluser                   phpenmod
+dmsetup                   phpquery
+dmstats                   pivot_root
+dpkg-preconfigure         plipconfig
+dpkg-reconfigure          policy-rc.d
+dumpe2fs                  poweroff
+e2freefrag                pwck
+e2fsck                    pwconv
+e2image                   pwunconv
+e2label                   rarp
+e2mmpstatus               readprofile
+e2scrub                   reboot
+e2scrub_all               remove-shell
+e2undo                    resize2fs
+e4crypt                   rmt
+e4defrag                  rmt-tar
+ebtables                  route
+ebtables-nft              rtcwake
+ebtables-nft-restore      runlevel
+ebtables-nft-save         runuser
+ebtables-restore          service
+ebtables-save             setcap
+escapesrc                 shadowconfig
+faillock                  shutdown
+filefrag                  slattach
+findfs                    split-logfile
+fsck                      sshd
+fsck.cramfs               start-stop-daemon
+fsck.ext2                 sudo_logsrvd
+fsck.ext3                 sudo_sendlog
+fsck.ext4                 sulogin
+fsck.minix                swaplabel
+fsfreeze                  swapoff
+fstab-decode              swapon
+fstrim                    switch_root
+genccode                  sysctl
+gencmn                    tarcat
+gennorm2                  telinit
+gensprep                  tune2fs
+getcap                    tzconfig
+getpcaps                  unix_chkpwd
+getty                     unix_update
+groupadd                  update-ca-certificates
+groupdel                  update-fonts-alias
+groupmems                 update-fonts-dir
+groupmod                  update-fonts-scale
+grpck                     update-icon-caches
+grpconv                   update-java-alternatives
+grpunconv                 update-locale
+halt                      update-mime
+httxt2dbm                 update-passwd
+hwclock                   update-rc.d
+iconvconfig               update-shells
+icupkg                    useradd
+ifconfig                  userdel
+init                      usermod
+initctl                   validlocale
+installkernel             vigr
+invoke-rc.d               vipw
+ip6tables                 visudo
+ip6tables-apply           wipefs
+ip6tables-legacy          xtables-legacy-multi
+ip6tables-legacy-restore  xtables-monitor
+ip6tables-legacy-save     xtables-nft-multi
+ip6tables-nft             zic
+ip6tables-nft-restore     zramctl
+ip6tables-nft-save
+
+==================================
+ Step 1.5: /usr (User Programs)
+==================================
+bin  games    java  lib32  libexec  local  sbin   src
+doc  include  lib   lib64  libx32   man    share
+
+==================================
+ Step 1.6: /home (Home Folders)
+==================================
+project  theia
+
+==================================
+ Step 1.7: /media (External Drives)
+==================================
+
+==================================
+ Bonus: Long Format View of Root /
+==================================
+total 673960
+-rw-r--r--   1 root root       950 Jul 24  2023 README.md
+lrwxrwxrwx   1 root root         7 Jan 25 21:05 bin -> usr/bin
+drwxr-xr-x   2 root root      4096 Apr 18  2022 boot
+drwxr-xr-x   2 root root      4096 Mar 27 17:54 chromedriver-linux64
+drwxr-xr-x   5 root root       360 Jul  9 23:49 dev
+drwxr-xr-x   1 root root      4096 Mar 27 17:55 etc
+-rw-r--r--   1 root root 690067176 Aug 21  2024 flutter_linux_3.24.1-stable.tar.xz
+drwxrwxr-x   1 root root      4096 Mar 27 17:38 home
+lrwxrwxrwx   1 root root         7 Jan 25 21:05 lib -> usr/lib
+lrwxrwxrwx   1 root root         9 Jan 25 21:05 lib32 -> usr/lib32
+lrwxrwxrwx   1 root root         9 Jan 25 21:05 lib64 -> usr/lib64
+lrwxrwxrwx   1 root root        10 Jan 25 21:05 libx32 -> usr/libx32
+drwxr-xr-x   2 root root      4096 Jan 25 21:05 media
+drwxr-xr-x   2 root root      4096 Jan 25 21:05 mnt
+drwxr-xr-x   2 root root      4096 Jan 25 21:05 opt
+dr-xr-xr-x 446 root root         0 Jul  9 23:49 proc
+drwx------   1 root root      4096 Mar 27 17:54 root
+drwxr-xr-x   1 root root      4096 Jul  9 23:49 run
+lrwxrwxrwx   1 root root         8 Jan 25 21:05 sbin -> usr/sbin
+drwxr-xr-x   2 root root      4096 Jan 25 21:05 srv
+dr-xr-xr-x  13 root root         0 Jul  9 23:49 sys
+drwxrwxrwt   1 root root      4096 Jul 10 00:09 tmp
+drwxr-xr-x   1 root root      4096 Mar 27 17:53 usr
+drwxr-xr-x   1 root root      4096 Mar 27 17:46 var
+
+Script finished.
+theia@theia-hirewillieco:/home/project$ 

@@ -1,0 +1,4 @@
+demo=# UPDATE boarding_passes SET ticket_no = ticket_no, flight_id = flight_id, boarding_no = boarding_no, seat_no = seat_no;
+UPDATE 579686
+Time: 8826.942 ms (00:08.827)
+demo=# 

@@ -1,0 +1,27 @@
+theia@theiadocker-hirewillieco:/home/project$ chmod +x mybackup.sh
+theia@theiadocker-hirewillieco:/home/project$ ./mybackup.sh
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+theia@theiadocker-hirewillieco:/home/project$ ls
+billingdata.sql             mybackup.sh        setup.sql           vehicle-data.csv
+max_connections_output.txt  postgres-setup.sh  tolldatabackup.tar
+theia@theiadocker-hirewillieco:/home/project$ cd ..
+theia@theiadocker-hirewillieco:/home$ ls
+project  theia
+theia@theiadocker-hirewillieco:/home$ cd ..
+theia@theiadocker-hirewillieco:/$ ls
+README.md  certs                 etc                                 lib    libx32  opt   run   sys  var
+bin        chromedriver-linux64  flutter_linux_3.24.1-stable.tar.xz  lib32  media   proc  sbin  tmp
+boot       dev                   home                                lib64  mnt     root  srv   usr
+theia@theiadocker-hirewillieco:/$ cd tmp
+theia@theiadocker-hirewillieco:/tmp$ ls
+github-remote            linux-amd64         postgres_details.json              tmps5_dmppq
+helm-linux-amd64.tar.gz  mysql_details.json  ruby-build.20250327174702.113.log  vscode-typescript1000
+hsperfdata_root          mysqldumps          theia_upload
+http-remote              postgres_cli_start  tmp.oS5zmKHlbb
+theia@theiadocker-hirewillieco:/tmp$ cd mysqldumps
+theia@theiadocker-hirewillieco:/tmp/mysqldumps$ ls
+20250730
+theia@theiadocker-hirewillieco:/tmp/mysqldumps$ cd 20250730
+theia@theiadocker-hirewillieco:/tmp/mysqldumps/20250730$ ls
+all-databases-backup.sql
+theia@theiadocker-hirewillieco:/tmp/mysqldumps/20250730$ 

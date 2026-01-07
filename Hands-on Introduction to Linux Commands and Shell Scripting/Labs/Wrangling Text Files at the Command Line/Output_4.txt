@@ -1,0 +1,20 @@
+theia@theia-hirewillieco:/home/project$ chmod +x file_stats.sh
+theia@theia-hirewillieco:/home/project$ ./file_stats.sh
+📂 Navigating to /home/project...
+
+📄 File: usdoi.txt
+📊 Running wc for full statistics (lines, words, characters):
+ 152 1330 8121 usdoi.txt
+
+🔢 Number of lines:
+152 usdoi.txt
+
+📝 Number of words:
+1330 usdoi.txt
+
+🔡 Number of characters:
+8121 usdoi.txt
+
+✅ Done gathering basic text file stats!
+theia@theia-hirewillieco:/home/project$ 
+

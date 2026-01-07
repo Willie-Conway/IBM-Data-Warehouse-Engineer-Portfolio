@@ -1,0 +1,36 @@
+======================
+1.7 Echo Output Demo:
+----------------------
+top - 18:04:37 up 7 days,  8:56,  0 users,  load average: 1.20, 1.37, 1.16
+Tasks:  11 total,   3 running,   8 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11.8 us,  6.2 sy,  0.1 ni, 81.4 id,  0.0 wa,  0.0 hi,  0.3 si,  0.1 s
+MiB Mem :  31119.8 total,   9390.0 free,   4199.1 used,  17530.7 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  26448.7 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND 
+    48 theia     20   0 1593508  67096  41600 S   1.1   0.2   0:16.56 node    
+    57 theia     20   0   11.0g 110888  43392 R   0.5   0.3   0:02.85 node    
+     1 theia     20   0    2896   1536   1536 S   0.0   0.0   0:00.01 sh      
+     7 theia     20   0    4368   3200   2944 S   0.0   0.0   0:00.00 entryp+ 
+    32 root      20   0    3912   1920   1792 S   0.0   0.0   0:00.00 cron    
+    37 theia     20   0   11.3g 125592  46848 R   0.0   0.4   0:07.52 node    
+    80 theia     20   0    4764   3584   3072 S   0.0   0.0   0:00.32 bash    
+    89 theia     20   0    4764   3712   3200 S   0.0   0.0   0:00.35 bash    
+   220 theia     20   0  996424  50500  36992 S   0.0   0.2   0:00.37 node    
+   557 theia     20   0    4500   3328   2944 S   0.0   0.0   0:00.00 practi+ 
+   560 theia     20   0    7388   3456   2944 R   0.0   0.0   0:00.07 top     
+
+
+
+
+============================
+4. Current Time
+----------------------------
+18:04:40
+
+============================
+5. Echo Messages with New Line
+----------------------------
+Hello! 
+Goodbye!
+

@@ -1,0 +1,25 @@
+SELECT COUNT(*) FROM billing;
+
+
+CREATE VIEW basicbilldetails AS
+SELECT customerid, month, billedamount
+FROM billing;
+
+
+SELECT strftime('%Y-%m-%d %H:%M:%f', 'now');
+SELECT * FROM billing WHERE billedamount = 19929;
+SELECT strftime('%Y-%m-%d %H:%M:%f', 'now');
+
+
+CREATE INDEX billingamount ON billing (billedamount);
+
+
+
+CREATE INDEX billingamount ON billing (billedamount);
+
+
+SELECT strftime('%Y-%m-%d %H:%M:%f', 'now');
+SELECT * FROM billing WHERE billedamount = 19929;
+SELECT strftime('%Y-%m-%d %H:%M:%f', 'now');
+
+

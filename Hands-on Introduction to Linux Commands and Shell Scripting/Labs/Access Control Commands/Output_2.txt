@@ -1,0 +1,32 @@
+theia@theia-hirewillieco:/home/project$ chmod +x dir_permissions_demo.sh
+theia@theia-hirewillieco:/home/project$ ./dir_permissions_demo.sh
+➡️  Navigating to /home/project
+📁 Creating test directory...
+
+📋 Viewing default permissions for 'test' directory:
+drwxr-sr-x 2 theia users 4096 Jul 10 22:41 test
+
+📁 Creating test2 directory inside 'test'...
+
+🚫 Removing execute permission for user on 'test'...
+❌ Attempting to cd into test (should fail)...
+Permission denied as expected.
+
+🔎 Listing 'test' directory contents (still allowed):
+total 20
+-rwxr-xr-x 1 theia users 1128 Jul 10 22:40 dir_permissions_demo.sh
+-rwxr-xr-x 1 theia users  650 Jul 10 22:24 permissions_practice.sh
+drw-r-sr-x 3 theia users 4096 Jul 10 22:41 test
+-rw-r----- 1 theia users 8121 Sep 28  2022 usdoi.txt
+
+❌ Attempting to create a new directory test/test3 (should fail)...
+Cannot create directory: Permission denied.
+
+✅ Restoring execute permission for user and removing write permission on 'test'...
+dr-xr-sr-x 3 theia users 4096 Jul 10 22:41 test
+
+🚶 Entering test and attempting to create 'test_again' directory (should fail)...
+Still can't create directory: Permission denied.
+
+🏁 Exercise complete!
+theia@theia-hirewillieco:/home/project$ 

@@ -1,0 +1,81 @@
+theia@theia-hirewillieco:/home/project$ chmod +x archive_compress.sh
+theia@theia-hirewillieco:/home/project$ ./archive_compress.sh
+📁 Navigating to /home/project
+
+📦 Creating tar archive of /bin directory...
+tar: Removing leading `/' from member names
+/bin
+
+📄 Listing contents of bin.tar...
+lrwxrwxrwx root/root         0 2025-01-25 21:05 bin -> usr/bin
+
+📂 Extracting bin.tar archive...
+bin
+
+✅ Checking if 'bin' folder is extracted:
+lrwxrwxrwx 1 theia users     7 Jan 25 21:05 bin -> usr/bin
+-rw-r--r-- 1 theia users 10240 Jul 12 02:42 bin.tar
+
+🗜️ Creating config.zip of .conf files in /etc...
+  adding: etc/adduser.conf (deflated 55%)
+  adding: etc/ca-certificates.conf (deflated 76%)
+  adding: etc/debconf.conf (deflated 56%)
+  adding: etc/deluser.conf (deflated 40%)
+  adding: etc/e2scrub.conf (deflated 49%)
+  adding: etc/gai.conf (deflated 57%)
+  adding: etc/host.conf (deflated 13%)
+  adding: etc/ld.so.conf (deflated 6%)
+  adding: etc/libaudit.conf (deflated 34%)
+  adding: etc/mke2fs.conf (deflated 55%)
+  adding: etc/mongod.conf (deflated 39%)
+  adding: etc/nsswitch.conf (deflated 50%)
+  adding: etc/pam.conf (deflated 62%)
+  adding: etc/resolv.conf (deflated 26%)
+  adding: etc/sensors3.conf (deflated 82%)
+  adding: etc/sudo.conf (deflated 63%)
+  adding: etc/sudo_logsrvd.conf (deflated 69%)
+  adding: etc/sysctl.conf (deflated 60%)
+  adding: etc/ucf.conf (deflated 61%)
+  adding: etc/xattr.conf (deflated 55%)
+
+🗜️ Recursively zipping /bin directory into bin.zip (without following symlinks)...
+  adding: bin (stored 0%)
+
+📂 Listing files inside config.zip:
+Archive:  config.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     3028  2025-01-25 21:05   etc/adduser.conf
+     6288  2025-03-27 17:36   etc/ca-certificates.conf
+     2969  2022-02-20 09:42   etc/debconf.conf
+      604  2018-09-15 18:14   etc/deluser.conf
+      685  2022-01-08 15:02   etc/e2scrub.conf
+     2584  2022-02-03 00:27   etc/gai.conf
+       92  2021-10-15 06:06   etc/host.conf
+       34  2020-12-16 06:04   etc/ld.so.conf
+      191  2022-03-17 13:50   etc/libaudit.conf
+      744  2022-01-08 15:02   etc/mke2fs.conf
+      586  2013-12-19 00:41   etc/mongod.conf
+      510  2025-03-27 17:35   etc/nsswitch.conf
+      552  2020-08-11 20:15   etc/pam.conf
+      104  2025-07-12 01:44   etc/resolv.conf
+    10593  2022-03-31 17:07   etc/sensors3.conf
+     4573  2023-04-03 14:00   etc/sudo.conf
+     9390  2023-04-03 14:00   etc/sudo_logsrvd.conf
+     2355  2022-02-25 06:32   etc/sysctl.conf
+     1260  2020-06-16 01:37   etc/ucf.conf
+      681  2022-03-23 05:41   etc/xattr.conf
+---------                     -------
+    47823                     20 files
+
+📂 Extracting bin.zip (overwriting if needed)...
+Archive:  bin.zip
+    linking: bin                     -> usr/bin 
+finishing deferred symbolic links:
+  bin                    -> usr/bin
+
+✅ Checking extracted 'bin' directory:
+lrwxrwxrwx 1 theia users     7 Jul 12 02:42 bin -> usr/bin
+-rw-r--r-- 1 theia users 10240 Jul 12 02:42 bin.tar
+-rw-r--r-- 1 theia users   163 Jul 12 02:42 bin.zip
+theia@theia-hirewillieco:/home/project$ 

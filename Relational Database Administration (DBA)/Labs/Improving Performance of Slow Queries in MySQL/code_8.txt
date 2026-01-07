@@ -1,0 +1,13 @@
+mysql> CREATE INDEX hire_date_index ON employees(hire_date);
+Query OK, 0 rows affected (2.28 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+mysql> SHOW INDEX FROM employees;
++-----------+------------+-----------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| Table     | Non_unique | Key_name        | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | Visible | Expression |
++-----------+------------+-----------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| employees |          0 | PRIMARY         |            1 | emp_no      | A         |      299157 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| employees |          1 | hire_date_index |            1 | hire_date   | A         |        4770 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
++-----------+------------+-----------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+2 rows in set (0.02 sec)
+
+mysql> 

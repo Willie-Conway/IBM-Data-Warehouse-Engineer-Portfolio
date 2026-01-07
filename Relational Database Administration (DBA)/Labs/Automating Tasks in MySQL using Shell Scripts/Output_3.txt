@@ -1,0 +1,17 @@
+theia@theiadocker-hirewillieco:/home/project$ sudo chmod u+x+r sqlbackup.sh
+theia@theiadocker-hirewillieco:/home/project$   mkdir /home/theia/backups
+theia@theiadocker-hirewillieco:/home/project$ crontab -e
+no crontab for theia - using an empty one
+crontab: installing new crontab
+theia@theiadocker-hirewillieco:/home/project$ sudo service cron start
+ * Starting periodic command scheduler cron
+   ...done.
+theia@theiadocker-hirewillieco:/home/project$ ls -l /home/theia/backups
+total 1848
+-rw-rw-r-- 1 theia theia 627900 Jul 30 17:42 all-database-30-07-2025_17-42-01.gz
+-rw-rw-r-- 1 theia theia 627900 Jul 30 17:44 all-database-30-07-2025_17-44-01.gz
+-rw-rw-r-- 1 theia theia 627900 Jul 30 17:46 all-database-30-07-2025_17-46-01.gz
+theia@theiadocker-hirewillieco:/home/project$ sudo service cron stop
+ * Stopping periodic command scheduler cron
+   ...done.
+theia@theiadocker-hirewillieco:/home/project$ 

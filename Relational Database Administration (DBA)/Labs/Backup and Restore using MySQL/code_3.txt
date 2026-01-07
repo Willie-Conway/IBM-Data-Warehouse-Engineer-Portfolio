@@ -1,0 +1,11 @@
+theia@theiadocker-hirewillieco:/home/project$ mysql --host=mysql --port=3306 --user=root --password --execute="DROP TABLE world.countrylanguage;"
+Enter password: 
+theia@theiadocker-hirewillieco:/home/project$ mysql --host=mysql --port=3306 --user=root --password --execute="SHOW TABLES FROM world;"
+Enter password: 
++-----------------+
+| Tables_in_world |
++-----------------+
+| city            |
+| country         |
++-----------------+
+theia@theiadocker-hirewillieco:/home/project$ 

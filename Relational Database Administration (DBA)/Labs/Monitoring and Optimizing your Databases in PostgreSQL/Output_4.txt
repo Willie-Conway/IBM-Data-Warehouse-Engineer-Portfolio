@@ -1,0 +1,7 @@
+
+ datname | tup_inserted | tup_updated | tup_deleted | tup_fetched | tup_returned 
+---------+--------------+-------------+-------------+-------------+--------------
+ demo    |      2290162 |          22 |           0 |      585771 |      7882643
+(1 row)
+
+(END)

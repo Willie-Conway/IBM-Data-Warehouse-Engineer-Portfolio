@@ -1,0 +1,10 @@
+  datname  | tup_fetched | tup_returned 
+-----------+-------------+--------------
+           |        2292 |         2450
+ postgres  |        8422 |        35414
+ demo      |      585723 |      7882595
+ template1 |           0 |            0
+ template0 |           0 |            0
+(5 rows)
+
+demo=# 

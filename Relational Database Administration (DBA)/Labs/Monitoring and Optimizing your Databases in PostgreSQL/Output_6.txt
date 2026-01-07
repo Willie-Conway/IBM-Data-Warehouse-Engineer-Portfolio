@@ -1,0 +1,7 @@
+demo=# show shared_preload_libraries;
+ shared_preload_libraries 
+--------------------------
+ 
+(1 row)
+
+demo=# 

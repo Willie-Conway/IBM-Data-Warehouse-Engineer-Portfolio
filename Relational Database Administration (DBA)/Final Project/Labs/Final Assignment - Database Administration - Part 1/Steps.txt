@@ -1,0 +1,76 @@
+
+
+### ✅ **Task 1.2 - Create a User**
+
+**Command:**
+
+```sql
+CREATE USER backup_operator WITH PASSWORD 'SecurePass123!';
+```
+
+**Screenshot:**
+Take a screenshot **after running the command successfully** in `psql`, `DBeaver`, or PGAdmin query tool.
+📷 **Save as:** `create-user.jpg`
+
+---
+
+### ✅ **Task 1.3 - Create a Role**
+
+**Command:**
+
+```sql
+CREATE ROLE backup;
+```
+
+**Screenshot:**
+After you see `CREATE ROLE` confirmation.
+📷 **Save as:** `create-role.jpg`
+
+---
+
+### ✅ **Task 1.4 - Grant Privileges to the Role**
+
+**Command:**
+
+```sql
+GRANT CONNECT ON DATABASE tolldata TO backup;
+GRANT SELECT ON ALL TABLES IN SCHEMA toll TO backup;
+```
+
+**Screenshot:**
+Take screenshot showing both commands executed and "GRANT" confirmations.
+📷 **Save as:** `grant-privs-to-role.jpg`
+
+---
+
+### ✅ **Task 1.5 - Grant Role to the User**
+
+**Command:**
+
+```sql
+GRANT backup TO backup_operator;
+```
+
+**Screenshot:**
+Show successful grant message.
+📷 **Save as:** `grant-role.jpg`
+
+---
+
+### ✅ **Task 1.6 - Backup a Database using PGAdmin GUI**
+
+1. **Open PGAdmin**
+2. Right-click on the database `tolldata` → **Backup…**
+3. In the window:
+
+   * **Filename:** `tolldatabackup.tar`
+   * **Format:** `Tar`
+4. Click **Backup**.
+
+**Screenshot:**
+Capture the backup window showing:
+
+* Filename: `tolldatabackup.tar`
+* Format: `Tar`
+  📷 **Save as:** `backup-database.jpg`
+

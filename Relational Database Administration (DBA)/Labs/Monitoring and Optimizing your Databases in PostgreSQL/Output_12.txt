@@ -1,0 +1,7 @@
+demo=# show autovacuum;
+ autovacuum 
+------------
+ on
+(1 row)
+
+demo=# 

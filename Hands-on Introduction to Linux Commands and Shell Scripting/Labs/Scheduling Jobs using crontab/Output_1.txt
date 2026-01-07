@@ -1,0 +1,7 @@
+theia@theia-hirewillieco:/home/project$ chmod +x list_cron_jobs.sh
+theia@theia-hirewillieco:/home/project$ ./list_cron_jobs.sh
+📋 Checking for existing cron jobs for user: theia...
+0 9 * * * /home/theia/daily_report.sh
+0 9 * * 1 /home/youruser/weekly_report.sh
+✅ Above are your current scheduled cron jobs.
+theia@theia-hirewillieco:/home/project$ 

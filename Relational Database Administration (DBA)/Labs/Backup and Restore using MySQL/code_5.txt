@@ -1,0 +1,23 @@
+theia@theiadocker-hirewillieco:/home/project$ mysql --host=mysql --port=3306 --user=root --password --execute="SELECT * FROM world.countrylanguage WHERE countrycode='CAN';"
+Enter password: 
++-------------+------------------+------------+------------+
+| CountryCode | Language         | IsOfficial | Percentage |
++-------------+------------------+------------+------------+
+| CAN         | Chinese          | F          |        2.5 |
+| CAN         | Dutch            | F          |        0.5 |
+| CAN         | English          | T          |       60.4 |
+| CAN         | Eskimo Languages | F          |        0.1 |
+| CAN         | French           | T          |       23.4 |
+| CAN         | German           | F          |        1.6 |
+| CAN         | Italian          | F          |        1.7 |
+| CAN         | Polish           | F          |        0.7 |
+| CAN         | Portuguese       | F          |        0.7 |
+| CAN         | Punjabi          | F          |        0.7 |
+| CAN         | Spanish          | F          |        0.7 |
+| CAN         | Ukrainian        | F          |        0.6 |
++-------------+------------------+------------+------------+
+theia@theiadocker-hirewillieco:/home/project$ 
+
+
+
+

@@ -1,0 +1,43 @@
+theia@theiadocker-hirewillieco:/home/project$ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/datasets/employeesdb.zip
+--2025-07-22 01:50:35--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/datasets/employeesdb.zip
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 36689578 (35M) [application/zip]
+Saving to: 'employeesdb.zip'
+
+employeesdb.z 100%  34.99M  64.8MB/s    in 0.5s       
+
+2025-07-22 01:50:37 (64.8 MB/s) - 'employeesdb.zip' saved [36689578/36689578]
+
+theia@theiadocker-hirewillieco:/home/project$ unzip employeesdb.zip
+Archive:  employeesdb.zip
+   creating: employeesdb/
+   creating: employeesdb/sakila/
+  inflating: employeesdb/load_salaries2.dump  
+  inflating: employeesdb/test_versions.sh  
+  inflating: employeesdb/objects.sql  
+  inflating: employeesdb/load_salaries3.dump  
+  inflating: employeesdb/load_dept_emp.dump  
+  inflating: employeesdb/test_employees_sha.sql  
+  inflating: employeesdb/Changelog   
+   creating: employeesdb/images/
+  inflating: employeesdb/employees_partitioned_5.1.sql  
+  inflating: employeesdb/test_employees_md5.sql  
+  inflating: employeesdb/README.md   
+  inflating: employeesdb/employees.sql  
+  inflating: employeesdb/load_titles.dump  
+  inflating: employeesdb/employees_partitioned.sql  
+  inflating: employeesdb/load_dept_manager.dump  
+  inflating: employeesdb/sql_test.sh  
+  inflating: employeesdb/load_departments.dump  
+  inflating: employeesdb/load_salaries1.dump  
+  inflating: employeesdb/show_elapsed.sql  
+  inflating: employeesdb/load_employees.dump  
+  inflating: employeesdb/sakila/README.md  
+  inflating: employeesdb/sakila/sakila-mv-data.sql  
+  inflating: employeesdb/sakila/sakila-mv-schema.sql  
+  inflating: employeesdb/images/employees.jpg  
+  inflating: employeesdb/images/employees.png  
+  inflating: employeesdb/images/employees.gif  
+theia@theiadocker-hirewillieco:/home/project$ 

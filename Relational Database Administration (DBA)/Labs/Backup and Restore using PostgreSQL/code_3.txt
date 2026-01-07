@@ -1,0 +1,29 @@
+demo=# INSERT INTO aircrafts_data(aircraft_code, model, range) VALUES (380, '{"en": "Airbus A380-800"}', 15700);
+INSERT 0 1
+demo=# SELECT * FROM aircrafts_data;theia@theiadocker-hirewillieco:/home/project
+21.8.56 -p 5432 -U postgressh3shMwc; psql --host 172.2
+psql (14.17 (Ubuntu 14.17-0ubuntu0.22.04.1), server 13.2)
+Type "help" for help.
+
+postgres=# \c demo
+psql (14.17 (Ubuntu 14.17-0ubuntu0.22.04.1), server 13.2)
+You are now connected to database "demo" as user "postgres".
+demo=# SELECT * FROM aircrafts_data;
+demo=# INSERT INTO aircrafts_data(aircraft_code, model, range) VALUES (380, '{"en": "Airbus A380-800"}', 15700);
+INSERT 0 1
+demo=# SELECT * FROM aircrafts_data;
+ aircraft_code |             model             | range 
+---------------+-------------------------------+-------
+ 773           | {"en": "Boeing 777-300"}      | 11100
+ 763           | {"en": "Boeing 767-300"}      |  7900
+ SU9           | {"en": "Sukhoi Superjet-100"} |  3000
+ 320           | {"en": "Airbus A320-200"}     |  5700
+ 321           | {"en": "Airbus A321-200"}     |  5600
+ 319           | {"en": "Airbus A319-100"}     |  6700
+ 733           | {"en": "Boeing 737-300"}      |  4200
+ CN1           | {"en": "Cessna 208 Caravan"}  |  1200
+ CR2           | {"en": "Bombardier CRJ-200"}  |  2700
+ 380           | {"en": "Airbus A380-800"}     | 15700
+(10 rows)
+
+demo=# 

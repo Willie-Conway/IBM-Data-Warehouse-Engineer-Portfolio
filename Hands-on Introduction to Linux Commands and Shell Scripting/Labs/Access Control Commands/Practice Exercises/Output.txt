@@ -1,0 +1,29 @@
+theia@theia-hirewillieco:/home/project$ chmod +x permission_practice_access.sh
+theia@theia-hirewillieco:/home/project$ ./permission_practice_access.sh
+➡️ Navigating to /home/project
+
+📄 Checking initial permissions of usdoi.txt:
+-rw-r----- 1 theia users 8121 Jul 10 22:56 usdoi.txt
+
+✂️ Revoking user write permission on usdoi.txt...
+-r--r----- 1 theia users 8121 Jul 10 22:56 usdoi.txt
+
+❌ Attempting to delete write-protected usdoi.txt...
+rm: remove write-protected regular file 'usdoi.txt'? y  
+
+🔍 Verifying deletion of usdoi.txt...
+✅ usdoi.txt successfully deleted.
+
+📁 Creating tmp_dir in home directory...
+
+🔍 Viewing permissions of tmp_dir:
+drwxr-xr-x 2 theia theia 4096 Jul 10 22:58 tmp_dir
+
+✂️ Revoking user write permission on tmp_dir...
+dr-xr-xr-x 2 theia theia 4096 Jul 10 22:58 tmp_dir
+
+🚶 Attempting to create sub_dir inside tmp_dir...
+❌ Permission denied as expected.
+
+🏁 Practice complete.
+theia@theia-hirewillieco:/home/project$ 

@@ -1,0 +1,17 @@
+demo=# CREATE ROLE read_only;
+CREATE ROLE
+demo=# GRANT CONNECT ON DATABASE demo TO read_only;
+GRANT
+demo=# GRANT USAGE ON SCHEMA bookings TO read_only;
+GRANT
+demo=# GRANT SELECT ON ALL TABLES IN SCHEMA bookings TO read_only;
+GRANT
+demo=# CREATE ROLE read_write;
+CREATE ROLE
+demo=# GRANT CONNECT ON DATABASE demo TO read_write;
+GRANT
+demo=# GRANT USAGE ON SCHEMA bookings TO read_write;
+GRANT
+demo=# GRANT SELECT, INSERT, DELETE, UPDATE ON ALL TABLES IN SCHEMA bookings TO read_write;
+GRANT
+demo=# 

@@ -1,0 +1,111 @@
+theia@theia-hirewillieco:/home/project$ chmod +x info_commands.sh
+theia@theia-hirewillieco:/home/project$ ./info_commands.sh
+======================
+1.1 Current User:
+----------------------
+theia
+
+======================
+1.2 OS Information:
+----------------------
+Linux
+Linux theia-hirewillieco 6.8.0-62-generic #65-Ubuntu SMP PREEMPT_DYNAMIC Mon May 19 17:15:03 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+======================
+1.3 User & Group Info:
+----------------------
+uid=1000(theia) gid=1000(theia) groups=1000(theia),27(sudo),100(users)
+
+======================
+1.4 Disk Space:
+----------------------
+Filesystem     1K-blocks     Used Available Use% Mounted on
+overlay        101986876 55854696  41711944  58% /
+tmpfs              65536        0     65536   0% /dev
+/dev/vda2      101986876 55854696  41711944  58% /etc/hosts
+shm                65536        0     65536   0% /dev/shm
+tmpfs           28133128       16  28133112   1% /run/secrets/kubernetes.io/serviceaccount
+tmpfs           15933316        0  15933316   0% /proc/acpi
+tmpfs           15933316        0  15933316   0% /proc/scsi
+tmpfs           15933316        0  15933316   0% /sys/firmware
+top - 17:47:09 up 7 days,  8:38,  0 users,  load average: 0.68, 0.91, 1.01
+Tasks:  11 total,   1 running,  10 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1.7 us,  3.3 sy,  1.7 ni, 93.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 s
+MiB Mem :  31119.8 total,   8992.5 free,   4364.8 used,  17762.5 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  26283.0 avail Mem 
+
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND 
+    37 theia     20   0   11.3g 123912  46848 S   6.7   0.4   0:04.90 node    
+     1 theia     20   0    2896   1536   1536 S   0.0   0.0   0:00.01 sh      
+     7 theia     20   0    4368   3200   2944 S   0.0   0.0   0:00.00 entryp+ 
+    32 root      20   0    3912   1920   1792 S   0.0   0.0   0:00.00 cron    
+    48 theia     20   0 1527972  67036  41600 S   0.0   0.2   0:07.38 node    
+    57 theia     20   0   11.0g 108356  43392 S   0.0   0.3   0:01.97 node    
+    80 theia     20   0    4764   3584   3072 S   0.0   0.0   0:00.31 bash    
+    89 theia     20   0    4764   3712   3200 S   0.0   0.0   0:00.35 bash    
+   220 theia     20   0  996424  50500  36992 S   0.0   0.2   0:00.30 node    
+   448 theia     20   0    4500   3328   2944 S   0.0   0.0   0:00.00 info_c+ 
+   457 theia     20   0    7388   3328   2944 R   0.0   0.0   0:00.00 top     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+======================
+1.7 Echo Output Demo:
+----------------------
+Welcome to the linux lab
+This will be printed 
+in two lines
+Column1 Column2 Column3
+
+======================
+1.8 Date and Time:
+----------------------
+Thu Jul 10 17:47:09 EDT 2025
+07/10/25
+17:47:09
+
+======================
+1.9 Manual for 'ls':
+----------------------
+LS(1)                           User Commands                          LS(1)
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information about the FILEs (the current directory by default).
+       Sort entries alphabetically if none of -cftuvSUX nor --sort is speci-
+       fied.
+
+       Mandatory  arguments  to long options are mandatory for short options
+       too.
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+...(manual continues, press 'q' if running manually)...
+
+✅ All informational commands executed.
+theia@theia-hirewillieco:/home/project$ 

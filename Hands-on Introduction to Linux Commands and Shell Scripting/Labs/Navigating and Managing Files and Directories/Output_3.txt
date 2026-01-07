@@ -1,0 +1,45 @@
+theia@theia-hirewillieco:/home/project$ chmod +x manage_files_dirs.sh
+theia@theia-hirewillieco:/home/project$ ./manage_files_dirs.sh
+===============================
+ Exercise 3 - File Management
+===============================
+
+[3.1] Searching for .txt files in /etc...
+/etc/flutter/flutter/packages/flutter_tools/test/data/vscode/extensions/Dart-Code.flutter-4.5.6/fake-extension.txt
+/etc/flutter/flutter/packages/flutter_tools/templates/app_shared/linux.tmpl/flutter/CMakeLists.txt
+/etc/flutter/flutter/packages/flutter_tools/templates/app_shared/windows.tmpl/runner/CMakeLists.txt
+/etc/flutter/flutter/packages/flutter_tools/templates/app_shared/windows.tmpl/flutter/CMakeLists.txt
+/etc/flutter/flutter/packages/integration_test/android/lib-proguard-rules.txt
+
+Searching for .conf files in /etc...
+/etc/debconf.conf
+/etc/nsswitch.conf
+/etc/gai.conf
+/etc/systemd/user.conf
+/etc/systemd/resolved.conf
+
+[3.2] Creating file 'myfile.txt' for deletion test...
+Attempting to remove 'myfile.txt'...
+Verifying deletion:
+myfile.txt has been removed.
+
+[3.3] Creating file 'users.txt'...
+Renaming 'users.txt' to 'user-info.txt'...
+Verifying rename:
+user-info.txt
+Moving 'user-info.txt' to /tmp...
+Verifying move:
+user-info.txt moved successfully.
+-rw-r--r-- 1 theia users         0 Jul 10 19:29 user-info.txt
+
+[3.4] Copying 'user-info.txt' back from /tmp to current dir...
+Verifying copy:
+user-info.txt
+Copying contents of /etc/passwd to 'users.txt'...
+Verifying 'users.txt' exists:
+users.txt
+
+===============================
+ End of Exercise 3 Script
+===============================
+theia@theia-hirewillieco:/home/project$

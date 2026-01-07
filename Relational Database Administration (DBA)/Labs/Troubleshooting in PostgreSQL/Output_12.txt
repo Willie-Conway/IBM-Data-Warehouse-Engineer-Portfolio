@@ -1,0 +1,34 @@
+theia@theiadocker-hirewillieco:/home/project$ psql --username=postgres --host=localhost
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+Type "help" for help.
+
+postgres=# \connect demo
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+You are now connected to database "demo" as user "postgres".
+demo=# \timing
+Timing is on.
+demo=# SELECT * FROM aircrafts_data;
+ aircraft_code |             model             | range 
+---------------+-------------------------------+-------
+ 773           | {"en": "Boeing 777-300"}      | 11100
+ 763           | {"en": "Boeing 767-300"}      |  7900
+ SU9           | {"en": "Sukhoi Superjet-100"} |  3000
+ 320           | {"en": "Airbus A320-200"}     |  5700
+ 321           | {"en": "Airbus A321-200"}     |  5600
+ 319           | {"en": "Airbus A319-100"}     |  6700
+ 733           | {"en": "Boeing 737-300"}      |  4200
+ CN1           | {"en": "Cessna 208 Caravan"}  |  1200
+ CR2           | {"en": "Bombardier CRJ-200"}  |  2700
+(9 rows)
+
+Time: 3.045 ms
+demo=# UPDATE boarding_passes SET ticket_no = ticket_no, flight_id = flight_id, boarding_no = boarding_no, seat_no = seat_no;
+UPDATE 579686
+Time: 7820.117 ms (00:07.820)
+demo=# \du
+                                   List of roles
+ Role name |                         Attributes                         | Member of 
+-----------+------------------------------------------------------------+-----------
+ postgres  | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+
+demo=# 

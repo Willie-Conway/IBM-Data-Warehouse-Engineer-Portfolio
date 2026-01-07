@@ -1,0 +1,54 @@
+theia@theiadocker-hirewillieco:/home/project$ psql --username=postgres --host=localhost
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+Type "help" for help.
+
+postgres=# \connect demo
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+You are now connected to database "demo" as user "postgres".
+demo=# theia@theiadocker-hirewillieco:/home/project$ psql --username=s --host=localhost
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+Type "help" for help.
+
+postgres=# \connect demo
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+You are now connected to database "demo" as user "postgres".
+demo=# SELECT * FROM pg_tables WHERE schemaname = 'bookings';
+demo=# ALTER TABLE boarding_passes ENABLE ROW LEVEL SECURITY;
+ALTER TABLE
+demo=# SELECT * FROM pg_tables WHERE schemaname = 'bookings';
+demo=# ALTER TABLE boarding_passes ENABLE ROW LEVEL SECURITY;
+ALTER TABLE
+demo=# SELECT * FROM pg_tables WHERE schemaname = 'bookings';
+demo=# SELECT name, setting, short_desc FROM pg_settings WHERE name = 'wal_level';
+demo=# ALTER TABLE boarding_passes ENABLE ROW LEVEL SECURITY;
+ALTER TABLE
+demo=# SELECT * FROM pg_tables WHERE schemaname = 'bookings';
+demo=# SELECT name, setting, short_desc FROM pg_settings WHERE name = 'wal_level';
+demo=# ALTER TABLE boarding_passes ENABLE ROW LEVEL SECURITY;
+ALTER TABLE
+demo=# SELECT * FROM pg_tables WHERE schemaname = 'bookings';
+demo=# SELECT name, setting, short_desc FROM pg_settings WHERE name = 'wal_level';
+demo=# ALTER TABLE boarding_passes ENABLE ROW LEVEL SECURITY;
+ALTER TABLE
+demo=# SELECT * FROM pg_tables WHERE schemaname = 'bookings';
+demo=# SELECT name, setting, short_desc FROM pg_settings WHERE name = 'wal_level';
+demo=# ALTER TABLE aircrafts_data RENAME TO aircraft_fleet;
+ALTER TABLE
+demo=# UPDATE pg_tables SET tablename = 'aircraft_fleet' WHERE tablename = 'aircrafts_data';
+DETAIL:  Views that do not select from a single table or view are not automatically updatable.
+HINT:  To enable updating the view, provide an INSTEAD OF UPDATE trigger or an unconditional ON UPDATE DO INSTEAD rule.
+demo=# ALTER TABLE aircrafts_data RENAME TO aircraft_fleet;
+demo=# SELECT tablename FROM pg_tables WHERE schemaname = 'bookings';
+    tablename    
+-----------------
+ aircraft_fleet
+ ticket_flights
+ flights
+ airports_data
+ seats
+ tickets
+ bookings
+ boarding_passes
+(8 rows)
+
+demo=# 

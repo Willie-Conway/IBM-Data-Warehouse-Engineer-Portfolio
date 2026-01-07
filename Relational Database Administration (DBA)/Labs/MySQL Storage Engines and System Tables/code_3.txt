@@ -1,0 +1,343 @@
+theia@theiadocker-hirewillieco:/home/project$ mysql --host=172.21.168.150 --port=3306 --user=root --password=XE4O8vxYtu9rJ7XljlRVeFXw
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 5436
+Server version: 8.0.37 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> USE world;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> SHOW TABLES;
++-----------------+
+| Tables_in_world |
++-----------------+
+| city            |
+| country         |
+| countrylanguage |
+| csv_test        |
++-----------------+
+4 rows in set (0.00 sec)
+
+theia@theiadocker-hirewillieco:/home/project$ mysql --host=172.21.168.150 --port=3306 --user=root --password=XE4O8vxYtu9rJ7XljlRVeFXw
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 5436
+Server version: 8.0.37 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> USE world;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+mysql> SHOW TABLES;
++-----------------+
+| Tables_in_world |
++-----------------+
+| city            |
+| country         |
+| countrylanguage |
++-----------------+
+3 rows in set (0.00 sec)
+
+mysql> -- View available storage engines
+mysql> SHOW ENGINES;
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| Engine             | Support | Comment                                                        | Transactions | XA   | Savepoints |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| ndbcluster         | NO      | Clustered, fault-tolerant tables                               | NULL         | NULL | NULL       |
+| MEMORY             | YES     | Hash based, stored in memory, useful for temporary tables      | NO           | NO   | NO         |
+| InnoDB             | DEFAULT | Supports transactions, row-level locking, and foreign keys     | YES          | YES  | YES        |
+| PERFORMANCE_SCHEMA | YES     | Performance Schema                                             | NO           | NO   | NO         |
+| MyISAM             | YES     | MyISAM storage engine                                          | NO           | NO   | NO         |
+| FEDERATED          | NO      | Federated MySQL storage engine                                 | NULL         | NULL | NULL       |
+| ndbinfo            | NO      | MySQL Cluster system information storage engine                | NULL         | NULL | NULL       |
+| MRG_MYISAM         | YES     | Collection of identical MyISAM tables                          | NO           | NO   | NO         |
+| BLACKHOLE          | YES     | /dev/null storage engine (anything you write to it disappears) | NO           | NO   | NO         |
+| CSV                | YES     | CSV storage engine                                             | NO           | NO   | NO         |
+| ARCHIVE            | YES     | Archive storage engine                                         | NO           | NO   | NO         |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+11 rows in set (0.00 sec)
+
+mysql> 
+mysql> -- Create a CSV-based table
+mysql> CREATE TABLE csv_test (
+    ->     i INT NOT NULL,
+    ->     c CHAR(10) NOT NULL
+    -> ) ENGINE = CSV;
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> 
+mysql> -- Confirm the table was created
+mysql> SHOW TABLES;
++-----------------+
+| Tables_in_world |
++-----------------+
+| city            |
+| country         |
+| countrylanguage |
+| csv_test        |
++-----------------+
+4 rows in set (0.00 sec)
+
+mysql> 
+mysql> -- Insert sample data
+mysql> INSERT INTO csv_test VALUES
+    -> (1, 'data one'),
+    -> (2, 'data two'),
+    -> (3, 'data three');
+Query OK, 3 rows affected (0.02 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> 
+mysql> -- View inserted data
+mysql> SELECT * FROM csv_test;
++---+------------+
+| i | c          |
++---+------------+
+| 1 | data one   |
+| 2 | data two   |
+| 3 | data three |
++---+------------+
+3 rows in set (0.00 sec)
+
+theia@theiadocker-hirewillieco:/home/project$ mysql --host=172.21.168.150 --port=3306 --user=root --password=XE4O8vxYtu9rJ7XljlRVeFXw
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 5436
+Server version: 8.0.37 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> USE world;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+mysql> SHOW TABLES;
++-----------------+
+| Tables_in_world |
++-----------------+
+| city            |
+| country         |
+| countrylanguage |
++-----------------+
+3 rows in set (0.00 sec)
+
+mysql> -- View available storage engines
+mysql> SHOW ENGINES;
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| Engine             | Support | Comment                                                        | Transactions | XA   | Savepoints |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+| ndbcluster         | NO      | Clustered, fault-tolerant tables                               | NULL         | NULL | NULL       |
+| MEMORY             | YES     | Hash based, stored in memory, useful for temporary tables      | NO           | NO   | NO         |
+| InnoDB             | DEFAULT | Supports transactions, row-level locking, and foreign keys     | YES          | YES  | YES        |
+| PERFORMANCE_SCHEMA | YES     | Performance Schema                                             | NO           | NO   | NO         |
+| MyISAM             | YES     | MyISAM storage engine                                          | NO           | NO   | NO         |
+| FEDERATED          | NO      | Federated MySQL storage engine                                 | NULL         | NULL | NULL       |
+| ndbinfo            | NO      | MySQL Cluster system information storage engine                | NULL         | NULL | NULL       |
+| MRG_MYISAM         | YES     | Collection of identical MyISAM tables                          | NO           | NO   | NO         |
+| BLACKHOLE          | YES     | /dev/null storage engine (anything you write to it disappears) | NO           | NO   | NO         |
+| CSV                | YES     | CSV storage engine                                             | NO           | NO   | NO         |
+| ARCHIVE            | YES     | Archive storage engine                                         | NO           | NO   | NO         |
++--------------------+---------+----------------------------------------------------------------+--------------+------+------------+
+11 rows in set (0.00 sec)
+
+mysql> 
+mysql> -- Create a CSV-based table
+mysql> CREATE TABLE csv_test (
+    ->     i INT NOT NULL,
+    ->     c CHAR(10) NOT NULL
+    -> ) ENGINE = CSV;
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> 
+mysql> -- Confirm the table was created
+mysql> SHOW TABLES;
++-----------------+
+| Tables_in_world |
++-----------------+
+mysql> -- 1. List all databases
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| world              |
++--------------------+
+5 rows in set (0.00 sec)
+
+mysql> 
+mysql> -- 2. Switch to the system database
+mysql> USE mysql;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> 
+mysql> -- 3. View all system tables in the mysql database
+mysql> SHOW TABLES;
++------------------------------------------------------+
+| Tables_in_mysql                                      |
++------------------------------------------------------+
+| columns_priv                                         |
+| component                                            |
+| db                                                   |
+| default_roles                                        |
+| engine_cost                                          |
+| func                                                 |
+| general_log                                          |
+| global_grants                                        |
+| gtid_executed                                        |
+| help_category                                        |
+| help_keyword                                         |
+| help_relation                                        |
+| help_topic                                           |
+| innodb_index_stats                                   |
+| innodb_table_stats                                   |
+| ndb_binlog_index                                     |
+| password_history                                     |
+| plugin                                               |
+| procs_priv                                           |
+| proxies_priv                                         |
+| replication_asynchronous_connection_failover         |
+| replication_asynchronous_connection_failover_managed |
+| replication_group_configuration_version              |
+| replication_group_member_actions                     |
+| role_edges                                           |
+| server_cost                                          |
+| servers                                              |
+| slave_master_info                                    |
+| slave_relay_log_info                                 |
+| slave_worker_info                                    |
+| slow_log                                             |
+| tables_priv                                          |
+| time_zone                                            |
+| time_zone_leap_second                                |
+| time_zone_name                                       |
+| time_zone_transition                                 |
+| time_zone_transition_type                            |
+| user                                                 |
++------------------------------------------------------+
+38 rows in set (0.01 sec)
+
+mysql> 
+mysql> -- 4. Display the User column from the user table
+mysql> SELECT User FROM user;
++------------------+
+| User             |
++------------------+
+| root             |
+| mysql.infoschema |
+| mysql.session    |
+| mysql.sys        |
+| root             |
++------------------+
+5 rows in set (0.00 sec)
+
+mysql> 
+mysql> -- 5. Create a new user
+mysql> CREATE USER test_user;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> 
+mysql> -- 6. Verify user was added
+mysql> SELECT User FROM user;
++------------------+
+| User             |
++------------------+
+| root             |
+| test_user        |
+| mysql.infoschema |
+| mysql.session    |
+| mysql.sys        |
+| root             |
++------------------+
+6 rows in set (0.00 sec)
+
+mysql> 
+mysql> -- 7. Switch to information_schema to explore metadata
+mysql> USE information_schema;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> 
+mysql> -- 8. View column names in the 'country' table from the 'world' database
+mysql> SELECT COLUMN_NAME FROM COLUMNS WHERE TABLE_NAME = 'country';
++----------------+
+| COLUMN_NAME    |
++----------------+
+| Capital        |
+| Code           |
+| Code2          |
+| Continent      |
+| GNP            |
+| GNPOld         |
+| GovernmentForm |
+| HeadOfState    |
+| IndepYear      |
+| LifeExpectancy |
+| LocalName      |
+| Name           |
+| Population     |
+| Region         |
+| SurfaceArea    |
++----------------+
+15 rows in set (0.00 sec)
+
+mysql> 
+mysql> -- 9. View storage engine types for specific tables
+mysql> SELECT table_name, engine 
+    -> FROM INFORMATION_SCHEMA.TABLES 
+    -> WHERE table_name IN ('country', 'city', 'countrylanguage', 'csv_test');
++-----------------+--------+
+| TABLE_NAME      | ENGINE |
++-----------------+--------+
+| city            | InnoDB |
+| country         | InnoDB |
+| countrylanguage | InnoDB |
+| csv_test        | CSV    |
++-----------------+--------+
+4 rows in set (0.01 sec)
+
+mysql> 
+mysql> -- 10. View table sizes in kilobytes (KB)
+mysql> SELECT table_name, 
+    ->        (data_length + index_length)/1024 AS size_kb 
+    -> FROM INFORMATION_SCHEMA.TABLES 
+    -> WHERE table_name IN ('country', 'city', 'countrylanguage', 'csv_test');
++-----------------+----------+
+| TABLE_NAME      | size_kb  |
++-----------------+----------+
+| city            | 528.0000 |
+| country         |  96.0000 |
+| countrylanguage | 160.0000 |
+| csv_test        |   0.0000 |
++-----------------+----------+
+4 rows in set (0.02 sec)
+
+mysql> 

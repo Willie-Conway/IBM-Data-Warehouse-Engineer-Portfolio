@@ -1,0 +1,7 @@
+
+   name    | setting |                    short_desc                    
+-----------+---------+--------------------------------------------------
+ wal_level | replica | Set the level of information written to the WAL.
+(1 row)
+
+(END)

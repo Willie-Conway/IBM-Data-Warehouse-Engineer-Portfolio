@@ -1,0 +1,35 @@
+theia@theia-hirewillieco:/home/project$ chmod +x text_merge.sh
+theia@theia-hirewillieco:/home/project$ ./text_merge.sh
+📂 Navigating to /home/project...
+⬇️ Downloading zoo_ages.txt...
+
+🔗 Merging zoo.txt and zoo_ages.txt using TAB delimiter:
+zebra   17
+zebra   12
+lion    7
+lion    4
+anaconda        3
+zebra   4
+zebra   1
+lion    0
+zebra   1
+
+🔗 Merging zoo.txt and zoo_ages.txt using COMMA delimiter:
+zebra,17
+zebra,12
+lion,7
+lion,4
+anaconda,3
+zebra,4
+zebra,1
+lion,0
+zebra,1
+
+✅ Line merging complete!
+theia@theia-hirewillieco:/home/project$ 
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+
+ schemaname |    tablename    | tableowner | tablespace | hasindexes | hasrules | hastriggers | rowsecurity 
+------------+-----------------+------------+------------+------------+----------+-------------+-------------
+ bookings   | ticket_flights  | postgres   |            | t          | f        | t           | f
+ bookings   | aircrafts_data  | postgres   |            | t          | f        | t           | f
+ bookings   | flights         | postgres   |            | t          | f        | t           | f
+ bookings   | airports_data   | postgres   |            | t          | f        | t           | f
+ bookings   | seats           | postgres   |            | t          | f        | t           | f
+ bookings   | tickets         | postgres   |            | t          | f        | t           | f
+ bookings   | bookings        | postgres   |            | t          | f        | t           | f
+ bookings   | boarding_passes | postgres   |            | t          | f        | t           | t
+(8 rows)
+
+(END)

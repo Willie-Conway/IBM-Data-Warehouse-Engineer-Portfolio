@@ -1,0 +1,56 @@
+theia@theia-hirewillieco:/home/project$ chmod +x practice_exercises.sh
+theia@theia-hirewillieco:/home/project$ ./practice_exercises.sh
+===============================
+ Practice Exercises Automation
+===============================
+
+[1] Listing contents of /home:
+project  theia
+
+[2] Navigating to home directory and verifying:
+/home/theia
+
+[3] Creating tmp directory and listing contents:
+README.md     docker-compose  lerna.json    postgres
+applications  dsdriver        myfile.txt    tmp
+configs       entrypoint.sh   package.json  yarn.lock
+
+[4] Creating display.sh in tmp and listing details:
+total 0
+-rw-r--r-- 1 theia theia 0 Jul 10 19:35 display.sh
+
+[5] Copying display.sh to report.sh:
+total 0
+-rw-r--r-- 1 theia theia 0 Jul 10 19:35 display.sh
+-rw-r--r-- 1 theia theia 0 Jul 10 19:35 report.sh
+
+[6] Moving report.sh to parent directory:
+In current (tmp) directory:
+display.sh
+In parent (home) directory:
+README.md     docker-compose  lerna.json    postgres   yarn.lock
+applications  dsdriver        myfile.txt    report.sh
+configs       entrypoint.sh   package.json  tmp
+
+[7] Deleting display.sh:
+
+[8] Listing /etc by ascending access time:
+total 784
+-rw-r--r-- 1 root root     887 Apr  1  2013 rpc
+-rw-r--r-- 1 root root    2932 Apr  1  2013 protocols
+-rw-r--r-- 1 root root     586 Dec 19  2013 mongod.conf
+-rw-r--r-- 1 root root     604 Sep 15  2018 deluser.conf
+-rw-r--r-- 1 root root    1816 Dec 26  2019 ethertypes
+-rw-r--r-- 1 root root    1260 Jun 16  2020 ucf.conf
+-rw-r--r-- 1 root root     552 Aug 11  2020 pam.conf
+-rw-r--r-- 1 root root      34 Dec 16  2020 ld.so.conf
+-rw-r--r-- 1 root root     367 Dec 16  2020 bindresvport.blacklist
+
+[9] Copying /var/log/bootstrap.log to current directory:
+Verifying copy:
+-rw-r--r-- 1 theia theia 64549 Jul 10 19:35 bootstrap.log
+
+===============================
+ All Practice Tasks Completed!
+===============================
+theia@theia-hirewillieco:/home/project$ 

@@ -1,0 +1,34 @@
+theia@theia-hirewillieco:/home/project$ chmod +x navigate_dirs.sh
+theia@theia-hirewillieco:/home/project$ ./navigate_dirs.sh
+===============================
+ Exercise 2 - Navigating Directories
+===============================
+
+→ 2.1: Change to home directory (~)
+/home/theia
+
+→ 2.2: Change to parent directory (..)
+/home
+
+→ 2.3: Change to root directory (/)
+/
+
+→ 2.4: Change to /bin (child of root)
+/bin
+
+→ Going back to root before next step
+
+→ Try alternative path: cd ./bin from root
+/bin
+
+→ 2.5: Return to home directory using absolute path
+/home/theia
+
+→ 2.5 (alternative): Return to home using ~
+/home/theia
+
+→ 2.6: Change from /home/theia to sibling project directory (/home/project)
+/home/project
+
+✅ Directory navigation complete.
+theia@theia-hirewillieco:/home/project$ 

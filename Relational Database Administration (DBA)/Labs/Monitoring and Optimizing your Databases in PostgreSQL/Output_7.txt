@@ -1,0 +1,15 @@
+demo=# SELECT oid, datname FROM pg_database;
+-[ RECORD 1 ]------
+oid     | 13442
+datname | postgres
+-[ RECORD 2 ]------
+oid     | 16384
+datname | demo
+-[ RECORD 3 ]------
+oid     | 1
+datname | template1
+-[ RECORD 4 ]------
+oid     | 13441
+datname | template0
+
+demo=# 

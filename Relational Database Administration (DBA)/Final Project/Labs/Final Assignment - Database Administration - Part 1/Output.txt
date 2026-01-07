@@ -1,0 +1,13 @@
+theia@theiadocker-hirewillieco:/home/project$ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/-o-CVNqamn9K4hGlSpFCYg/postgres-setup.sh
+--2025-07-30 20:23:48--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/-o-CVNqamn9K4hGlSpFCYg/postgres-setup.sh
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 603 [application/x-sh]
+Saving to: 'postgres-setup.sh'
+
+postgres-setup.sh  100%[===============>]     603  --.-KB/s    in 0s      
+
+2025-07-30 20:23:49 (413 MB/s) - 'postgres-setup.sh' saved [603/603]
+
+theia@theiadocker-hirewillieco:/home/project$ 

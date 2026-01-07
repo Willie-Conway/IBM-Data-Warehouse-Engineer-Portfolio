@@ -1,0 +1,9 @@
+mysql> EXPLAIN SELECT * FROM employees WHERE first_name LIKE 'C%' OR last_name LIKE 'C%';
++----+-------------+-----------+------------+------+----------------------------------+------+---------+------+--------+----------+-------------+
+| id | select_type | table     | partitions | type | possible_keys                    | key  | key_len | ref  | rows   | filtered | Extra       |
++----+-------------+-----------+------------+------+----------------------------------+------+---------+------+--------+----------+-------------+
+|  1 | SIMPLE      | employees | NULL       | ALL  | first_name_index,last_name_index | NULL | NULL    | NULL | 299157 |    20.99 | Using where |
++----+-------------+-----------+------------+------+----------------------------------+------+---------+------+--------+----------+-------------+
+1 row in set, 1 warning (0.01 sec)
+
+mysql> 

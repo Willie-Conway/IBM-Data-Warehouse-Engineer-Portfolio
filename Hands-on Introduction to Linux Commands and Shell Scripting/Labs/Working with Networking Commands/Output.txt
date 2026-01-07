@@ -1,0 +1,114 @@
+theia@theia-hirewillieco:/home/project$ chmod +x network_info.sh
+theia@theia-hirewillieco:/home/project$ ./network_info.sh
+🖥️  Gathering Network Information...
+--------------------------------------
+
+📛 Hostname:
+theia-hirewillieco
+
+🌐 IP Address:
+172.22.191.233
+
+⚠️  'ip' command not found. Attempting to install 'iproute2'...
+Get:2 https://packages.microsoft.com/ubuntu/22.04/prod jammy InRelease [3632 B]
+Get:3 https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 InRelease [4009 B]
+Get:4 https://download.docker.com/linux/ubuntu jammy InRelease [48.8 kB]
+Get:1 https://apt.llvm.org/jammy llvm-toolchain-jammy-17 InRelease [6833 B]
+Get:6 https://deb.nodesource.com/node_20.x nodistro InRelease [12.1 kB]
+Get:7 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Get:8 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]     
+Get:9 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main armhf Packages [20.3 kB]
+Get:10 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main amd64 Packages [231 kB]
+Get:11 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main arm64 Packages [69.1 kB]
+Get:12 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main all Packages [1252 B]
+Get:13 https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0/multiverse amd64 Packages [101 kB]
+Get:14 https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0/multiverse arm64 Packages [97.2 kB]
+Get:15 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages [64.4 kB]
+Get:16 https://apt.llvm.org/jammy llvm-toolchain-jammy-17/main amd64 Packages [12.4 kB]
+Get:17 https://deb.nodesource.com/node_20.x nodistro/main amd64 Packages [12.1 kB]
+Get:18 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy InRelease [18.1 kB]
+Get:5 https://apache.jfrog.io/artifactory/cassandra-deb 40x InRelease [3902 B]
+Get:19 https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu jammy InRelease [24.6 kB]
+Get:20 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+Get:21 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy InRelease [24.6 kB]
+Get:22 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [4795 kB]
+Get:23 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:24 https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu jammy/main amd64 Packages [32.9 kB]
+Get:25 https://apache.jfrog.io/artifactory/cassandra-deb 40x/main amd64 Packages [697 B]
+Get:26 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+Get:27 https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu jammy/main amd64 Packages [43.5 kB]
+Get:28 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3103 kB]
+Get:29 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [48.5 kB]
+Get:30 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1266 kB]
+Get:31 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy/main amd64 Packages [235 kB]
+Get:32 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+Get:33 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+Get:34 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+Get:35 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [3420 kB]
+Get:36 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [56.4 kB]
+Get:37 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1569 kB]
+Get:38 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [4963 kB]
+Get:39 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.2 kB]
+Get:40 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [83.2 kB]
+Fetched 40.8 MB in 3s (13.0 MB/s)                             
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+134 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libatm1 libbpf0
+Suggested packages:
+  iproute2-doc
+The following NEW packages will be installed:
+  iproute2 libatm1 libbpf0
+0 upgraded, 3 newly installed, 0 to remove and 134 not upgraded.
+Need to get 1233 kB of archives.
+After this operation, 3414 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libbpf0 amd64 1:0.5.0-1ubuntu22.04.1 [140 kB]
+Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 iproute2 amd64 5.15.0-1ubuntu2 [1070 kB]
+Get:3 http://archive.ubuntu.com/ubuntu jammy/main amd64 libatm1 amd64 1:2.5.1-4build2 [22.8 kB]
+Fetched 1233 kB in 1s (1585 kB/s) 
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libbpf0:amd64.
+(Reading database ... 74149 files and directories currently installed.)
+Preparing to unpack .../libbpf0_1%3a0.5.0-1ubuntu22.04.1_amd64.deb ...
+Unpacking libbpf0:amd64 (1:0.5.0-1ubuntu22.04.1) ...
+Selecting previously unselected package iproute2.
+Preparing to unpack .../iproute2_5.15.0-1ubuntu2_amd64.deb ...
+Unpacking iproute2 (5.15.0-1ubuntu2) ...
+Selecting previously unselected package libatm1:amd64.
+Preparing to unpack .../libatm1_1%3a2.5.1-4build2_amd64.deb ...
+Unpacking libatm1:amd64 (1:2.5.1-4build2) ...
+Setting up libatm1:amd64 (1:2.5.1-4build2) ...
+Setting up libbpf0:amd64 (1:0.5.0-1ubuntu22.04.1) ...
+Setting up iproute2 (5.15.0-1ubuntu2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.9) ...
+
+🧰 Full Network Interface Configuration (ip a):
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: tunl0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/ipip 0.0.0.0 brd 0.0.0.0
+3: eth0@if665: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1480 qdisc noqueue state UP group default qlen 1000
+    link/ether f2:05:38:72:0c:24 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 172.22.191.233/32 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::f005:38ff:fe72:c24/64 scope link 
+       valid_lft forever preferred_lft forever
+
+📡 Ethernet Adapter Configuration (eth0@if665):
+Device "eth0@if665" does not exist.
+
+✅ Network information saved to /home/project/network_report.log
+theia@theia-hirewillieco:/home/project$ 

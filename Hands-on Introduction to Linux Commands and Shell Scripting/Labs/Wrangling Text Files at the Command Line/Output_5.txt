@@ -1,0 +1,46 @@
+heia@theia-hirewillieco:/home/project$ chmod +x text_extracting.sh
+theia@theia-hirewillieco:/home/project$ ./text_extracting.sh
+📂 Navigating to /home/project...
+
+🔍 Lines containing the word 'people':
+Course of human events, it becomes necessary for one people to dissolve the
+people, unless those people would relinquish the right of Representation in the
+firmness his invasions on the rights of the people.
+to harrass our people, and eat out their substance.
+the lives of our people.
+Tyrant, is unfit to be the ruler of a free people.
+
+📍 Lines NOT containing 'login' from /etc/passwd:
+root:x:0:0:root:/root:/bin/bash
+sync:x:4:65534:sync:/bin:/bin/sync
+theia:x:1000:1000:,,,:/home/theia:/bin/bash
+
+✂️ First 2 characters of each line in zoo.txt:
+ze
+ze
+li
+li
+an
+ze
+ze
+li
+ze
+
+✂️ Characters from position 2 onward in each line of zoo.txt:
+ebra
+ebra
+ion
+ion
+naconda
+ebra
+ebra
+ion
+ebra
+⬇️ Downloading names_and_numbers.csv...
+
+📄 Extracted phone numbers from names_and_numbers.csv:
+ 555-1212
+ 555-1312
+
+✅ Field and line extraction complete!clear
+theia@theia-hirewillieco:/home/project$ 

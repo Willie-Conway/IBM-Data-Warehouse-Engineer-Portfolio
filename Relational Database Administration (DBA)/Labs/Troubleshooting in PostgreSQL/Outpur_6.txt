@@ -1,0 +1,9 @@
+2025-07-30 01:52:56.274 UTC [1] LOG:  starting PostgreSQL 13.2 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.2.1_pre1) 10.2.1 20201203, 64-bit
+2025-07-30 01:52:56.274 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2025-07-30 01:52:56.274 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+2025-07-30 01:52:56.282 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2025-07-30 01:52:56.288 UTC [14] LOG:  database system was shut down at 2025-07-30 01:51:03 UTC
+2025-07-30 01:52:56.295 UTC [1] LOG:  database system is ready to accept connections
+2025-07-30 02:03:13.345 UTC [899] FATAL:  password authentication failed for user "postgres"
+2025-07-30 02:03:13.345 UTC [899] DETAIL:  Password does not match for user "postgres".
+	Connection matched pg_hba.conf line 99: "host all all all md5"

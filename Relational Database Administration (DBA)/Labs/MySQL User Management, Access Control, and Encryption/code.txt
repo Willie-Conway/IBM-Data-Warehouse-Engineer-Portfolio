@@ -1,0 +1,35 @@
+theia@theiadocker-hirewillieco:/home/project$ mysql --host=172.21.115.216 --port=3306 --user=root --password=Az9rZsFAUwwWAZroe6oLZT80
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 6973
+Server version: 8.0.37 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SET @key_str = SHA2('My secret passphrase', 512);
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> USE customerorders;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> SELECT * FROM customers LIMIT 5;
++----------------+----------------------------+-----------------+------------------+--------------+------------------------------+--------------+-----------+----------+------------+-----------+------------------------+-------------+
+| customerNumber | customerName               | contactLastName | contactFirstName | phone        | addressLine1                 | addressLine2 | city      | state    | postalCode | country   | salesRepEmployeeNumber | creditLimit |
++----------------+----------------------------+-----------------+------------------+--------------+------------------------------+--------------+-----------+----------+------------+-----------+------------------------+-------------+
+|            103 | Atelier graphique          | Schmitt         | Carine           | 40.32.2555   | 54, rue Royale               | NULL         | Nantes    | NULL     | 44000      | France    |                   1370 |    21000.00 |
+|            112 | Signal Gift Stores         | King            | Jean             | 7025551838   | 8489 Strong St.              | NULL         | Las Vegas | NV       | 83030      | USA       |                   1166 |    71800.00 |
+|            114 | Australian Collectors, Co. | Ferguson        | Peter            | 03 9520 4555 | 636 St Kilda Road            | Level 3      | Melbourne | Victoria | 3004       | Australia |                   1611 |   117300.00 |
+|            119 | La Rochelle Gifts          | Labrune         | Janine           | 40.67.8555   | 67, rue des Cinquante Otages | NULL         | Nantes    | NULL     | 44000      | France    |                   1370 |   118200.00 |
+|            121 | Baane Mini Imports         | Bergulfsen      | Jonas            | 07-98 9555   | Erling Skakkes gate 78       | NULL         | Stavern   | NULL     | 4110       | Norway    |                   1504 |    81700.00 |
++----------------+----------------------------+-----------------+------------------+--------------+------------------------------+--------------+-----------+----------+------------+-----------+------------------------+-------------+
+5 rows in set (0.00 sec)
+
+mysql> 

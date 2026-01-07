@@ -1,0 +1,13 @@
+mysql> SELECT table_name AS "Table",
+    ->        round(((data_length + index_length) / 1024 / 1024), 2) AS "Size (MB)"
+    -> FROM information_schema.TABLES
+    -> WHERE table_schema = "billing"
+    ->   AND table_name = "billdata";
++----------+-----------+
+| Table    | Size (MB) |
++----------+-----------+
+| billdata |      6.52 |
++----------+-----------+
+1 row in set (0.01 sec)
+
+mysql> 

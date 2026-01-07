@@ -1,0 +1,37 @@
+theia@theia-hirewillieco:/home/project$ chmod +x create_files_dirs.sh
+theia@theia-hirewillieco:/home/project$ ./create_files_dirs.sh
+===============================
+ Exercise 2 - Files & Directories
+===============================
+
+[2.1] Creating directory 'scripts'...
+Verifying with ls:
+create_files_dirs.sh  navigate_files_dirs.sh  scripts
+
+[2.2] Changing into 'scripts' directory...
+Current directory (pwd):
+/home/project/scripts
+
+Returning to home directory using 'cd'...
+Current directory (pwd):
+/home/theia
+
+Moving up one level with 'cd ..'...
+Current directory (pwd):
+/home
+
+[2.3] Returning to home directory...
+Creating empty file 'myfile.txt'...
+Verifying file creation with ls:
+README.md     docker-compose  lerna.json    postgres
+applications  dsdriver        myfile.txt    yarn.lock
+configs       entrypoint.sh   package.json
+
+Updating file timestamp...
+Last modified date of 'myfile.txt':
+Thu Jul 10 19:26:05 EDT 2025
+
+===============================
+ End of Script
+===============================
+theia@theia-hirewillieco:/home/project$ 

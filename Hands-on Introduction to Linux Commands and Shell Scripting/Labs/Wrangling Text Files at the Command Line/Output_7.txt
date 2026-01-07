@@ -1,0 +1,196 @@
+theia@theia-hirewillieco:/home/project$ chmod +x text_practice_summary.sh
+theia@theia-hirewillieco:/home/project$ ./text_practice_summary.sh
+📁 Ensuring we are in the home directory...
+/home/theia
+
+🔢 1. Counting number of lines in /etc/passwd:
+27 /etc/passwd
+
+🔍 2. Searching for lines with 'not installed' in /var/log/bootstrap.log:
+  Package libc6 is not installed.
+  Package libdebconfclient0 is not installed.
+  awk is not installed.
+  Package awk is not installed.
+  Package libc6 is not installed.
+  Package libcrypt1 is not installed.
+  libbz2-1.0 is not installed.
+  libc6 is not installed.
+  liblzma5 is not installed.
+  libselinux1 is not installed.
+  libzstd1 is not installed.
+  zlib1g is not installed.
+  Package libbz2-1.0 is not installed.
+  Package libc6 is not installed.
+  Package liblzma5 is not installed.
+  Package libselinux1 is not installed.
+  Package libzstd1 is not installed.
+  Package zlib1g is not installed.
+  Package tar is not installed.
+  Package libgcc-s1 is not installed.
+  Package libcrypt1 is not installed.
+  libcrypt1 is not installed.
+  Package libcrypt1 is not installed.
+  libtinfo6 is not installed.
+  libsystemd0 is not installed.
+  libacl1 is not installed.
+  libattr1 is not installed.
+  libgmp10 is not installed.
+  libselinux1 is not installed.
+  libbz2-1.0 is not installed.
+  liblzma5 is not installed.
+  libselinux1 is not installed.
+  libzstd1 is not installed.
+  zlib1g is not installed.
+  libblkid1 is not installed.
+  libcom-err2 is not installed.
+  libext2fs2 is not installed.
+  libss2 is not installed.
+  libuuid1 is not installed.
+  libselinux1 is not installed.
+  libpcre3 is not installed.
+  libpam0g is not installed.
+  libselinux1 is not installed.
+  libtirpc3 is not installed.
+  libpam-modules-bin is not installed.
+  libzstd1 is not installed.
+  zlib1g is not installed.
+
+⬇️ 3. Downloading top-sites.txt and finding lines with 'org':
+en.wikipedia.org
+wordpress.org
+mozilla.org
+pt.wikipedia.org
+es.wikipedia.org
+w3.org
+wikimedia.org
+creativecommons.org
+fr.wikipedia.org
+apache.org
+id.wikipedia.org
+de.wikipedia.org
+
+📄 4. First 7 lines of top-sites.txt:
+youtube.com
+www.google.com
+apple.com
+microsoft.com
+cloudflare.com
+play.google.com
+support.google.com
+
+📄 5. Last 7 lines of top-sites.txt:
+id.wikipedia.org
+rakuten.co.jp
+tinyurl.com
+amazon.co.jp
+de.wikipedia.org
+tools.google.com
+buydomains.com
+🔠 6. First 3 characters of each line in top-sites.txt:
+you
+www
+app
+mic
+clo
+pla
+sup
+www
+en.
+doc
+wor
+moz
+lin
+you
+map
+ado
+dri
+eur
+goo
+plu
+vim
+sit
+acc
+pt.
+git
+fac
+uol
+vk.
+ist
+es.
+ama
+bp.
+bbc
+cnn
+fee
+nih
+goo
+wha
+jim
+goo
+w3.
+iss
+pol
+wik
+liv
+cre
+sli
+mai
+get
+bra
+glo
+t.m
+new
+bbc
+dro
+mys
+reu
+www
+med
+goo
+msn
+fr.
+ope
+mai
+the
+www
+gst
+goo
+pay
+dai
+nyt
+hug
+abr
+for
+dev
+imd
+lin
+boo
+twi
+who
+apa
+wik
+dra
+ok.
+wir
+ama
+blo
+pho
+wa.
+lat
+ali
+ste
+bit
+id.
+rak
+tin
+ama
+de.
+too
+buy
+
+📇 7. Extracting names from names_and_numbers.csv (first column only):
+John Fogerty
+Jane Doe
+
+✅ Practice tasks complete!
+theia@theia-hirewillieco:/home/project$

@@ -1,0 +1,9 @@
+theia@theia-hirewillieco:/home/project$ chmod +x remove_crontab.sh
+theia@theia-hirewillieco:/home/project$ ./remove_crontab.sh
+⚠️ WARNING: This will delete all your cron jobs.
+Are you sure you want to continue? (y/n): y
+Removing crontab...
+Verifying crontab...
+✅ Crontab removed successfully.
+theia@theia-hirewillieco:/home/project$ 
+

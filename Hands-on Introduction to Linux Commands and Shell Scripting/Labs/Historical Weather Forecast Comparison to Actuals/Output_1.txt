@@ -1,0 +1,17 @@
+theia@theia-hirewillieco:/home/project$ chmod +x weekly_stats.sh
+theia@theia-hirewillieco:/home/project$ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-LX0117EN-Coursera/labs/synthetic_historical_fc_accuracy.tsv
+--2025-07-13 01:28:04--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-LX0117EN-Coursera/labs/synthetic_historical_fc_accuracy.tsv
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 263 [text/tab-separated-values]
+Saving to: 'synthetic_historical_fc_accuracy.tsv'
+
+synthetic_historica 100%[=================>]     263  --.-KB/s    in 0s      
+
+2025-07-13 01:28:04 (96.2 MB/s) - 'synthetic_historical_fc_accuracy.tsv' saved [263/263]
+
+theia@theia-hirewillieco:/home/project$ ./weekly_stats.sh
+Minimum absolute forecast error (past 7 days): 0
+Maximum absolute forecast error (past 7 days): 5
+theia@theia-hirewillieco:/home/project$ 

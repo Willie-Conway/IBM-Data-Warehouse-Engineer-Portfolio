@@ -1,0 +1,45 @@
+demo=# \dt
+               List of relations
+  Schema  |      Name       | Type  |  Owner   
+----------+-----------------+-------+----------
+ bookings | aircrafts_data  | table | postgres
+ bookings | airports_data   | table | postgres
+ bookings | boarding_passes | table | postgres
+ bookings | bookings        | table | postgres
+ bookings | flights         | table | postgres
+ bookings | seats           | table | postgres
+ bookings | ticket_flights  | table | postgres
+ bookings | tickets         | table | postgres
+(8 rows)
+
+demo=# CREATE ROLE read_only;
+CREATE ROLE
+demo=# GRANT CONNECT ON DATABASE demo TO read_only;
+GRANT
+demo=# GRANT USAGE ON SCHEMA bookings TO read_only;
+GRANT
+demo=# GRANT SELECT ON ALL TABLES IN SCHEMA bookings TO read_only;
+GRANT
+demo=# CREATE ROLE read_write;
+CREATE ROLE
+demo=# GRANT CONNECT ON DATABASE demo TO read_write;
+GRANT
+demo=# GRANT USAGE ON SCHEMA bookings TO read_write;
+GRANT
+demo=# GRANT SELECT, INSERT, DELETE, UPDATE ON ALL TABLES IN SCHEMA bookings TO read_write;
+GRANT
+demo=# CREATE USER user_a WITH PASSWORD 'user_a_password';
+CREATE ROLE
+demo=# GRANT read_only TO user_a;
+GRANT ROLE
+demo=# \du
+demo=# REVOKE SELECT ON aircrafts_data FROM user_a;
+REVOKE
+demo=# REVOKE read_only FROM user_a;
+REVOKE ROLE
+demo=# \du
+demo=# CREATE USER user_b WITH PASSWORD 'user_b_password';
+CREATE ROLE
+demo=# GRANT read_write TO user_b;
+GRANT ROLE
+demo=# 

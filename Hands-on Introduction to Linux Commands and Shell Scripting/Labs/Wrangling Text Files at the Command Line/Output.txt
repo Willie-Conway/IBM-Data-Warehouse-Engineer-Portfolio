@@ -1,0 +1,51 @@
+theia@theia-hirewillieco:/home/project$ chmod +x text_wrangling.sh
+theia@theia-hirewillieco:/home/project$ ./text_wrangling.sh
+📂 Navigating to /home/project...
+⬇️ Downloading usdoi.txt...
+
+🔡 Sorting lines of usdoi.txt alphabetically:
+
+
+
+
+
+
+
+
+
+
+
+🔁 Sorting lines of usdoi.txt in reverse order:
+within.
+waging War against us.
+unworthy the Head of a civilized nation.
+unwarrantable jurisdiction over us. We have reminded them of the circumstances
+totally dissolved; and that as Free and Independent States, they have full
+to harrass our people, and eat out their substance.
+to encourage their migrations hither, and raising the conditions of new
+to do all other Acts and Things which Independent States may of right do. And
+throw off such Government, and to provide new Guards for their future
+they should commit on the Inhabitants of these States:
+⬇️ Downloading zoo.txt...
+
+📄 Contents of zoo.txt:
+zebra
+zebra
+lion
+lion
+anaconda
+zebra
+zebra
+lion
+zebra
+
+🧹 Contents of zoo.txt with consecutive duplicates removed:
+zebra
+lion
+anaconda
+zebra
+lion
+zebra
+
+✅ Text wrangling complete!
+theia@theia-hirewillieco:/home/project$ 

@@ -1,0 +1,6 @@
+  GNU nano 6.2                                   /home/theia/.my.cnf                                             
+[client]
+host = mysql
+port = 3306
+user = root
+password = AbEuIGVOea9RijJkFMuRssuw

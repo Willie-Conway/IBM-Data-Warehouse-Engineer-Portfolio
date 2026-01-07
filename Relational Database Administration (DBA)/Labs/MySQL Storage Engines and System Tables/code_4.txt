@@ -1,0 +1,31 @@
+mysql> USE world;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> CREATE TABLE MyISAM_test (
+    ->     i INT NOT NULL,
+    ->     c CHAR(10) NOT NULL
+    -> ) ENGINE = MYISAM;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> USE information_schema;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> SELECT table_name, engine 
+    -> FROM INFORMATION_SCHEMA.TABLES 
+    -> WHERE table_schema = 'world';
++-----------------+--------+
+| TABLE_NAME      | ENGINE |
++-----------------+--------+
+| MyISAM_test     | MyISAM |
+| city            | InnoDB |
+| country         | InnoDB |
+| countrylanguage | InnoDB |
+| csv_test        | CSV    |
++-----------------+--------+
+5 rows in set (0.00 sec)
+
+mysql> 

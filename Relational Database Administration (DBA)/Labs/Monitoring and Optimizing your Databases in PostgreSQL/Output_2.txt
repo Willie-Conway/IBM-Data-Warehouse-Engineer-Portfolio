@@ -1,0 +1,10 @@
+
+
+
+
+ pid  | usename  | datname | state  |         state_change          |                                                 query                                                  
+------+----------+---------+--------+-------------------------------+--------------------------------------------------------------------------------------------------------
+ 1805 | postgres | demo    | active | 2025-07-29 21:21:31.305998+00 | SELECT pid, usename, datname, state, state_change, query FROM pg_stat_activity WHERE state = 'active';
+(1 row)
+
+(END)

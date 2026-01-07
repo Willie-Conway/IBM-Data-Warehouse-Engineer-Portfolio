@@ -1,0 +1,45 @@
+theia@theiadocker-hirewillieco:/home/project$ chmod +x backup_db.sh
+theia@theiadocker-hirewillieco:/home/project$ ./backup_db.sh sakila /home/theia/backups
+SQL dump created: /home/theia/backups/sakila-30-07-2025.sql
+theia@theiadocker-hirewillieco:/home/project$ chmod +x restore_db.sh
+theia@theiadocker-hirewillieco:/home/project$ ./restore_db.sh sakila /home/theia/backups/sakila-30-07-2025.sql
+Restoring database 'sakila' from /home/theia/backups/sakila-30-07-2025.sql ...
+Restore complete.
+theia@theiadocker-hirewillieco:/home/project$ sudo rm -rfv /home/theia/backups
+removed '/home/theia/backups/all-database-30-07-2025_17-44-01.gz'
+removed '/home/theia/backups/all-database-30-07-2025_17-46-01.gz'
+removed '/home/theia/backups/sakila-30-07-2025.sql'
+removed '/home/theia/backups/all-database-30-07-2025_18-20-01.gz'
+removed '/home/theia/backups/all-database-30-07-2025_17-42-01'
+removed directory '/home/theia/backups'
+theia@theiadocker-hirewillieco:/home/project$ theia@theiadocker-hirewillieco
+theia@theiadocker-hirewillieco:/home/project$ chmod +x backup_db.sh
+theia@theiadocker-hirewillieco:/home/project$ ./backup_db.sh sakila /home/theia/backups
+SQL dump created: /home/theia/backups/sakila-30-07-2025.sql
+theia@theiadocker-hirewillieco:/home/project$ chmod +x restore_db.sh
+theia@theiadocker-hirewillieco:/home/project$ ./restore_db.sh sakila /home/theia/backups/sakila-30-07-2025.sql
+Restoring database 'sakila' from /home/theia/backups/sakila-30-07-2025.sql ...
+Restore complete.
+theia@theiadocker-hirewillieco:/home/project$ sudo rm -rfv /home/theia/backups
+removed '/home/theia/backups/all-database-30-07-2025_17-44-01.gz'
+removed '/home/theia/backups/all-database-30-07-2025_17-46-01.gz'
+removed '/home/theia/backups/sakila-30-07-2025.sql'
+removed '/home/theia/backups/all-database-30-07-2025_18-20-01.gz'
+removed '/home/theia/backups/all-database-30-07-2025_17-42-01'
+removed directory '/home/theia/backups'
+theia@theiadocker-hirewillieco:/home/project$ theia@theiadocker-hirewillieco
+theia@theiadocker-hirewillieco:/home/project$ chmod +x backup_db.sh
+theia@theiadocker-hirewillieco:/home/project$ ./backup_db.sh sakila /home/theia/backups
+SQL dump created: /home/theia/backups/sakila-30-07-2025.sql
+theia@theiadocker-hirewillieco:/home/project$ chmod +x restore_db.sh
+theia@theiadocker-hirewillieco:/home/project$ ./restore_db.sh sakila /home/theia/backups/sakila-30-07-2025.sql
+Restoring database 'sakila' from /home/theia/backups/sakila-30-07-2025.sql ...
+Restore complete.
+theia@theiadocker-hirewillieco:/home/project$ sudo rm -rfv /home/theia/backups
+removed '/home/theia/backups/all-database-30-07-2025_17-44-01.gz'
+removed '/home/theia/backups/all-database-30-07-2025_17-46-01.gz'
+removed '/home/theia/backups/sakila-30-07-2025.sql'
+removed '/home/theia/backups/all-database-30-07-2025_18-20-01.gz'
+removed '/home/theia/backups/all-database-30-07-2025_17-42-01'
+removed directory '/home/theia/backups'
+theia@theiadocker-hirewillieco:/home/project$ 

@@ -1,0 +1,137 @@
+theia@theiadocker-hirewillieco:/home/project$ ./postgres-setup.shetup.sh
+--2025-07-30 21:14:55--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/vehicle-data.csv
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 502525 (491K) [text/csv]
+Saving to: 'vehicle-data.csv'
+
+vehicle-data.c 100% 490.75K  --.-KB/s    in 0.006s       
+
+theia@theiadocker-hirewillieco:/home/project$ wget https:/
+theia@theiadocker-hirewillieco:/home/project$ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/billingdata.sql
+--2025-07-30 22:35:03--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/billingdata.sql
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3266946 (3.1M) [application/x-sql]
+Saving to: 'billingdata.sql'
+
+billingdata.sql     100%[=================>]   3.12M  --.-KB/s    in 0.02s   
+
+2025-07-30 22:35:04 (185 MB/s) - 'billingdata.sql' saved [3266946/3266946]
+theia@theiadocker-hirewillieco:/home/project$ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/-o-CVNqamn9K4hGlSpFCYg/postgres-setup.shtup.shoud-object-storage.appdomain.cloud/-o-CVNqamn9K4hGlSpFCYg/postgres-s
+--2025-07-30 20:23:48--  https://cf-courses-data.s3.us.cloud-object-storage.ap
+theia@theiadocker-hirewillieco:/home/project$ ./postgres-setup.shetup.sh
+--2025-07-30 21:14:55--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/vehicle-data.csv
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 502525 (491K) [text/csv]
+Saving to: 'vehicle-data.csv'
+
+vehicle-data.c 100% 490.75K  --.-KB/s    in 0.006s       
+
+2025-07-30 21:14:56 (75.9 MB/s) - 'vehicle-data.csv' saved [502525/502525]
+
+--2025-07-30 21:14:56--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/setup.sql
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+theia@theiadocker-hirewillieco:/home/project$ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/billingdata.sql
+--2025-07-30 22:35:03--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/billingdata.sql
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3266946 (3.1M) [application/x-sql]
+Saving to: 'billingdata.sql'
+
+theia@theiadocker-hirewillieco:/home/project$ ./postgres-setup.shetup.sh
+--2025-07-30 21:14:55--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/vehicle-data.csv
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 502525 (491K) [text/csv]
+Saving to: 'vehicle-data.csv'
+
+vehicle-data.c 100% 490.75K  --.-KB/s    in 0.006s       
+
+2025-07-30 21:14:56 (75.9 MB/s) - 'vehicle-data.csv' saved [502525/502525]
+
+--2025-07-30 21:14:56--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/setup.sql
+theia@theiadocker-hirewillieco:/home/project$ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/billingdata.sql
+--2025-07-30 22:35:03--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/billingdata.sql
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3266946 (3.1M) [application/x-sql]
+Saving to: 'billingdata.sql'
+
+theia@theiadocker-hirewillieco:/home/project$ ./postgres-setup.shetup.sh
+--2025-07-30 21:14:55--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/vehicle-data.csv
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 502525 (491K) [text/csv]
+Saving to: 'vehicle-data.csv'
+
+vehicle-data.c 100% 490.75K  --.-KB/s    in 0.006s       
+
+2025-07-30 21:14:56 (75.9 MB/s) - 'vehicle-data.csv' saved [502525/502525]
+
+--2025-07-30 21:14:56--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/setup.sql
+theia@theiadocker-hirewillieco:/home/project$ ./postgres-setup.shetup.sh
+--2025-07-30 21:14:55--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/vehicle-data.csv
+Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.63.118.104, 169.63.118.104
+Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.63.118.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 502525 (491K) [text/csv]
+Saving to: 'vehicle-data.csv'
+
+vehicle-data.c 100% 490.75K  --.-KB/s    in 0.006s       
+
+2025-07-30 21:14:56 (75.9 MB/s) - 'vehicle-data.csv' saved [502525/502525]
+
+--2025-07-30 21:14:56--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0231EN-SkillsNetwork/labs/Final%20Assignment/setup.sql
+theia@theiadocker-hirewillieco:/home/project$ mysql -u root -p < billingdata.sql
+Enter password: 
+theia@theiadocker-hirewillieco:/home/project$ mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 1995
+Server version: 8.0.37 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| billing            |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.01 sec)
+
+mysql> USE billing;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> SHOW TABLES;
++-------------------+
+| Tables_in_billing |
++-------------------+
+| billdata          |
++-------------------+
+1 row in set (0.00 sec)
+
+mysql> 

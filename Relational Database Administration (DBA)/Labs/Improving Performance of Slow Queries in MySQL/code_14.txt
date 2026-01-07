@@ -1,0 +1,19 @@
+mysql> CREATE INDEX first_name_index ON employees(first_name);
+Query OK, 0 rows affected (2.74 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> CREATE INDEX last_name_index ON employees(last_name);
+Query OK, 0 rows affected (2.92 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> SHOW INDEX FROM employees;
++-----------+------------+------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| Table     | Non_unique | Key_name         | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment | Visible | Expression |
++-----------+------------+------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+| employees |          0 | PRIMARY          |            1 | emp_no      | A         |      299157 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| employees |          1 | first_name_index |            1 | first_name  | A         |        1282 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
+| employees |          1 | last_name_index  |            1 | last_name   | A         |        1684 |     NULL |   NULL |      | BTREE      |         |               | YES     | NULL       |
++-----------+------------+------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+---------+------------+
+3 rows in set (0.01 sec)
+
+mysql> 

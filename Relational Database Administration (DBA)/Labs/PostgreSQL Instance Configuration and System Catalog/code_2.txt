@@ -1,0 +1,13 @@
+theia@theiadocker-hirewillieco:/home/project$ psql --username=postgres --host=localhost
+psql (15.2 (Ubuntu 15.2-1.pgdg18.04+1), server 13.2)
+Type "help" for help.
+
+postgres=# ALTER SYSTEM SET wal_level = 'logical';
+ALTER SYSTEM
+postgres=# SHOW wal_level;
+ wal_level 
+-----------
+ replica
+(1 row)
+
+postgres=# 
