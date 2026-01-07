@@ -1,0 +1,430 @@
+theia@theiadocker-hirewillieco:/home/project/airflow$ airflow dags list
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:812 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:724 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:747 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:761 FutureWarning: The auth_backends setting in [api] has had airflow.api.auth.backend.session added in the running config, which is needed by the UI. Please update your config before Apache Airflow 3.0.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:738 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/models/base.py:72 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+dag_id          | fileloc         | owners        | is_paused
+================+=================+===============+==========
+conditional_dat | /home/airflow/. | airflow       | True     
+aset_and_time_b | local/lib/pytho |               |          
+ased_timetable  | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+consume_1_and_2 | /home/airflow/. | airflow       | True     
+_with_dataset_e | local/lib/pytho |               |          
+xpressions      | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+consume_1_or_2_ | /home/airflow/. | airflow       | True     
+with_dataset_ex | local/lib/pytho |               |          
+pressions       | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+consume_1_or_bo | /home/airflow/. | airflow       | True     
+th_2_and_3_with | local/lib/pytho |               |          
+_dataset_expres | n3.9/site-packa |               |          
+sions           | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+dataset_consume | /home/airflow/. | airflow       | True     
+s_1             | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+dataset_consume | /home/airflow/. | airflow       | True     
+s_1_and_2       | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+dataset_consume | /home/airflow/. | airflow       | True     
+s_1_never_sched | local/lib/pytho |               |          
+uled            | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+dataset_consume | /home/airflow/. | airflow       | True     
+s_unknown_never | local/lib/pytho |               |          
+_scheduled      | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+dataset_produce | /home/airflow/. | airflow       | True     
+s_1             | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+dataset_produce | /home/airflow/. | airflow       | True     
+s_2             | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_datasets.py  |               |          
+example_bash_de | /home/airflow/. | airflow       | True     
+corator         | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_bash_decorat |               |          
+                | or.py           |               |          
+example_bash_op | /home/airflow/. | airflow       | True     
+erator          | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_bash_operato |               |          
+                | r.py            |               |          
+example_branch_ | /home/airflow/. | airflow       | True     
+datetime_operat | local/lib/pytho |               |          
+or              | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_branch_datet |               |          
+                | ime_operator.py |               |          
+example_branch_ | /home/airflow/. | airflow       | True     
+datetime_operat | local/lib/pytho |               |          
+or_2            | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_branch_datet |               |          
+                | ime_operator.py |               |          
+example_branch_ | /home/airflow/. | airflow       | True     
+datetime_operat | local/lib/pytho |               |          
+or_3            | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_branch_datet |               |          
+                | ime_operator.py |               |          
+example_branch_ | /home/airflow/. | airflow       | True     
+dop_operator_v3 | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_branch_pytho |               |          
+                | n_dop_operator_ |               |          
+                | 3.py            |               |          
+example_branch_ | /home/airflow/. | airflow       | True     
+labels          | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_branch_label |               |          
+                | s.py            |               |          
+example_branch_ | /home/airflow/. | airflow       | True     
+operator        | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_branch_opera |               |          
+                | tor.py          |               |          
+example_branch_ | /home/airflow/. | airflow       | True     
+python_operator | local/lib/pytho |               |          
+_decorator      | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_branch_opera |               |          
+                | tor_decorator.p |               |          
+                | y               |               |          
+example_complex | /home/airflow/. | airflow       | True     
+                | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_complex.py   |               |          
+example_dag_dec | /home/airflow/. | airflow       | True     
+orator          | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_dag_decorato |               |          
+                | r.py            |               |          
+example_display | /home/airflow/. | airflow       | True     
+_name           | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_display_name |               |          
+                | .py             |               |          
+example_dynamic | /home/airflow/. | airflow       | True     
+_task_mapping   | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_dynamic_task |               |          
+                | _mapping.py     |               |          
+example_dynamic | /home/airflow/. | airflow       | True     
+_task_mapping_w | local/lib/pytho |               |          
+ith_no_taskflow | n3.9/site-packa |               |          
+_operators      | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_dynamic_task |               |          
+                | _mapping_with_n |               |          
+                | o_taskflow_oper |               |          
+                | ators.py        |               |          
+example_externa | /home/airflow/. | airflow       | True     
+l_task_marker_c | local/lib/pytho |               |          
+hild            | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_external_tas |               |          
+                | k_marker_dag.py |               |          
+example_externa | /home/airflow/. | airflow       | True     
+l_task_marker_p | local/lib/pytho |               |          
+arent           | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_external_tas |               |          
+                | k_marker_dag.py |               |          
+example_kuberne | /home/airflow/. | airflow       | True     
+tes_executor    | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_kubernetes_e |               |          
+                | xecutor.py      |               |          
+example_local_k | /home/airflow/. | airflow       | True     
+ubernetes_execu | local/lib/pytho |               |          
+tor             | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_local_kubern |               |          
+                | etes_executor.p |               |          
+                | y               |               |          
+example_nested_ | /home/airflow/. | airflow       | True     
+branch_dag      | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_nested_branc |               |          
+                | h_dag.py        |               |          
+example_params_ | /home/airflow/. | airflow       | True     
+trigger_ui      | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_params_trigg |               |          
+                | er_ui.py        |               |          
+example_params_ | /home/airflow/. | airflow       | True     
+ui_tutorial     | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_params_ui_tu |               |          
+                | torial.py       |               |          
+example_passing | /home/airflow/. | airflow       | True     
+_params_via_tes | local/lib/pytho |               |          
+t_command       | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_passing_para |               |          
+                | ms_via_test_com |               |          
+                | mand.py         |               |          
+example_python_ | /home/airflow/. | airflow       | True     
+decorator       | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_python_decor |               |          
+                | ator.py         |               |          
+example_python_ | /home/airflow/. | airflow       | True     
+operator        | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_python_opera |               |          
+                | tor.py          |               |          
+example_sensor_ | /home/airflow/. | airflow       | True     
+decorator       | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_sensor_decor |               |          
+                | ator.py         |               |          
+example_sensors | /home/airflow/. | airflow       | True     
+                | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_sensors.py   |               |          
+example_setup_t | /home/airflow/. | airflow       | True     
+eardown         | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_setup_teardo |               |          
+                | wn.py           |               |          
+example_setup_t | /home/airflow/. | airflow       | True     
+eardown_taskflo | local/lib/pytho |               |          
+w               | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_setup_teardo |               |          
+                | wn_taskflow.py  |               |          
+example_short_c | /home/airflow/. | airflow       | True     
+ircuit_decorato | local/lib/pytho |               |          
+r               | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_short_circui |               |          
+                | t_decorator.py  |               |          
+example_short_c | /home/airflow/. | airflow       | True     
+ircuit_operator | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_short_circui |               |          
+                | t_operator.py   |               |          
+example_skip_da | /home/airflow/. | airflow       | True     
+g               | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_skip_dag.py  |               |          
+example_sla_dag | /home/airflow/. | airflow       | True     
+                | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_sla_dag.py   |               |          
+example_subdag_ | /home/airflow/. | airflow       | True     
+operator        | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_subdag_opera |               |          
+                | tor.py          |               |          
+example_subdag_ | /home/airflow/. | airflow       | True     
+operator.sectio | local/lib/pytho |               |          
+n-1             | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_subdag_opera |               |          
+                | tor.py          |               |          
+example_subdag_ | /home/airflow/. | airflow       | True     
+operator.sectio | local/lib/pytho |               |          
+n-2             | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_subdag_opera |               |          
+                | tor.py          |               |          
+example_task_gr | /home/airflow/. | airflow       | True     
+oup             | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_task_group.p |               |          
+                | y               |               |          
+example_task_gr | /home/airflow/. | airflow       | True     
+oup_decorator   | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_task_group_d |               |          
+                | ecorator.py     |               |          
+example_time_de | /home/airflow/. | airflow       | True     
+lta_sensor_asyn | local/lib/pytho |               |          
+c               | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_time_delta_s |               |          
+                | ensor_async.py  |               |          
+example_trigger | /home/airflow/. | airflow       | True     
+_controller_dag | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_trigger_cont |               |          
+                | roller_dag.py   |               |          
+example_trigger | /home/airflow/. | airflow       | True     
+_target_dag     | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_trigger_targ |               |          
+                | et_dag.py       |               |          
+example_weekday | /home/airflow/. | airflow       | True     
+_branch_operato | local/lib/pytho |               |          
+r               | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_branch_day_o |               |          
+                | f_week_operator |               |          
+                | .py             |               |          
+example_xcom    | /home/airflow/. | airflow       | True     
+                | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_xcom.py      |               |          
+example_xcom_ar | /home/airflow/. | airflow       | True     
+gs              | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_xcomargs.py  |               |          
+example_xcom_ar | /home/airflow/. | airflow       | True     
+gs_with_operato | local/lib/pytho |               |          
+rs              | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_xcomargs.py  |               |          
+latest_only     | /home/airflow/. | airflow       | True     
+                | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_latest_only. |               |          
+                | py              |               |          
+latest_only_wit | /home/airflow/. | airflow       | True     
+h_trigger       | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/examp |               |          
+                | le_latest_only_ |               |          
+                | with_trigger.py |               |          
+my-first-dag    | /home/project/a | Willie Conway | True     
+                | irflow/dags/my_ |               |          
+                | first_dag.py    |               |          
+tutorial        | /home/airflow/. | airflow       | True     
+                | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/tutor |               |          
+                | ial.py          |               |          
+tutorial_dag    | /home/airflow/. | airflow       | True     
+                | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/tutor |               |          
+                | ial_dag.py      |               |          
+tutorial_object | /home/airflow/. | airflow       | True     
+storage         | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/tutor |               |          
+                | ial_objectstora |               |          
+                | ge.py           |               |          
+tutorial_taskfl | /home/airflow/. | airflow       | True     
+ow_api          | local/lib/pytho |               |          
+                | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/tutor |               |          
+                | ial_taskflow_ap |               |          
+                | i.py            |               |          
+tutorial_taskfl | /home/airflow/. | airflow       | True     
+ow_api_virtuale | local/lib/pytho |               |          
+nv              | n3.9/site-packa |               |          
+                | ges/airflow/exa |               |          
+                | mple_dags/tutor |               |          
+                | ial_taskflow_ap |               |          
+                | i_virtualenv.py |               |          
+                                                             
+theia@theiadocker-hirewillieco:/home/project/airflow$ 

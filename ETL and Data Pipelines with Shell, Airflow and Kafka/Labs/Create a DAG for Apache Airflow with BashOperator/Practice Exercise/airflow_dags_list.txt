@@ -1,0 +1,202 @@
+theia@theiadocker-hirewillieco:/home/project/airflow$ airflow dags list
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:812 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:724 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:747 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:761 FutureWarning: The auth_backends setting in [api] has had airflow.api.auth.backend.session added in the running config, which is needed by the UI. Please update your config before Apache Airflow 3.0.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:738 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/models/base.py:72 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+dag_id                                | fileloc                              | owners        | is_paused
+======================================+======================================+===============+==========
+ETL_Server_Access_Log_Processing      | /home/project/airflow/dags/ETL_Serve | Willie Conway | None     
+                                      | r_Access_Log_Processing.py           |               |          
+conditional_dataset_and_time_based_ti | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+metable                               | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+consume_1_and_2_with_dataset_expressi | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+ons                                   | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+consume_1_or_2_with_dataset_expressio | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+ns                                    | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+consume_1_or_both_2_and_3_with_datase | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+t_expressions                         | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+dataset_consumes_1                    | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+dataset_consumes_1_and_2              | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+dataset_consumes_1_never_scheduled    | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+dataset_consumes_unknown_never_schedu | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+led                                   | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+dataset_produces_1                    | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+dataset_produces_2                    | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_datasets.py                    |               |          
+example_bash_decorator                | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_bash_decorator.py              |               |          
+example_bash_operator                 | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_bash_operator.py               |               |          
+example_branch_datetime_operator      | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_branch_datetime_operator.py    |               |          
+example_branch_datetime_operator_2    | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_branch_datetime_operator.py    |               |          
+example_branch_datetime_operator_3    | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_branch_datetime_operator.py    |               |          
+example_branch_dop_operator_v3        | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_branch_python_dop_operator_3.p |               |          
+                                      | y                                    |               |          
+example_branch_labels                 | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_branch_labels.py               |               |          
+example_branch_operator               | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_branch_operator.py             |               |          
+example_branch_python_operator_decora | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+tor                                   | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_branch_operator_decorator.py   |               |          
+example_complex                       | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_complex.py                     |               |          
+example_dag_decorator                 | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_dag_decorator.py               |               |          
+example_display_name                  | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_display_name.py                |               |          
+example_dynamic_task_mapping          | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_dynamic_task_mapping.py        |               |          
+example_dynamic_task_mapping_with_no_ | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+taskflow_operators                    | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_dynamic_task_mapping_with_no_t |               |          
+                                      | askflow_operators.py                 |               |          
+example_external_task_marker_child    | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_external_task_marker_dag.py    |               |          
+example_external_task_marker_parent   | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_external_task_marker_dag.py    |               |          
+example_kubernetes_executor           | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_kubernetes_executor.py         |               |          
+example_local_kubernetes_executor     | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_local_kubernetes_executor.py   |               |          
+example_nested_branch_dag             | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_nested_branch_dag.py           |               |          
+example_params_trigger_ui             | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_params_trigger_ui.py           |               |          
+example_params_ui_tutorial            | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_params_ui_tutorial.py          |               |          
+example_passing_params_via_test_comma | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+nd                                    | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_passing_params_via_test_comman |               |          
+                                      | d.py                                 |               |          
+example_python_decorator              | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_python_decorator.py            |               |          
+example_python_operator               | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_python_operator.py             |               |          
+example_sensor_decorator              | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_sensor_decorator.py            |               |          
+example_sensors                       | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_sensors.py                     |               |          
+example_setup_teardown                | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_setup_teardown.py              |               |          
+example_setup_teardown_taskflow       | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_setup_teardown_taskflow.py     |               |          
+example_short_circuit_decorator       | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_short_circuit_decorator.py     |               |          
+example_short_circuit_operator        | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_short_circuit_operator.py      |               |          
+example_skip_dag                      | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_skip_dag.py                    |               |          
+example_sla_dag                       | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_sla_dag.py                     |               |          
+example_subdag_operator               | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_subdag_operator.py             |               |          
+example_subdag_operator.section-1     | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_subdag_operator.py             |               |          
+example_subdag_operator.section-2     | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_subdag_operator.py             |               |          
+example_task_group                    | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_task_group.py                  |               |          
+example_task_group_decorator          | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_task_group_decorator.py        |               |          
+example_time_delta_sensor_async       | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_time_delta_sensor_async.py     |               |          
+example_trigger_controller_dag        | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_trigger_controller_dag.py      |               |          
+example_trigger_target_dag            | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_trigger_target_dag.py          |               |          
+example_weekday_branch_operator       | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_branch_day_of_week_operator.py |               |          
+example_xcom                          | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_xcom.py                        |               |          
+example_xcom_args                     | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_xcomargs.py                    |               |          
+example_xcom_args_with_operators      | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_xcomargs.py                    |               |          
+latest_only                           | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_latest_only.py                 |               |          
+latest_only_with_trigger              | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/ex |               |          
+                                      | ample_latest_only_with_trigger.py    |               |          
+my-first-dag                          | /home/project/airflow/dags/my_first_ | Willie Conway | True     
+                                      | dag.py                               |               |          
+tutorial                              | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/tu |               |          
+                                      | torial.py                            |               |          
+tutorial_dag                          | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/tu |               |          
+                                      | torial_dag.py                        |               |          
+tutorial_objectstorage                | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/tu |               |          
+                                      | torial_objectstorage.py              |               |          
+tutorial_taskflow_api                 | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/tu |               |          
+                                      | torial_taskflow_api.py               |               |          
+tutorial_taskflow_api_virtualenv      | /home/airflow/.local/lib/python3.9/s | airflow       | True     
+                                      | ite-packages/airflow/example_dags/tu |               |          
+                                      | torial_taskflow_api_virtualenv.py    |               |          
+                                                                                                        
+theia@theiadocker-hirewillieco:/home/project/airflow$ 

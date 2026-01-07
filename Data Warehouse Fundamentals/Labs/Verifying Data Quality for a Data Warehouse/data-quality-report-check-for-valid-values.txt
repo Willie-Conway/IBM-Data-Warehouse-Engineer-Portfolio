@@ -1,0 +1,108 @@
+theia@theiadocker-hirewillieco:/home/project$ python3 generate-data-quali
+ty-report.py
+Connected to data warehouse
+**************************************************
+Sat Jun 28 02:22:37 2025
+Starting test Check for nulls
+Finished test Check for nulls
+Test Passed True
+Test Parameters
+column = monthid
+table = DimMonth
+
+Duration :  0.004111766815185547
+Sat Jun 28 02:22:37 2025
+**************************************************
+**************************************************
+Sat Jun 28 02:22:37 2025
+Starting test Check for min and max
+Finished test Check for min and max
+Test Passed True
+Test Parameters
+column = month
+table = DimMonth
+minimum = 1
+maximum = 12
+
+Duration :  0.0015616416931152344
+Sat Jun 28 02:22:37 2025
+**************************************************
+**************************************************
+Sat Jun 28 02:22:37 2025
+Starting test Check for valid values
+{'Individual', 'Company'}
+Finished test Check for valid values
+Test Passed True
+Test Parameters
+column = category
+table = DimCustomer
+valid_values = {'Individual', 'Company'}
+
+Duration :  0.00325775146484375
+Sat Jun 28 02:22:37 2025
+**************************************************
+**************************************************
+Sat Jun 28 02:22:37 2025
+Starting test Check for duplicates
+Finished test Check for duplicates
+Test Passed True
+Test Parameters
+column = monthid
+table = DimMonth
+
+Duration :  0.0022470951080322266
+Sat Jun 28 02:22:37 2025
+**************************************************
+**************************************************
+Sat Jun 28 02:22:37 2025
+Starting test Check for nulls
+Finished test Check for nulls
+Test Passed True
+Test Parameters
+column = year
+table = DimMonth
+
+Duration :  0.0013277530670166016
+Sat Jun 28 02:22:37 2025
+**************************************************
+**************************************************
+Sat Jun 28 02:22:37 2025
+Starting test Check for min and max
+Finished test Check for min and max
+Test Passed True
+Test Parameters
+column = quarter
+table = DimMonth
+minimum = 1
+maximum = 4
+
+Duration :  0.0012707710266113281
+Sat Jun 28 02:22:37 2025
+**************************************************
+**************************************************
+Sat Jun 28 02:22:37 2025
+Starting test Check for valid values
+{'Q3', 'Q4', 'Q1', 'Q2'}
+Finished test Check for valid values
+Test Passed True
+Test Parameters
+column = quartername
+table = DimMonth
+valid_values = {'Q3', 'Q4', 'Q1', 'Q2'}
+
+Duration :  0.0014476776123046875
+Sat Jun 28 02:22:37 2025
+**************************************************
++----+------------------------+-------------+-------------+---------------+
+|    | Test Name              | Table       | Column      | Test Passed   |
+|----+------------------------+-------------+-------------+---------------|
+|  1 | Check for nulls        | DimMonth    | monthid     | True          |
+|  2 | Check for min and max  | DimMonth    | month       | True          |
+|  3 | Check for valid values | DimCustomer | category    | True          |
+|  4 | Check for duplicates   | DimMonth    | monthid     | True          |
+|  5 | Check for nulls        | DimMonth    | year        | True          |
+|  6 | Check for min and max  | DimMonth    | quarter     | True          |
+|  7 | Check for valid values | DimMonth    | quartername | True          |
++----+------------------------+-------------+-------------+---------------+
+Disconnected from data warehouse
+theia@theiadocker-hirewillieco:/home/project$ 

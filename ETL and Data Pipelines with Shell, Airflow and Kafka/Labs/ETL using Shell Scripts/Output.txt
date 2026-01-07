@@ -1,0 +1,10 @@
+theia@theiadocker-hirewillieco:/home/project$ export PGPASSWORD=u6gYvtaqGfOHGE1cIjwcBuCY; psql --host 172.21.173.28 -p 5432 -U postgres
+psql (14.17 (Ubuntu 14.17-0ubuntu0.22.04.1), server 13.2)
+Type "help" for help.
+
+postgres=# \c template1
+psql (14.17 (Ubuntu 14.17-0ubuntu0.22.04.1), server 13.2)
+You are now connected to database "template1" as user "postgres".
+template1=# create table users(username varchar(50),userid int,homedirectory varchar(100));
+CREATE TABLE
+template1=# 

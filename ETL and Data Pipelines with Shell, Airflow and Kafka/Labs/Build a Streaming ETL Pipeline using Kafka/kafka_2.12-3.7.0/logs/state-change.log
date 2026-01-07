@@ -1,0 +1,3 @@
+[2025-12-12 13:47:25,436] INFO [Broker id=1] Transitioning 1 partition(s) to local leaders. (state.change.logger)
+[2025-12-12 13:47:25,444] INFO [Broker id=1] Creating new partition toll-0 with topic id ht6NVFfVSHe6RhohzmMvEA. (state.change.logger)
+[2025-12-12 13:47:25,499] INFO [Broker id=1] Leader toll-0 with topic id Some(ht6NVFfVSHe6RhohzmMvEA) starts at leader epoch 0 from offset 0 with partition epoch 0, high watermark 0, ISR [1], adding replicas [] and removing replicas [] . Previous leader None and previous leader epoch was -1. (state.change.logger)

@@ -1,0 +1,11 @@
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic bankbranch --from-beginning --property print.key=true --property key.separator=:
+1:{"atmid": 1, "transid": 103}
+1:{"atmid": 1, "transid": 104}
+1:{"atmid": 1, "transid": 105}
+null:{"atmid": 1, "transid": 100}
+null:{"atmid": 1, "transid": 101}
+null:{"atmid": 2, "transid": 200}
+null:{"atmid": 1, "transid": 102}
+null:{"atmid": 2, "transid": 201}
+2:{"atmid": 2, "transid": 202}
+2:{"atmid": 2, "transid": 203}

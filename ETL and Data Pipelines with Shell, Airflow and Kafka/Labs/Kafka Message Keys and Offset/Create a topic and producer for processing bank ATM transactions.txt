@@ -1,0 +1,16 @@
+theia@theiadocker-hirewillieco:/home/project$ cd kafka_2.13-3.8.0
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ bin/kafka-topics.sh --create --topic bankbranch --partitions 2 --bootstrap-server localhost:9092
+Created topic bankbranch.
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
+bankbranch
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ bin/kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic bankbranch
+Topic: bankbranch       TopicId: ZAP6I6h-QJSGZZzISek77g PartitionCount: 2      ReplicationFactor: 1    Configs: segment.bytes=1073741824
+        Topic: bankbranch       Partition: 0    Leader: 1       Replicas: 1    Isr: 1  Elr:    LastKnownElr: 
+        Topic: bankbranch       Partition: 1    Leader: 1       Replicas: 1    Isr: 1  Elr:    LastKnownElr: 
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ bin/kafka-console-producer.sh --bootstrap-server localhost:9092 --topic bankbranch
+>{"atmid": 1, "transid": 100}
+>{"atmid": 1, "transid": 101}
+>{"atmid": 2, "transid": 200}
+>{"atmid": 1, "transid": 102}
+>{"atmid": 2, "transid": 201}
+>

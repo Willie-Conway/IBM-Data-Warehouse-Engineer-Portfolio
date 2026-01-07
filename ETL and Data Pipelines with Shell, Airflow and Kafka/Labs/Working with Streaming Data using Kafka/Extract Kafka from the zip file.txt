@@ -1,0 +1,1 @@
+tar -xzf kafka_2.13-3.8.0.tgz

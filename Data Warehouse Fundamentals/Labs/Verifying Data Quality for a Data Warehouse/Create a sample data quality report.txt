@@ -1,0 +1,2 @@
+python3 -m pip install pandas tabulate
+python3 generate-data-quality-report.py

@@ -1,0 +1,4 @@
+wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0260EN-SkillsNetwork/labs/Setting%20up%20a%20staging%20area/billing-datawarehouse.tgz
+
+tar -xvzf billing-datawarehouse.tgz
+ls *.sql

@@ -1,0 +1,24 @@
+theia@theiadocker-hirewillieco:/home/project$ chmod +x exercise_create_dag.sh
+theia@theiadocker-hirewillieco:/home/project$ ./exercise_create_dag.sh
+Creating DAG file: my_first_dag.py
+Moving my_first_dag.py to /home/project/airflow/dags...
+Initializing Airflow database (airflow db init)...
+/usr/local/lib/python3.11/dist-packages/airflow/utils/providers_configuration_loader.py:55 DeprecationWarning: `db init` is deprecated.  Use `db migrate` instead to migrate the db and/or airflow connections create-default-connections to create the default connections
+DB: sqlite:////home/project/airflow/airflow.db
+[2025-08-01T10:43:44.697-0400] {migration.py:207} INFO - Context impl SQLiteImpl.
+[2025-08-01T10:43:44.699-0400] {migration.py:210} INFO - Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+INFO  [alembic.runtime.migration] Running stamp_revision  -> 5f2621c13b39
+WARNI [airflow.models.crypto] empty cryptography key - values will not be stored encrypted.
+Initialization done
+Verifying DAG is listed...
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+my-first-python-etl-dag                                 | /home/project/airflow/dags/my_first_dag.py                                                                         | Willie Conway | None     
+Checking for DAG import errors...
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+No data found
+Starting Airflow scheduler in background...
+Starting Airflow webserver in background (default port 8080)...
+Setup complete. Access the Airflow UI at http://localhost:8080
+theia@theiadocker-hirewillieco:/home/project$ 

@@ -1,0 +1,235 @@
+theia@theiadocker-hirewillieco:/home/project$ chmod +x submit_dag.sh
+theia@theiadocker-hirewillieco:/home/project$ ./submit_dag.sh
+AIRFLOW_HOME set to /home/project/airflow
+DAG file copied to /home/project/airflow/dags
+Listing all DAGs...
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+dag_id                              | fileloc                             | owners        | is_paused
+====================================+=====================================+===============+==========
+conditional_dataset_and_time_based_ | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+timetable                           | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+consume_1_and_2_with_dataset_expres | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+sions                               | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+consume_1_or_2_with_dataset_express | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+ions                                | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+consume_1_or_both_2_and_3_with_data | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+set_expressions                     | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+dataset_alias_example_alias_consume | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+r                                   | ages/airflow/example_dags/example_d |               |          
+                                    | ataset_alias.py                     |               |          
+dataset_alias_example_alias_consume | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+r_with_no_taskflow                  | ages/airflow/example_dags/example_d |               |          
+                                    | ataset_alias_with_no_taskflow.py    |               |          
+dataset_alias_example_alias_produce | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+r                                   | ages/airflow/example_dags/example_d |               |          
+                                    | ataset_alias.py                     |               |          
+dataset_alias_example_alias_produce | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+r_with_no_taskflow                  | ages/airflow/example_dags/example_d |               |          
+                                    | ataset_alias_with_no_taskflow.py    |               |          
+dataset_consumes_1                  | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+dataset_consumes_1_and_2            | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+dataset_consumes_1_never_scheduled  | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+dataset_consumes_unknown_never_sche | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+duled                               | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+dataset_produces_1                  | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+dataset_produces_2                  | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | atasets.py                          |               |          
+dataset_s3_bucket_consumer          | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | ataset_alias.py                     |               |          
+dataset_s3_bucket_consumer_with_no_ | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+taskflow                            | ages/airflow/example_dags/example_d |               |          
+                                    | ataset_alias_with_no_taskflow.py    |               |          
+dataset_s3_bucket_producer          | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | ataset_alias.py                     |               |          
+dataset_s3_bucket_producer_with_no_ | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+taskflow                            | ages/airflow/example_dags/example_d |               |          
+                                    | ataset_alias_with_no_taskflow.py    |               |          
+dataset_with_extra_by_context       | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_o |               |          
+                                    | utlet_event_extra.py                |               |          
+dataset_with_extra_by_yield         | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_o |               |          
+                                    | utlet_event_extra.py                |               |          
+dataset_with_extra_from_classic_ope | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+rator                               | ages/airflow/example_dags/example_o |               |          
+                                    | utlet_event_extra.py                |               |          
+example_bash_decorator              | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_b |               |          
+                                    | ash_decorator.py                    |               |          
+example_bash_operator               | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_b |               |          
+                                    | ash_operator.py                     |               |          
+example_branch_datetime_operator    | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_b |               |          
+                                    | ranch_datetime_operator.py          |               |          
+example_branch_datetime_operator_2  | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_b |               |          
+                                    | ranch_datetime_operator.py          |               |          
+example_branch_datetime_operator_3  | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_b |               |          
+                                    | ranch_datetime_operator.py          |               |          
+example_branch_dop_operator_v3      | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_b |               |          
+                                    | ranch_python_dop_operator_3.py      |               |          
+example_branch_labels               | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_b |               |          
+                                    | ranch_labels.py                     |               |          
+example_complex                     | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_c |               |          
+                                    | omplex.py                           |               |          
+example_dag_decorator               | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | ag_decorator.py                     |               |          
+example_display_name                | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | isplay_name.py                      |               |          
+example_dynamic_task_mapping        | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_d |               |          
+                                    | ynamic_task_mapping.py              |               |          
+example_dynamic_task_mapping_with_n | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+o_taskflow_operators                | ages/airflow/example_dags/example_d |               |          
+                                    | ynamic_task_mapping_with_no_taskflo |               |          
+                                    | w_operators.py                      |               |          
+example_external_task_marker_child  | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_e |               |          
+                                    | xternal_task_marker_dag.py          |               |          
+example_external_task_marker_parent | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_e |               |          
+                                    | xternal_task_marker_dag.py          |               |          
+example_nested_branch_dag           | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_n |               |          
+                                    | ested_branch_dag.py                 |               |          
+example_params_trigger_ui           | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_p |               |          
+                                    | arams_trigger_ui.py                 |               |          
+example_params_ui_tutorial          | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_p |               |          
+                                    | arams_ui_tutorial.py                |               |          
+example_passing_params_via_test_com | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+mand                                | ages/airflow/example_dags/example_p |               |          
+                                    | assing_params_via_test_command.py   |               |          
+example_python_decorator            | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_p |               |          
+                                    | ython_decorator.py                  |               |          
+example_python_operator             | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_p |               |          
+                                    | ython_operator.py                   |               |          
+example_sensor_decorator            | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | ensor_decorator.py                  |               |          
+example_sensors                     | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | ensors.py                           |               |          
+example_setup_teardown              | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | etup_teardown.py                    |               |          
+example_setup_teardown_taskflow     | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | etup_teardown_taskflow.py           |               |          
+example_short_circuit_decorator     | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | hort_circuit_decorator.py           |               |          
+example_short_circuit_operator      | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | hort_circuit_operator.py            |               |          
+example_skip_dag                    | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | kip_dag.py                          |               |          
+example_sla_dag                     | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | la_dag.py                           |               |          
+example_subdag_operator             | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | ubdag_operator.py                   |               |          
+example_subdag_operator.section-1   | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | ubdag_operator.py                   |               |          
+example_subdag_operator.section-2   | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_s |               |          
+                                    | ubdag_operator.py                   |               |          
+example_task_group                  | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_t |               |          
+                                    | ask_group.py                        |               |          
+example_task_group_decorator        | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_t |               |          
+                                    | ask_group_decorator.py              |               |          
+example_time_delta_sensor_async     | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_t |               |          
+                                    | ime_delta_sensor_async.py           |               |          
+example_trigger_controller_dag      | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_t |               |          
+                                    | rigger_controller_dag.py            |               |          
+example_trigger_target_dag          | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_t |               |          
+                                    | rigger_target_dag.py                |               |          
+example_weekday_branch_operator     | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_b |               |          
+                                    | ranch_day_of_week_operator.py       |               |          
+example_workday_timetable           | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_w |               |          
+                                    | orkday_timetable.py                 |               |          
+example_xcom                        | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_x |               |          
+                                    | com.py                              |               |          
+example_xcom_args                   | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_x |               |          
+                                    | comargs.py                          |               |          
+example_xcom_args_with_operators    | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_x |               |          
+                                    | comargs.py                          |               |          
+latest_only                         | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_l |               |          
+                                    | atest_only.py                       |               |          
+latest_only_with_trigger            | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_l |               |          
+                                    | atest_only_with_trigger.py          |               |          
+my-first-python-etl-dag             | /home/project/airflow/dags/my_first | Willie Conway | True     
+                                    | _dag.py                             |               |          
+read_dataset_event                  | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_i |               |          
+                                    | nlet_event_extra.py                 |               |          
+read_dataset_event_from_classic     | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/example_i |               |          
+                                    | nlet_event_extra.py                 |               |          
+tutorial                            | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/tutorial. |               |          
+                                    | py                                  |               |          
+tutorial_dag                        | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/tutorial_ |               |          
+                                    | dag.py                              |               |          
+tutorial_objectstorage              | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/tutorial_ |               |          
+                                    | objectstorage.py                    |               |          
+tutorial_taskflow_api               | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/tutorial_ |               |          
+                                    | taskflow_api.py                     |               |          
+tutorial_taskflow_templates         | /usr/local/lib/python3.11/dist-pack | airflow       | True     
+                                    | ages/airflow/example_dags/tutorial_ |               |          
+                                    | taskflow_templates.py               |               |          
+                                                                                                     
+Verifying that 'my-first-python-etl-dag' is in the DAG list...
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+my-first-python-etl-dag                                 | /home/project/airflow/dags/my_first_dag.py                                                                         | Willie Conway | True     
+Listing all tasks in 'my-first-python-etl-dag'...
+check
+extract
+load
+transform
+✅ DAG submission complete.
+theia@theiadocker-hirewillieco:/home/project$

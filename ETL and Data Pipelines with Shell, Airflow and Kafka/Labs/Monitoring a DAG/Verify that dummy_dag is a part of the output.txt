@@ -1,0 +1,5 @@
+airflow dags list | grep dummy_dag
+
+theia@theiadocker-hirewillieco:/home/project$ airflow dags list | grep dummy_dag
+dummy_dag                                               | /home/project/airflow/dags/dummy_dag.py                                                                            | Willie Conway | True     
+theia@theiadocker-hirewillieco:/home/project$ 

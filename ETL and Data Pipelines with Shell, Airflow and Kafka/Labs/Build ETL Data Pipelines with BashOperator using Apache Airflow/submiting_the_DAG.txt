@@ -1,0 +1,193 @@
+theia@theiadocker-hirewillieco:/home/project$ airflow dags list
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:812 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:724 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:747 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:761 FutureWarning: The auth_backends setting in [api] has had airflow.api.auth.backend.session added in the running config, which is needed by the UI. Please update your config before Apache Airflow 3.0.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:738 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/models/base.py:72 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+dag_id                                      | fileloc                                     | owners        | is_paused
+============================================+=============================================+===============+==========
+ETL_toll_data                               | /home/project/airflow/dags/ETL_toll_data.py | willie conway | True     
+conditional_dataset_and_time_based_timetabl | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+e                                           | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+consume_1_and_2_with_dataset_expressions    | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+consume_1_or_2_with_dataset_expressions     | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+consume_1_or_both_2_and_3_with_dataset_expr | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+essions                                     | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+dataset_consumes_1                          | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+dataset_consumes_1_and_2                    | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+dataset_consumes_1_never_scheduled          | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+dataset_consumes_unknown_never_scheduled    | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+dataset_produces_1                          | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+dataset_produces_2                          | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_datasets |               |          
+                                            | .py                                         |               |          
+example_bash_decorator                      | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_bash_dec |               |          
+                                            | orator.py                                   |               |          
+example_bash_operator                       | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_bash_ope |               |          
+                                            | rator.py                                    |               |          
+example_branch_datetime_operator            | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_branch_d |               |          
+                                            | atetime_operator.py                         |               |          
+example_branch_datetime_operator_2          | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_branch_d |               |          
+                                            | atetime_operator.py                         |               |          
+example_branch_datetime_operator_3          | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_branch_d |               |          
+                                            | atetime_operator.py                         |               |          
+example_branch_dop_operator_v3              | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_branch_p |               |          
+                                            | ython_dop_operator_3.py                     |               |          
+example_branch_labels                       | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_branch_l |               |          
+                                            | abels.py                                    |               |          
+example_branch_operator                     | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_branch_o |               |          
+                                            | perator.py                                  |               |          
+example_branch_python_operator_decorator    | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_branch_o |               |          
+                                            | perator_decorator.py                        |               |          
+example_complex                             | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_complex. |               |          
+                                            | py                                          |               |          
+example_dag_decorator                       | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_dag_deco |               |          
+                                            | rator.py                                    |               |          
+example_display_name                        | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_display_ |               |          
+                                            | name.py                                     |               |          
+example_dynamic_task_mapping                | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_dynamic_ |               |          
+                                            | task_mapping.py                             |               |          
+example_dynamic_task_mapping_with_no_taskfl | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+ow_operators                                | kages/airflow/example_dags/example_dynamic_ |               |          
+                                            | task_mapping_with_no_taskflow_operators.py  |               |          
+example_external_task_marker_child          | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_external |               |          
+                                            | _task_marker_dag.py                         |               |          
+example_external_task_marker_parent         | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_external |               |          
+                                            | _task_marker_dag.py                         |               |          
+example_kubernetes_executor                 | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_kubernet |               |          
+                                            | es_executor.py                              |               |          
+example_local_kubernetes_executor           | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_local_ku |               |          
+                                            | bernetes_executor.py                        |               |          
+example_nested_branch_dag                   | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_nested_b |               |          
+                                            | ranch_dag.py                                |               |          
+example_params_trigger_ui                   | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_params_t |               |          
+                                            | rigger_ui.py                                |               |          
+example_params_ui_tutorial                  | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_params_u |               |          
+                                            | i_tutorial.py                               |               |          
+example_passing_params_via_test_command     | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_passing_ |               |          
+                                            | params_via_test_command.py                  |               |          
+example_python_decorator                    | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_python_d |               |          
+                                            | ecorator.py                                 |               |          
+example_python_operator                     | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_python_o |               |          
+                                            | perator.py                                  |               |          
+example_sensor_decorator                    | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_sensor_d |               |          
+                                            | ecorator.py                                 |               |          
+example_sensors                             | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_sensors. |               |          
+                                            | py                                          |               |          
+example_setup_teardown                      | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_setup_te |               |          
+                                            | ardown.py                                   |               |          
+example_setup_teardown_taskflow             | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_setup_te |               |          
+                                            | ardown_taskflow.py                          |               |          
+example_short_circuit_decorator             | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_short_ci |               |          
+                                            | rcuit_decorator.py                          |               |          
+example_short_circuit_operator              | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_short_ci |               |          
+                                            | rcuit_operator.py                           |               |          
+example_skip_dag                            | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_skip_dag |               |          
+                                            | .py                                         |               |          
+example_sla_dag                             | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_sla_dag. |               |          
+                                            | py                                          |               |          
+example_subdag_operator                     | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_subdag_o |               |          
+                                            | perator.py                                  |               |          
+example_subdag_operator.section-1           | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_subdag_o |               |          
+                                            | perator.py                                  |               |          
+example_subdag_operator.section-2           | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_subdag_o |               |          
+                                            | perator.py                                  |               |          
+example_task_group                          | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_task_gro |               |          
+                                            | up.py                                       |               |          
+example_task_group_decorator                | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_task_gro |               |          
+                                            | up_decorator.py                             |               |          
+example_time_delta_sensor_async             | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_time_del |               |          
+                                            | ta_sensor_async.py                          |               |          
+example_trigger_controller_dag              | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_trigger_ |               |          
+                                            | controller_dag.py                           |               |          
+example_trigger_target_dag                  | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_trigger_ |               |          
+                                            | target_dag.py                               |               |          
+example_weekday_branch_operator             | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_branch_d |               |          
+                                            | ay_of_week_operator.py                      |               |          
+example_xcom                                | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_xcom.py  |               |          
+example_xcom_args                           | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_xcomargs |               |          
+                                            | .py                                         |               |          
+example_xcom_args_with_operators            | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_xcomargs |               |          
+                                            | .py                                         |               |          
+latest_only                                 | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_latest_o |               |          
+                                            | nly.py                                      |               |          
+latest_only_with_trigger                    | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/example_latest_o |               |          
+                                            | nly_with_trigger.py                         |               |          
+tutorial                                    | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/tutorial.py      |               |          
+tutorial_dag                                | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/tutorial_dag.py  |               |          
+tutorial_objectstorage                      | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/tutorial_objects |               |          
+                                            | torage.py                                   |               |          
+tutorial_taskflow_api                       | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/tutorial_taskflo |               |          
+                                            | w_api.py                                    |               |          
+tutorial_taskflow_api_virtualenv            | /home/airflow/.local/lib/python3.9/site-pac | airflow       | True     
+                                            | kages/airflow/example_dags/tutorial_taskflo |               |          
+                                            | w_api_virtualenv.py                         |               |          
+                                                                                                                     
+theia@theiadocker-hirewillieco:/home/project$ 

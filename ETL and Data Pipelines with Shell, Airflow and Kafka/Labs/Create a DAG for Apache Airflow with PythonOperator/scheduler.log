@@ -1,0 +1,18 @@
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2025-08-01T10:43:54.235-0400] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-08-01T10:43:54.240-0400] {executor_loader.py:258} INFO - Loaded executor: SequentialExecutor
+[2025-08-01 10:43:54 -0400] [5943] [INFO] Starting gunicorn 23.0.0
+[2025-08-01 10:43:54 -0400] [5943] [INFO] Listening at: http://[::]:8793 (5943)
+[2025-08-01 10:43:54 -0400] [5943] [INFO] Using worker: sync
+[2025-08-01 10:43:54 -0400] [5944] [INFO] Booting worker with pid: 5944
+[2025-08-01T10:43:54.325-0400] {scheduler_job_runner.py:950} INFO - Starting the scheduler
+[2025-08-01T10:43:54.326-0400] {scheduler_job_runner.py:957} INFO - Processing each file at most -1 times
+[2025-08-01T10:43:54.337-0400] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 5945
+[2025-08-01T10:43:54.340-0400] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-08-01T10:43:54.351-0400] {settings.py:63} INFO - Configured default timezone UTC
+[2025-08-01T10:43:54.403-0400] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2025-08-01 10:43:54 -0400] [5946] [INFO] Booting worker with pid: 5946

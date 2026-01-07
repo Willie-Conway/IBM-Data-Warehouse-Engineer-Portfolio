@@ -1,0 +1,352 @@
+/usr/local/lib/python3.11/dist-packages/flask_limiter/extension.py:324 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+[2025-08-01T10:43:56.017-0400] {override.py:1526} INFO - Inserted Role: Admin
+[2025-08-01T10:43:56.178-0400] {override.py:1930} INFO - Created Permission View: can edit on Passwords
+[2025-08-01T10:43:56.212-0400] {override.py:1981} INFO - Added Permission can edit on Passwords to role Admin
+[2025-08-01T10:43:56.243-0400] {override.py:1930} INFO - Created Permission View: can read on Passwords
+[2025-08-01T10:43:56.276-0400] {override.py:1981} INFO - Added Permission can read on Passwords to role Admin
+[2025-08-01T10:43:56.331-0400] {override.py:1930} INFO - Created Permission View: can edit on My Password
+[2025-08-01T10:43:56.352-0400] {override.py:1981} INFO - Added Permission can edit on My Password to role Admin
+[2025-08-01T10:43:56.381-0400] {override.py:1930} INFO - Created Permission View: can read on My Password
+[2025-08-01T10:43:56.407-0400] {override.py:1981} INFO - Added Permission can read on My Password to role Admin
+[2025-08-01T10:43:56.462-0400] {override.py:1930} INFO - Created Permission View: can edit on My Profile
+[2025-08-01T10:43:56.491-0400] {override.py:1981} INFO - Added Permission can edit on My Profile to role Admin
+[2025-08-01T10:43:56.520-0400] {override.py:1930} INFO - Created Permission View: can read on My Profile
+[2025-08-01T10:43:56.545-0400] {override.py:1981} INFO - Added Permission can read on My Profile to role Admin
+[2025-08-01T10:43:56.637-0400] {override.py:1930} INFO - Created Permission View: can create on Users
+[2025-08-01T10:43:56.660-0400] {override.py:1981} INFO - Added Permission can create on Users to role Admin
+[2025-08-01T10:43:56.692-0400] {override.py:1930} INFO - Created Permission View: can read on Users
+[2025-08-01T10:43:56.715-0400] {override.py:1981} INFO - Added Permission can read on Users to role Admin
+[2025-08-01T10:43:56.740-0400] {override.py:1930} INFO - Created Permission View: can edit on Users
+[2025-08-01T10:43:56.768-0400] {override.py:1981} INFO - Added Permission can edit on Users to role Admin
+[2025-08-01T10:43:56.791-0400] {override.py:1930} INFO - Created Permission View: can delete on Users
+[2025-08-01T10:43:56.816-0400] {override.py:1981} INFO - Added Permission can delete on Users to role Admin
+[2025-08-01T10:43:56.870-0400] {override.py:1930} INFO - Created Permission View: menu access on List Users
+[2025-08-01T10:43:56.907-0400] {override.py:1981} INFO - Added Permission menu access on List Users to role Admin
+[2025-08-01T10:43:56.968-0400] {override.py:1930} INFO - Created Permission View: menu access on Security
+[2025-08-01T10:43:56.997-0400] {override.py:1981} INFO - Added Permission menu access on Security to role Admin
+[2025-08-01T10:43:57.070-0400] {override.py:1930} INFO - Created Permission View: can create on Roles
+[2025-08-01T10:43:57.104-0400] {override.py:1981} INFO - Added Permission can create on Roles to role Admin
+[2025-08-01T10:43:57.132-0400] {override.py:1930} INFO - Created Permission View: can read on Roles
+[2025-08-01T10:43:57.298-0400] {override.py:1981} INFO - Added Permission can read on Roles to role Admin
+[2025-08-01T10:43:57.331-0400] {override.py:1930} INFO - Created Permission View: can edit on Roles
+[2025-08-01T10:43:57.356-0400] {override.py:1981} INFO - Added Permission can edit on Roles to role Admin
+[2025-08-01T10:43:57.386-0400] {override.py:1930} INFO - Created Permission View: can delete on Roles
+[2025-08-01T10:43:57.423-0400] {override.py:1981} INFO - Added Permission can delete on Roles to role Admin
+[2025-08-01T10:43:57.604-0400] {override.py:1930} INFO - Created Permission View: menu access on List Roles
+[2025-08-01T10:43:57.636-0400] {override.py:1981} INFO - Added Permission menu access on List Roles to role Admin
+[2025-08-01T10:43:57.756-0400] {override.py:1930} INFO - Created Permission View: can read on User Stats Chart
+[2025-08-01T10:43:57.783-0400] {override.py:1981} INFO - Added Permission can read on User Stats Chart to role Admin
+[2025-08-01T10:43:57.833-0400] {override.py:1930} INFO - Created Permission View: menu access on User's Statistics
+[2025-08-01T10:43:57.862-0400] {override.py:1981} INFO - Added Permission menu access on User's Statistics to role Admin
+[2025-08-01T10:43:57.955-0400] {override.py:1930} INFO - Created Permission View: can read on Permissions
+[2025-08-01T10:43:57.977-0400] {override.py:1981} INFO - Added Permission can read on Permissions to role Admin
+[2025-08-01T10:43:58.224-0400] {override.py:1930} INFO - Created Permission View: menu access on Actions
+[2025-08-01T10:43:58.251-0400] {override.py:1981} INFO - Added Permission menu access on Actions to role Admin
+[2025-08-01T10:43:58.458-0400] {override.py:1930} INFO - Created Permission View: can read on View Menus
+[2025-08-01T10:43:58.479-0400] {override.py:1981} INFO - Added Permission can read on View Menus to role Admin
+[2025-08-01T10:43:58.515-0400] {override.py:1930} INFO - Created Permission View: menu access on Resources
+[2025-08-01T10:43:58.536-0400] {override.py:1981} INFO - Added Permission menu access on Resources to role Admin
+[2025-08-01T10:43:58.584-0400] {override.py:1930} INFO - Created Permission View: can read on Permission Views
+[2025-08-01T10:43:58.603-0400] {override.py:1981} INFO - Added Permission can read on Permission Views to role Admin
+[2025-08-01T10:43:58.637-0400] {override.py:1930} INFO - Created Permission View: menu access on Permission Pairs
+[2025-08-01T10:43:58.655-0400] {override.py:1981} INFO - Added Permission menu access on Permission Pairs to role Admin
+[2025-08-01T10:43:58.908-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Runs
+[2025-08-01T10:43:58.929-0400] {override.py:1981} INFO - Added Permission can create on DAG Runs to role Admin
+[2025-08-01T10:43:59.214-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Runs
+[2025-08-01T10:43:59.234-0400] {override.py:1981} INFO - Added Permission can read on DAG Runs to role Admin
+[2025-08-01T10:43:59.256-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG Runs
+[2025-08-01T10:43:59.268-0400] {override.py:1981} INFO - Added Permission can edit on DAG Runs to role Admin
+[2025-08-01T10:43:59.281-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Runs
+[2025-08-01T10:43:59.297-0400] {override.py:1981} INFO - Added Permission can delete on DAG Runs to role Admin
+[2025-08-01T10:43:59.313-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Runs
+[2025-08-01T10:43:59.328-0400] {override.py:1981} INFO - Added Permission menu access on DAG Runs to role Admin
+[2025-08-01T10:43:59.365-0400] {override.py:1930} INFO - Created Permission View: menu access on Browse
+[2025-08-01T10:43:59.376-0400] {override.py:1981} INFO - Added Permission menu access on Browse to role Admin
+[2025-08-01T10:43:59.434-0400] {override.py:1930} INFO - Created Permission View: can read on Jobs
+[2025-08-01T10:43:59.452-0400] {override.py:1981} INFO - Added Permission can read on Jobs to role Admin
+[2025-08-01T10:43:59.463-0400] {override.py:1930} INFO - Created Permission View: menu access on Jobs
+[2025-08-01T10:43:59.475-0400] {override.py:1981} INFO - Added Permission menu access on Jobs to role Admin
+[2025-08-01T10:43:59.513-0400] {override.py:1930} INFO - Created Permission View: can read on Audit Logs
+[2025-08-01T10:43:59.524-0400] {override.py:1981} INFO - Added Permission can read on Audit Logs to role Admin
+[2025-08-01T10:43:59.539-0400] {override.py:1930} INFO - Created Permission View: menu access on Audit Logs
+[2025-08-01T10:43:59.556-0400] {override.py:1981} INFO - Added Permission menu access on Audit Logs to role Admin
+[2025-08-01T10:43:59.613-0400] {override.py:1930} INFO - Created Permission View: can create on Variables
+[2025-08-01T10:43:59.634-0400] {override.py:1981} INFO - Added Permission can create on Variables to role Admin
+[2025-08-01T10:43:59.710-0400] {override.py:1930} INFO - Created Permission View: can read on Variables
+[2025-08-01T10:43:59.720-0400] {override.py:1981} INFO - Added Permission can read on Variables to role Admin
+[2025-08-01T10:43:59.734-0400] {override.py:1930} INFO - Created Permission View: can edit on Variables
+[2025-08-01T10:43:59.751-0400] {override.py:1981} INFO - Added Permission can edit on Variables to role Admin
+[2025-08-01T10:43:59.762-0400] {override.py:1930} INFO - Created Permission View: can delete on Variables
+[2025-08-01T10:43:59.771-0400] {override.py:1981} INFO - Added Permission can delete on Variables to role Admin
+[2025-08-01T10:43:59.781-0400] {override.py:1930} INFO - Created Permission View: menu access on Variables
+[2025-08-01T10:43:59.790-0400] {override.py:1981} INFO - Added Permission menu access on Variables to role Admin
+[2025-08-01T10:43:59.816-0400] {override.py:1930} INFO - Created Permission View: menu access on Admin
+[2025-08-01T10:43:59.829-0400] {override.py:1981} INFO - Added Permission menu access on Admin to role Admin
+[2025-08-01T10:43:59.871-0400] {override.py:1930} INFO - Created Permission View: can create on Task Instances
+[2025-08-01T10:43:59.880-0400] {override.py:1981} INFO - Added Permission can create on Task Instances to role Admin
+[2025-08-01T10:43:59.892-0400] {override.py:1930} INFO - Created Permission View: can read on Task Instances
+[2025-08-01T10:43:59.901-0400] {override.py:1981} INFO - Added Permission can read on Task Instances to role Admin
+[2025-08-01T10:43:59.913-0400] {override.py:1930} INFO - Created Permission View: can edit on Task Instances
+[2025-08-01T10:43:59.923-0400] {override.py:1981} INFO - Added Permission can edit on Task Instances to role Admin
+[2025-08-01T10:43:59.933-0400] {override.py:1930} INFO - Created Permission View: can delete on Task Instances
+[2025-08-01T10:43:59.942-0400] {override.py:1981} INFO - Added Permission can delete on Task Instances to role Admin
+[2025-08-01T10:43:59.954-0400] {override.py:1930} INFO - Created Permission View: menu access on Task Instances
+[2025-08-01T10:43:59.961-0400] {override.py:1981} INFO - Added Permission menu access on Task Instances to role Admin
+[2025-08-01T10:43:59.993-0400] {override.py:1930} INFO - Created Permission View: can read on Task Reschedules
+[2025-08-01T10:44:00.000-0400] {override.py:1981} INFO - Added Permission can read on Task Reschedules to role Admin
+[2025-08-01T10:44:00.007-0400] {override.py:1930} INFO - Created Permission View: menu access on Task Reschedules
+[2025-08-01T10:44:00.013-0400] {override.py:1981} INFO - Added Permission menu access on Task Reschedules to role Admin
+[2025-08-01T10:44:00.051-0400] {override.py:1930} INFO - Created Permission View: can read on Triggers
+[2025-08-01T10:44:00.061-0400] {override.py:1981} INFO - Added Permission can read on Triggers to role Admin
+[2025-08-01T10:44:00.073-0400] {override.py:1930} INFO - Created Permission View: menu access on Triggers
+[2025-08-01T10:44:00.083-0400] {override.py:1981} INFO - Added Permission menu access on Triggers to role Admin
+[2025-08-01T10:44:00.109-0400] {override.py:1930} INFO - Created Permission View: can read on Configurations
+[2025-08-01T10:44:00.235-0400] {override.py:1981} INFO - Added Permission can read on Configurations to role Admin
+[2025-08-01T10:44:00.244-0400] {override.py:1930} INFO - Created Permission View: menu access on Configurations
+[2025-08-01T10:44:00.253-0400] {override.py:1981} INFO - Added Permission menu access on Configurations to role Admin
+[2025-08-01T10:44:00.291-0400] {override.py:1930} INFO - Created Permission View: can create on Connections
+[2025-08-01T10:44:00.304-0400] {override.py:1981} INFO - Added Permission can create on Connections to role Admin
+[2025-08-01T10:44:00.313-0400] {override.py:1930} INFO - Created Permission View: can read on Connections
+[2025-08-01T10:44:00.321-0400] {override.py:1981} INFO - Added Permission can read on Connections to role Admin
+[2025-08-01T10:44:00.331-0400] {override.py:1930} INFO - Created Permission View: can edit on Connections
+[2025-08-01T10:44:00.338-0400] {override.py:1981} INFO - Added Permission can edit on Connections to role Admin
+[2025-08-01T10:44:00.346-0400] {override.py:1930} INFO - Created Permission View: can delete on Connections
+[2025-08-01T10:44:00.354-0400] {override.py:1981} INFO - Added Permission can delete on Connections to role Admin
+[2025-08-01T10:44:00.361-0400] {override.py:1930} INFO - Created Permission View: menu access on Connections
+[2025-08-01T10:44:00.370-0400] {override.py:1981} INFO - Added Permission menu access on Connections to role Admin
+[2025-08-01T10:44:00.401-0400] {override.py:1930} INFO - Created Permission View: can read on SLA Misses
+[2025-08-01T10:44:00.408-0400] {override.py:1981} INFO - Added Permission can read on SLA Misses to role Admin
+[2025-08-01T10:44:00.417-0400] {override.py:1930} INFO - Created Permission View: menu access on SLA Misses
+[2025-08-01T10:44:00.427-0400] {override.py:1981} INFO - Added Permission menu access on SLA Misses to role Admin
+[2025-08-01T10:44:00.436-0400] {override.py:1930} INFO - Created Permission View: can delete on SLA Misses
+[2025-08-01T10:44:00.444-0400] {override.py:1981} INFO - Added Permission can delete on SLA Misses to role Admin
+[2025-08-01T10:44:00.458-0400] {override.py:1930} INFO - Created Permission View: can edit on SLA Misses
+[2025-08-01T10:44:00.467-0400] {override.py:1981} INFO - Added Permission can edit on SLA Misses to role Admin
+[2025-08-01T10:44:00.496-0400] {override.py:1930} INFO - Created Permission View: can read on Plugins
+[2025-08-01T10:44:00.504-0400] {override.py:1981} INFO - Added Permission can read on Plugins to role Admin
+[2025-08-01T10:44:00.514-0400] {override.py:1930} INFO - Created Permission View: menu access on Plugins
+[2025-08-01T10:44:00.522-0400] {override.py:1981} INFO - Added Permission menu access on Plugins to role Admin
+[2025-08-01T10:44:00.551-0400] {override.py:1930} INFO - Created Permission View: can read on Providers
+[2025-08-01T10:44:00.559-0400] {override.py:1981} INFO - Added Permission can read on Providers to role Admin
+[2025-08-01T10:44:00.569-0400] {override.py:1930} INFO - Created Permission View: menu access on Providers
+[2025-08-01T10:44:00.579-0400] {override.py:1981} INFO - Added Permission menu access on Providers to role Admin
+[2025-08-01T10:44:00.615-0400] {override.py:1930} INFO - Created Permission View: can create on Pools
+[2025-08-01T10:44:00.624-0400] {override.py:1981} INFO - Added Permission can create on Pools to role Admin
+[2025-08-01T10:44:00.633-0400] {override.py:1930} INFO - Created Permission View: can read on Pools
+[2025-08-01T10:44:00.641-0400] {override.py:1981} INFO - Added Permission can read on Pools to role Admin
+[2025-08-01T10:44:00.649-0400] {override.py:1930} INFO - Created Permission View: can edit on Pools
+[2025-08-01T10:44:00.661-0400] {override.py:1981} INFO - Added Permission can edit on Pools to role Admin
+[2025-08-01T10:44:00.672-0400] {override.py:1930} INFO - Created Permission View: can delete on Pools
+[2025-08-01T10:44:00.683-0400] {override.py:1981} INFO - Added Permission can delete on Pools to role Admin
+[2025-08-01T10:44:00.694-0400] {override.py:1930} INFO - Created Permission View: menu access on Pools
+[2025-08-01T10:44:00.704-0400] {override.py:1981} INFO - Added Permission menu access on Pools to role Admin
+[2025-08-01T10:44:00.737-0400] {override.py:1930} INFO - Created Permission View: can read on XComs
+[2025-08-01T10:44:00.747-0400] {override.py:1981} INFO - Added Permission can read on XComs to role Admin
+[2025-08-01T10:44:00.757-0400] {override.py:1930} INFO - Created Permission View: can delete on XComs
+[2025-08-01T10:44:00.767-0400] {override.py:1981} INFO - Added Permission can delete on XComs to role Admin
+[2025-08-01T10:44:00.779-0400] {override.py:1930} INFO - Created Permission View: menu access on XComs
+[2025-08-01T10:44:00.792-0400] {override.py:1981} INFO - Added Permission menu access on XComs to role Admin
+[2025-08-01T10:44:00.828-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Dependencies
+[2025-08-01T10:44:00.837-0400] {override.py:1981} INFO - Added Permission menu access on DAG Dependencies to role Admin
+[2025-08-01T10:44:00.890-0400] {override.py:1930} INFO - Created Permission View: menu access on DAGs
+[2025-08-01T10:44:00.900-0400] {override.py:1981} INFO - Added Permission menu access on DAGs to role Admin
+[2025-08-01T10:44:00.920-0400] {override.py:1930} INFO - Created Permission View: menu access on Cluster Activity
+[2025-08-01T10:44:00.932-0400] {override.py:1981} INFO - Added Permission menu access on Cluster Activity to role Admin
+[2025-08-01T10:44:00.952-0400] {override.py:1930} INFO - Created Permission View: menu access on Datasets
+[2025-08-01T10:44:00.965-0400] {override.py:1981} INFO - Added Permission menu access on Datasets to role Admin
+[2025-08-01T10:44:00.987-0400] {override.py:1930} INFO - Created Permission View: menu access on Documentation
+[2025-08-01T10:44:00.999-0400] {override.py:1981} INFO - Added Permission menu access on Documentation to role Admin
+[2025-08-01T10:44:01.018-0400] {override.py:1930} INFO - Created Permission View: menu access on Docs
+[2025-08-01T10:44:01.028-0400] {override.py:1981} INFO - Added Permission menu access on Docs to role Admin
+[2025-08-01T10:44:01.058-0400] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+/usr/local/lib/python3.11/dist-packages/airflow/api_connexion/schemas/task_schema.py:52 ChangedInMarshmallow4Warning: `Number` field should not be instantiated. Use `Integer`, `Float`, or `Decimal` instead.
+/usr/local/lib/python3.11/dist-packages/airflow/api_connexion/schemas/task_schema.py:55 ChangedInMarshmallow4Warning: `Number` field should not be instantiated. Use `Integer`, `Float`, or `Decimal` instead.
+/usr/local/lib/python3.11/dist-packages/airflow/api_connexion/schemas/task_schema.py:59 ChangedInMarshmallow4Warning: `Number` field should not be instantiated. Use `Integer`, `Float`, or `Decimal` instead.
+[2025-08-01T10:44:01.692-0400] {override.py:1930} INFO - Created Permission View: can read on DAGs
+[2025-08-01T10:44:01.702-0400] {override.py:1930} INFO - Created Permission View: can edit on DAGs
+[2025-08-01T10:44:01.711-0400] {override.py:1930} INFO - Created Permission View: can delete on DAGs
+[2025-08-01T10:44:01.724-0400] {override.py:1526} INFO - Inserted Role: Public
+[2025-08-01T10:44:01.731-0400] {override.py:1526} INFO - Inserted Role: Viewer
+[2025-08-01T10:44:01.739-0400] {override.py:1981} INFO - Added Permission can read on DAGs to role Viewer
+[2025-08-01T10:44:01.748-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Dependencies
+[2025-08-01T10:44:01.754-0400] {override.py:1981} INFO - Added Permission can read on DAG Dependencies to role Viewer
+[2025-08-01T10:44:01.765-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Code
+[2025-08-01T10:44:01.774-0400] {override.py:1981} INFO - Added Permission can read on DAG Code to role Viewer
+[2025-08-01T10:44:01.781-0400] {override.py:1981} INFO - Added Permission can read on DAG Runs to role Viewer
+[2025-08-01T10:44:01.790-0400] {override.py:1930} INFO - Created Permission View: can read on Datasets
+[2025-08-01T10:44:01.796-0400] {override.py:1981} INFO - Added Permission can read on Datasets to role Viewer
+[2025-08-01T10:44:01.804-0400] {override.py:1930} INFO - Created Permission View: can read on Cluster Activity
+[2025-08-01T10:44:01.810-0400] {override.py:1981} INFO - Added Permission can read on Cluster Activity to role Viewer
+[2025-08-01T10:44:01.816-0400] {override.py:1981} INFO - Added Permission can read on Pools to role Viewer
+[2025-08-01T10:44:01.829-0400] {override.py:1930} INFO - Created Permission View: can read on ImportError
+[2025-08-01T10:44:01.836-0400] {override.py:1981} INFO - Added Permission can read on ImportError to role Viewer
+[2025-08-01T10:44:01.849-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Warnings
+[2025-08-01T10:44:01.855-0400] {override.py:1981} INFO - Added Permission can read on DAG Warnings to role Viewer
+[2025-08-01T10:44:01.860-0400] {override.py:1981} INFO - Added Permission can read on Jobs to role Viewer
+[2025-08-01T10:44:01.866-0400] {override.py:1981} INFO - Added Permission can read on My Password to role Viewer
+[2025-08-01T10:44:01.872-0400] {override.py:1981} INFO - Added Permission can edit on My Password to role Viewer
+[2025-08-01T10:44:01.877-0400] {override.py:1981} INFO - Added Permission can read on My Profile to role Viewer
+[2025-08-01T10:44:01.883-0400] {override.py:1981} INFO - Added Permission can edit on My Profile to role Viewer
+[2025-08-01T10:44:01.888-0400] {override.py:1981} INFO - Added Permission can read on SLA Misses to role Viewer
+[2025-08-01T10:44:01.894-0400] {override.py:1981} INFO - Added Permission can read on Task Instances to role Viewer
+[2025-08-01T10:44:01.907-0400] {override.py:1930} INFO - Created Permission View: can read on Task Logs
+[2025-08-01T10:44:01.913-0400] {override.py:1981} INFO - Added Permission can read on Task Logs to role Viewer
+[2025-08-01T10:44:01.918-0400] {override.py:1981} INFO - Added Permission can read on XComs to role Viewer
+[2025-08-01T10:44:01.933-0400] {override.py:1930} INFO - Created Permission View: can read on Website
+[2025-08-01T10:44:01.941-0400] {override.py:1981} INFO - Added Permission can read on Website to role Viewer
+[2025-08-01T10:44:01.948-0400] {override.py:1981} INFO - Added Permission menu access on Browse to role Viewer
+[2025-08-01T10:44:01.954-0400] {override.py:1981} INFO - Added Permission menu access on DAGs to role Viewer
+[2025-08-01T10:44:01.960-0400] {override.py:1981} INFO - Added Permission menu access on DAG Dependencies to role Viewer
+[2025-08-01T10:44:01.968-0400] {override.py:1981} INFO - Added Permission menu access on DAG Runs to role Viewer
+[2025-08-01T10:44:01.974-0400] {override.py:1981} INFO - Added Permission menu access on Datasets to role Viewer
+[2025-08-01T10:44:01.981-0400] {override.py:1981} INFO - Added Permission menu access on Cluster Activity to role Viewer
+[2025-08-01T10:44:01.988-0400] {override.py:1981} INFO - Added Permission menu access on Documentation to role Viewer
+[2025-08-01T10:44:01.995-0400] {override.py:1981} INFO - Added Permission menu access on Docs to role Viewer
+[2025-08-01T10:44:02.001-0400] {override.py:1981} INFO - Added Permission menu access on Jobs to role Viewer
+[2025-08-01T10:44:02.008-0400] {override.py:1981} INFO - Added Permission menu access on SLA Misses to role Viewer
+[2025-08-01T10:44:02.014-0400] {override.py:1981} INFO - Added Permission menu access on Task Instances to role Viewer
+[2025-08-01T10:44:02.022-0400] {override.py:1526} INFO - Inserted Role: User
+[2025-08-01T10:44:02.032-0400] {override.py:1981} INFO - Added Permission can read on DAGs to role User
+[2025-08-01T10:44:02.042-0400] {override.py:1981} INFO - Added Permission can read on DAG Dependencies to role User
+[2025-08-01T10:44:02.051-0400] {override.py:1981} INFO - Added Permission can read on DAG Code to role User
+[2025-08-01T10:44:02.059-0400] {override.py:1981} INFO - Added Permission can read on DAG Runs to role User
+[2025-08-01T10:44:02.069-0400] {override.py:1981} INFO - Added Permission can read on Datasets to role User
+[2025-08-01T10:44:02.076-0400] {override.py:1981} INFO - Added Permission can read on Cluster Activity to role User
+[2025-08-01T10:44:02.082-0400] {override.py:1981} INFO - Added Permission can read on Pools to role User
+[2025-08-01T10:44:02.091-0400] {override.py:1981} INFO - Added Permission can read on ImportError to role User
+[2025-08-01T10:44:02.098-0400] {override.py:1981} INFO - Added Permission can read on DAG Warnings to role User
+[2025-08-01T10:44:02.105-0400] {override.py:1981} INFO - Added Permission can read on Jobs to role User
+[2025-08-01T10:44:02.111-0400] {override.py:1981} INFO - Added Permission can read on My Password to role User
+[2025-08-01T10:44:02.117-0400] {override.py:1981} INFO - Added Permission can edit on My Password to role User
+[2025-08-01T10:44:02.124-0400] {override.py:1981} INFO - Added Permission can read on My Profile to role User
+[2025-08-01T10:44:02.131-0400] {override.py:1981} INFO - Added Permission can edit on My Profile to role User
+[2025-08-01T10:44:02.138-0400] {override.py:1981} INFO - Added Permission can read on SLA Misses to role User
+[2025-08-01T10:44:02.143-0400] {override.py:1981} INFO - Added Permission can read on Task Instances to role User
+[2025-08-01T10:44:02.154-0400] {override.py:1981} INFO - Added Permission can read on Task Logs to role User
+[2025-08-01T10:44:02.159-0400] {override.py:1981} INFO - Added Permission can read on XComs to role User
+[2025-08-01T10:44:02.168-0400] {override.py:1981} INFO - Added Permission can read on Website to role User
+[2025-08-01T10:44:02.175-0400] {override.py:1981} INFO - Added Permission menu access on Browse to role User
+[2025-08-01T10:44:02.181-0400] {override.py:1981} INFO - Added Permission menu access on DAGs to role User
+[2025-08-01T10:44:02.188-0400] {override.py:1981} INFO - Added Permission menu access on DAG Dependencies to role User
+[2025-08-01T10:44:02.194-0400] {override.py:1981} INFO - Added Permission menu access on DAG Runs to role User
+[2025-08-01T10:44:02.200-0400] {override.py:1981} INFO - Added Permission menu access on Datasets to role User
+[2025-08-01T10:44:02.207-0400] {override.py:1981} INFO - Added Permission menu access on Cluster Activity to role User
+[2025-08-01T10:44:02.227-0400] {override.py:1981} INFO - Added Permission menu access on Documentation to role User
+[2025-08-01T10:44:02.233-0400] {override.py:1981} INFO - Added Permission menu access on Docs to role User
+[2025-08-01T10:44:02.239-0400] {override.py:1981} INFO - Added Permission menu access on Jobs to role User
+[2025-08-01T10:44:02.245-0400] {override.py:1981} INFO - Added Permission menu access on SLA Misses to role User
+[2025-08-01T10:44:02.251-0400] {override.py:1981} INFO - Added Permission menu access on Task Instances to role User
+[2025-08-01T10:44:02.257-0400] {override.py:1981} INFO - Added Permission can edit on DAGs to role User
+[2025-08-01T10:44:02.263-0400] {override.py:1981} INFO - Added Permission can delete on DAGs to role User
+[2025-08-01T10:44:02.269-0400] {override.py:1981} INFO - Added Permission can create on Task Instances to role User
+[2025-08-01T10:44:02.274-0400] {override.py:1981} INFO - Added Permission can edit on Task Instances to role User
+[2025-08-01T10:44:02.281-0400] {override.py:1981} INFO - Added Permission can delete on Task Instances to role User
+[2025-08-01T10:44:02.287-0400] {override.py:1981} INFO - Added Permission can create on DAG Runs to role User
+[2025-08-01T10:44:02.292-0400] {override.py:1981} INFO - Added Permission can edit on DAG Runs to role User
+[2025-08-01T10:44:02.298-0400] {override.py:1981} INFO - Added Permission can delete on DAG Runs to role User
+[2025-08-01T10:44:02.306-0400] {override.py:1930} INFO - Created Permission View: can create on Datasets
+[2025-08-01T10:44:02.311-0400] {override.py:1981} INFO - Added Permission can create on Datasets to role User
+[2025-08-01T10:44:02.318-0400] {override.py:1526} INFO - Inserted Role: Op
+[2025-08-01T10:44:02.325-0400] {override.py:1981} INFO - Added Permission can read on DAGs to role Op
+[2025-08-01T10:44:02.332-0400] {override.py:1981} INFO - Added Permission can read on DAG Dependencies to role Op
+[2025-08-01T10:44:02.340-0400] {override.py:1981} INFO - Added Permission can read on DAG Code to role Op
+[2025-08-01T10:44:02.346-0400] {override.py:1981} INFO - Added Permission can read on DAG Runs to role Op
+[2025-08-01T10:44:02.352-0400] {override.py:1981} INFO - Added Permission can read on Datasets to role Op
+[2025-08-01T10:44:02.359-0400] {override.py:1981} INFO - Added Permission can read on Cluster Activity to role Op
+[2025-08-01T10:44:02.365-0400] {override.py:1981} INFO - Added Permission can read on Pools to role Op
+[2025-08-01T10:44:02.380-0400] {override.py:1981} INFO - Added Permission can read on ImportError to role Op
+[2025-08-01T10:44:02.388-0400] {override.py:1981} INFO - Added Permission can read on DAG Warnings to role Op
+[2025-08-01T10:44:02.394-0400] {override.py:1981} INFO - Added Permission can read on Jobs to role Op
+[2025-08-01T10:44:02.400-0400] {override.py:1981} INFO - Added Permission can read on My Password to role Op
+[2025-08-01T10:44:02.428-0400] {override.py:1981} INFO - Added Permission can edit on My Password to role Op
+[2025-08-01T10:44:02.436-0400] {override.py:1981} INFO - Added Permission can read on My Profile to role Op
+[2025-08-01T10:44:02.441-0400] {override.py:1981} INFO - Added Permission can edit on My Profile to role Op
+[2025-08-01T10:44:02.451-0400] {override.py:1981} INFO - Added Permission can read on SLA Misses to role Op
+[2025-08-01T10:44:02.457-0400] {override.py:1981} INFO - Added Permission can read on Task Instances to role Op
+[2025-08-01T10:44:02.466-0400] {override.py:1981} INFO - Added Permission can read on Task Logs to role Op
+[2025-08-01T10:44:02.474-0400] {override.py:1981} INFO - Added Permission can read on XComs to role Op
+[2025-08-01T10:44:02.483-0400] {override.py:1981} INFO - Added Permission can read on Website to role Op
+[2025-08-01T10:44:02.490-0400] {override.py:1981} INFO - Added Permission menu access on Browse to role Op
+[2025-08-01T10:44:02.496-0400] {override.py:1981} INFO - Added Permission menu access on DAGs to role Op
+[2025-08-01T10:44:02.503-0400] {override.py:1981} INFO - Added Permission menu access on DAG Dependencies to role Op
+[2025-08-01T10:44:02.511-0400] {override.py:1981} INFO - Added Permission menu access on DAG Runs to role Op
+[2025-08-01T10:44:02.518-0400] {override.py:1981} INFO - Added Permission menu access on Datasets to role Op
+[2025-08-01T10:44:02.526-0400] {override.py:1981} INFO - Added Permission menu access on Cluster Activity to role Op
+[2025-08-01T10:44:02.532-0400] {override.py:1981} INFO - Added Permission menu access on Documentation to role Op
+[2025-08-01T10:44:02.541-0400] {override.py:1981} INFO - Added Permission menu access on Docs to role Op
+[2025-08-01T10:44:02.566-0400] {override.py:1981} INFO - Added Permission menu access on Jobs to role Op
+[2025-08-01T10:44:02.573-0400] {override.py:1981} INFO - Added Permission menu access on SLA Misses to role Op
+[2025-08-01T10:44:02.579-0400] {override.py:1981} INFO - Added Permission menu access on Task Instances to role Op
+[2025-08-01T10:44:02.586-0400] {override.py:1981} INFO - Added Permission can edit on DAGs to role Op
+[2025-08-01T10:44:02.592-0400] {override.py:1981} INFO - Added Permission can delete on DAGs to role Op
+[2025-08-01T10:44:02.598-0400] {override.py:1981} INFO - Added Permission can create on Task Instances to role Op
+[2025-08-01T10:44:02.607-0400] {override.py:1981} INFO - Added Permission can edit on Task Instances to role Op
+[2025-08-01T10:44:02.613-0400] {override.py:1981} INFO - Added Permission can delete on Task Instances to role Op
+[2025-08-01T10:44:02.620-0400] {override.py:1981} INFO - Added Permission can create on DAG Runs to role Op
+[2025-08-01T10:44:02.629-0400] {override.py:1981} INFO - Added Permission can edit on DAG Runs to role Op
+[2025-08-01T10:44:02.635-0400] {override.py:1981} INFO - Added Permission can delete on DAG Runs to role Op
+[2025-08-01T10:44:02.643-0400] {override.py:1981} INFO - Added Permission can create on Datasets to role Op
+[2025-08-01T10:44:02.651-0400] {override.py:1981} INFO - Added Permission can read on Configurations to role Op
+[2025-08-01T10:44:02.657-0400] {override.py:1981} INFO - Added Permission menu access on Admin to role Op
+[2025-08-01T10:44:02.662-0400] {override.py:1981} INFO - Added Permission menu access on Configurations to role Op
+[2025-08-01T10:44:02.670-0400] {override.py:1981} INFO - Added Permission menu access on Connections to role Op
+[2025-08-01T10:44:02.676-0400] {override.py:1981} INFO - Added Permission menu access on Pools to role Op
+[2025-08-01T10:44:02.682-0400] {override.py:1981} INFO - Added Permission menu access on Plugins to role Op
+[2025-08-01T10:44:02.688-0400] {override.py:1981} INFO - Added Permission menu access on Variables to role Op
+[2025-08-01T10:44:02.694-0400] {override.py:1981} INFO - Added Permission menu access on Providers to role Op
+[2025-08-01T10:44:02.700-0400] {override.py:1981} INFO - Added Permission menu access on XComs to role Op
+[2025-08-01T10:44:02.707-0400] {override.py:1981} INFO - Added Permission can create on Connections to role Op
+[2025-08-01T10:44:02.716-0400] {override.py:1981} INFO - Added Permission can read on Connections to role Op
+[2025-08-01T10:44:02.722-0400] {override.py:1981} INFO - Added Permission can edit on Connections to role Op
+[2025-08-01T10:44:02.731-0400] {override.py:1981} INFO - Added Permission can delete on Connections to role Op
+[2025-08-01T10:44:02.738-0400] {override.py:1981} INFO - Added Permission can create on Pools to role Op
+[2025-08-01T10:44:02.745-0400] {override.py:1981} INFO - Added Permission can edit on Pools to role Op
+[2025-08-01T10:44:02.759-0400] {override.py:1981} INFO - Added Permission can delete on Pools to role Op
+[2025-08-01T10:44:02.772-0400] {override.py:1981} INFO - Added Permission can read on Plugins to role Op
+[2025-08-01T10:44:02.781-0400] {override.py:1981} INFO - Added Permission can read on Providers to role Op
+[2025-08-01T10:44:02.790-0400] {override.py:1981} INFO - Added Permission can create on Variables to role Op
+[2025-08-01T10:44:02.798-0400] {override.py:1981} INFO - Added Permission can read on Variables to role Op
+[2025-08-01T10:44:02.804-0400] {override.py:1981} INFO - Added Permission can edit on Variables to role Op
+[2025-08-01T10:44:02.811-0400] {override.py:1981} INFO - Added Permission can delete on Variables to role Op
+[2025-08-01T10:44:02.819-0400] {override.py:1981} INFO - Added Permission can delete on XComs to role Op
+[2025-08-01T10:44:02.832-0400] {override.py:1930} INFO - Created Permission View: can delete on Datasets
+[2025-08-01T10:44:02.840-0400] {override.py:1981} INFO - Added Permission can delete on Datasets to role Op
+[2025-08-01T10:44:02.849-0400] {override.py:1981} INFO - Added Permission can read on DAGs to role Admin
+[2025-08-01T10:44:02.857-0400] {override.py:1981} INFO - Added Permission can read on DAG Dependencies to role Admin
+[2025-08-01T10:44:02.867-0400] {override.py:1981} INFO - Added Permission can read on DAG Code to role Admin
+[2025-08-01T10:44:02.875-0400] {override.py:1981} INFO - Added Permission can read on Datasets to role Admin
+[2025-08-01T10:44:02.883-0400] {override.py:1981} INFO - Added Permission can read on Cluster Activity to role Admin
+[2025-08-01T10:44:02.892-0400] {override.py:1981} INFO - Added Permission can read on ImportError to role Admin
+[2025-08-01T10:44:02.904-0400] {override.py:1981} INFO - Added Permission can read on DAG Warnings to role Admin
+[2025-08-01T10:44:02.914-0400] {override.py:1981} INFO - Added Permission can read on Task Logs to role Admin
+[2025-08-01T10:44:02.931-0400] {override.py:1981} INFO - Added Permission can read on Website to role Admin
+[2025-08-01T10:44:02.940-0400] {override.py:1981} INFO - Added Permission can edit on DAGs to role Admin
+[2025-08-01T10:44:02.947-0400] {override.py:1981} INFO - Added Permission can delete on DAGs to role Admin
+[2025-08-01T10:44:02.955-0400] {override.py:1981} INFO - Added Permission can create on Datasets to role Admin
+[2025-08-01T10:44:02.964-0400] {override.py:1981} INFO - Added Permission can delete on Datasets to role Admin
+[2025-08-01 10:44:03 -0400] [5942] [INFO] Starting gunicorn 23.0.0
+[2025-08-01 10:44:03 -0400] [5942] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2025-08-01 10:44:03 -0400] [5942] [ERROR] connection to ('0.0.0.0', 8080) failed: [Errno 98] Address already in use
+[2025-08-01 10:44:04 -0400] [5942] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2025-08-01 10:44:04 -0400] [5942] [ERROR] connection to ('0.0.0.0', 8080) failed: [Errno 98] Address already in use
+[2025-08-01 10:44:05 -0400] [5942] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2025-08-01 10:44:05 -0400] [5942] [ERROR] connection to ('0.0.0.0', 8080) failed: [Errno 98] Address already in use
+[2025-08-01 10:44:06 -0400] [5942] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2025-08-01 10:44:06 -0400] [5942] [ERROR] connection to ('0.0.0.0', 8080) failed: [Errno 98] Address already in use
+[2025-08-01 10:44:07 -0400] [5942] [ERROR] Connection in use: ('0.0.0.0', 8080)
+[2025-08-01 10:44:07 -0400] [5942] [ERROR] connection to ('0.0.0.0', 8080) failed: [Errno 98] Address already in use
+[2025-08-01 10:44:08 -0400] [5942] [ERROR] Can't connect to ('0.0.0.0', 8080)
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+Running the Gunicorn Server with:
+Workers: 4 sync
+Host: 0.0.0.0:8080
+Timeout: 120
+Logfiles: - -
+Access Logformat: 
+=================================================================
+[2025-08-01T10:45:54.247-0400] {webserver_command.py:223} ERROR - No response from gunicorn master within 120 seconds
+[2025-08-01T10:45:54.251-0400] {webserver_command.py:224} ERROR - Shutting down webserver

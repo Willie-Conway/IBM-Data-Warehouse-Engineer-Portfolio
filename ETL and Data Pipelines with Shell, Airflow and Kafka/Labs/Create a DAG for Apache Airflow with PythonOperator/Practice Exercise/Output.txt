@@ -1,0 +1,12 @@
+theia@theiadocker-hirewillieco:/home/project$ touch etl_server_access_log_processing.sh
+theia@theiadocker-hirewillieco:/home/project$ chmod +x etl_server_access_log_processing.sh
+theia@theiadocker-hirewillieco:/home/project$ ./etl_server_access_log_processing.sh       
+Creating DAG file: ETL_Server_Access_Log_Processing.py
+Moving DAG to Airflow DAGs directory...
+Verifying DAG is registered...
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+etl-server-logs-dag                                     | /home/project/airflow/dags/ETL_Server_Access_Log_Processing.py                                                     | Willie Conway | None     
+Checking for import errors...
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+No data found
+theia@theiadocker-hirewillieco:/home/project$ 

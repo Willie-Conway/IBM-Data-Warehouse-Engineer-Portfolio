@@ -1,0 +1,21 @@
+theia@theiadocker-hirewillieco:/home/project$ airflow dags trigger ETL_toll_data
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:812 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:724 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:747 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:761 FutureWarning: The auth_backends setting in [api] has had airflow.api.auth.backend.session added in the running config, which is needed by the UI. Please update your config before Apache Airflow 3.0.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:738 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/models/base.py:72 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-12-11T04:42:29.375+0000] {__init__.py:43} INFO - Loaded API auth backend: airflow.api.auth.backend.basic_auth
+[2025-12-11T04:42:29.378+0000] {__init__.py:43} INFO - Loaded API auth backend: airflow.api.auth.backend.session
+     |         |         | data_int | data_in |          | externa | last_sch |         |          |         |       
+     |         | dag_run | erval_st | terval_ |          | l_trigg | eduling_ | logical |          | start_d |       
+conf | dag_id  | _id     | art      | end     | end_date | er      | decision | _date   | run_type | ate     | state 
+=====+=========+=========+==========+=========+==========+=========+==========+=========+==========+=========+=======
+{}   | ETL_tol | manual_ | 2025-12- | 2025-12 | None     | True    | None     | 2025-12 | manual   | None    | queued
+     | l_data  | _2025-1 | 10       | -11     |          |         |          | -11     |          |         |       
+     |         | 2-11T04 | 00:00:00 | 00:00:0 |          |         |          | 04:42:3 |          |         |       
+     |         | :42:30+ | +00:00   | 0+00:00 |          |         |          | 0+00:00 |          |         |       
+     |         | 00:00   |          |         |          |         |          |         |          |         |       
+                                                                                                                     
+theia@theiadocker-hirewillieco:/home/project$

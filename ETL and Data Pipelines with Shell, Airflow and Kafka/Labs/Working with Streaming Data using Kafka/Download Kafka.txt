@@ -1,0 +1,16 @@
+wget https://downloads.apache.org/kafka/3.8.0/kafka_2.13-3.8.0.tgz
+
+
+theia@theiadocker-hirewillieco:/home/project$ wget https://downloads.apache.org/kafka/3.8.0/kafka_2.13-3.8.0.tgz
+--2025-11-19 11:06:00--  https://downloads.apache.org/kafka/3.8.0/kafka_2.13-3.8.0.tgz
+Resolving downloads.apache.org (downloads.apache.org)... 135.181.214.104, 88.99.208.237, 135.181.214.104, ...
+Connecting to downloads.apache.org (downloads.apache.org)|135.181.214.104|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 120735482 (115M) [application/x-gzip]
+Saving to: 'kafka_2.13-3.8.0.tgz'
+
+kafka_2.13-3.8.0.tg 100%[================>] 115.14M  24.1MB/s    in 5.5s    
+
+2025-11-19 11:06:06 (20.8 MB/s) - 'kafka_2.13-3.8.0.tgz' saved [120735482/120735482]
+
+theia@theiadocker-hirewillieco:/home/project$ 

@@ -1,0 +1,37 @@
+theia@theiadocker-hirewillieco:/home/project$ chmod +x exercise_practice_example_branch_labels.sh
+theia@theiadocker-hirewillieco:/home/project$ ./exercise_practice_example_branch_labels.sh
+Listing all tasks for DAG: example_branch_labels
+analyze
+check_integrity
+describe_integrity
+email_error
+ingest
+theia@theiadocker-hirewillieco:/home/project$ chmod +x exercise_practice_example_branch_labels.sh
+theia@theiadocker-hirewillieco:/home/project$ ./exercise_practice_example_branch_labels.sh
+Listing all tasks for DAG: example_branch_labels
+analyze
+check_integrity
+describe_integrity
+email_error
+ingest
+report
+save
+----------------------------------------
+Unpausing DAG: example_branch_labels
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+No paused DAGs were found
+----------------------------------------
+Checking DAG status after unpause:
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+example_branch_labels                                   | /usr/local/lib/python3.11/dist-packages/airflow/example_dags/example_branch_labels.py                                   | airflow | None     
+----------------------------------------
+Pausing DAG: example_branch_labels
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+No unpaused DAGs were found
+----------------------------------------
+Checking DAG status after pause:
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+example_branch_labels                                   | /usr/local/lib/python3.11/dist-packages/airflow/example_dags/example_branch_labels.py                                   | airflow | None     
+----------------------------------------
+Practice Exercise completed.
+theia@theiadocker-hirewillieco:/home/project$ 

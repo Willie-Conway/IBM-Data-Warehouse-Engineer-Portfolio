@@ -1,0 +1,11 @@
+[Producer Simulator] ---> Kafka Topic (toll) ---> [Consumer Service] ---> MySQL (tolldata.livetolldata)
+
+
+
++-----------+     +----------+     +-----------+     +--------+
+| producer  | --> | kafka    | --> | consumer  | --> | mysql  |
+| (container)|    | (container)|   | (container)|    | (container)
++-----------+     +----------+     +-----------+     +--------+
+
+
+

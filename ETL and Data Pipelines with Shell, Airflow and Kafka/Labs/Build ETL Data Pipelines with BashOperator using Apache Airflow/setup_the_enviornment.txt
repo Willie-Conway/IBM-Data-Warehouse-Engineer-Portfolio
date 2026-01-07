@@ -1,0 +1,10 @@
+theia@theiadocker-hirewillieco:/home/project$ sudo mkdir -p /home/project/airflow/dags/finalassignment/staging
+theia@theiadocker-hirewillieco:/home/project$ sudo chmod -R 777 /home/project/airflow/dags/finalassignment
+theia@theiadocker-hirewillieco:/home/project$ sudo curl https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Final%20Assignment/tolldata.tgz -o /home/project/airflow/dags/finalassignment/tolldata.tgz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --100  516k  100  516k    0     0  2389k      0 --:--:-- --:--:-- --:--:-theia@theiadocker-hirewillieco:/home/project$ sudo curl https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Final%20Assignment/tolldata.tgz -o /home/project/airflow/dags/finalassignment/tolldata.tgzmod -
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- 100  516k  100  516k    0     0  2389k      0 --:--:-- --:--:-- --:--:-- 2391k
+theia@theiadocker-hirewillieco:/home/project$ 

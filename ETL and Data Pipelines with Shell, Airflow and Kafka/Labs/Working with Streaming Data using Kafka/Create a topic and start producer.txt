@@ -1,0 +1,8 @@
+theia@theiadocker-hirewillieco:/home/project$ cd kafka_2.13-3.8.0
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ bin/kafka-topics.sh --create --topic news --bootstrap-server localhost:9092
+Created topic news.
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ bin/kafka-console-producer.sh   --bootstrap-server localhost:9092   --topic news
+>Good morning
+Good day
+Enjoy the Kafka lab>>
+>

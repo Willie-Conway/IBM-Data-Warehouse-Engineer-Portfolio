@@ -1,0 +1,28 @@
+theia@theiadocker-hirewillieco:/home/project$ chmod +x exercise4_pause_unpause_dag.sh
+theia@theiadocker-hirewillieco:/home/project$ ./exercise4_pause_unpause_dag.sh
+Unpausing DAG: tutorial
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+No paused DAGs were found
+----------------------------------------
+Pausing DAG: tutorial
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+No unpaused DAGs were found
+----------------------------------------
+Unpausing DAG: example_branch_operator (Practice Exercise)
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+No paused DAGs were found
+----------------------------------------
+Current status of 'tutorial' DAG:
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+example_params_ui_tutorial                              | /usr/local/lib/python3.11/dist-packages/airflow/example_dags/example_params_ui_tutorial.py                              | airflow | None     
+tutorial                                                | /usr/local/lib/python3.11/dist-packages/airflow/example_dags/tutorial.py                                                | airflow | None     
+tutorial_dag                                            | /usr/local/lib/python3.11/dist-packages/airflow/example_dags/tutorial_dag.py                                            | airflow | None     
+tutorial_objectstorage                                  | /usr/local/lib/python3.11/dist-packages/airflow/example_dags/tutorial_objectstorage.py                                  | airflow | None     
+tutorial_taskflow_api                                   | /usr/local/lib/python3.11/dist-packages/airflow/example_dags/tutorial_taskflow_api.py                                   | airflow | None     
+tutorial_taskflow_templates                             | /usr/local/lib/python3.11/dist-packages/airflow/example_dags/tutorial_taskflow_templates.py                             | airflow | None     
+----------------------------------------
+Current status of 'example_branch_operator' DAG:
+/usr/local/lib/python3.11/dist-packages/airflow/cli/commands/dag_command.py:48 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+----------------------------------------
+Exercise 4 completed.
+theia@theiadocker-hirewillieco:/home/project$ 

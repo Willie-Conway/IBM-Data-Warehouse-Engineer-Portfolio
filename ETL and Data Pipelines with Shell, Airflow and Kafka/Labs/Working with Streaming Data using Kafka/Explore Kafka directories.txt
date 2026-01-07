@@ -1,0 +1,7 @@
+theia@theiadocker-hirewillieco:/home/project$ cd kafka_2.13-3.8.0
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ ls
+LICENSE  NOTICE  bin  config  kafka_2.13-3.8.0  libs  licenses  logs  site-docs
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ ls /tmp/kraft-combined-logs/news-0
+00000000000000000000.index  00000000000000000000.timeindex  partition.metadata
+00000000000000000000.log    leader-epoch-checkpoint
+theia@theiadocker-hirewillieco:/home/project/kafka_2.13-3.8.0$ 

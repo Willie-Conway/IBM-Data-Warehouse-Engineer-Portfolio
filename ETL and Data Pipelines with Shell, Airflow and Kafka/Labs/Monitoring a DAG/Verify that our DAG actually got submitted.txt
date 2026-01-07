@@ -1,0 +1,260 @@
+theia@theiadocker-hirewillieco:/home/project$ airflow dags list
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:812 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:724 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:747 DeprecationWarning: The auth_backend option in [api] has been renamed to auth_backends - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:761 FutureWarning: The auth_backends setting in [api] has had airflow.api.auth.backend.session added in the running config, which is needed by the UI. Please update your config before Apache Airflow 3.0.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/configuration.py:738 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+/home/airflow/.local/lib/python3.9/site-packages/airflow/models/base.py:72 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+dag_id                      | fileloc                     | owners        | is_paused
+============================+=============================+===============+==========
+conditional_dataset_and_tim | /home/airflow/.local/lib/py | airflow       | True     
+e_based_timetable           | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+consume_1_and_2_with_datase | /home/airflow/.local/lib/py | airflow       | True     
+t_expressions               | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+consume_1_or_2_with_dataset | /home/airflow/.local/lib/py | airflow       | True     
+_expressions                | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+consume_1_or_both_2_and_3_w | /home/airflow/.local/lib/py | airflow       | True     
+ith_dataset_expressions     | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+dataset_consumes_1          | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+dataset_consumes_1_and_2    | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+dataset_consumes_1_never_sc | /home/airflow/.local/lib/py | airflow       | True     
+heduled                     | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+dataset_consumes_unknown_ne | /home/airflow/.local/lib/py | airflow       | True     
+ver_scheduled               | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+dataset_produces_1          | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+dataset_produces_2          | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dat |               |          
+                            | asets.py                    |               |          
+dummy_dag                   | /home/project/airflow/dags/ | Willie Conway | True     
+                            | dummy_dag.py                |               |          
+example_bash_decorator      | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bas |               |          
+                            | h_decorator.py              |               |          
+example_bash_operator       | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bas |               |          
+                            | h_operator.py               |               |          
+example_branch_datetime_ope | /home/airflow/.local/lib/py | airflow       | True     
+rator                       | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bra |               |          
+                            | nch_datetime_operator.py    |               |          
+example_branch_datetime_ope | /home/airflow/.local/lib/py | airflow       | True     
+rator_2                     | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bra |               |          
+                            | nch_datetime_operator.py    |               |          
+example_branch_datetime_ope | /home/airflow/.local/lib/py | airflow       | True     
+rator_3                     | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bra |               |          
+                            | nch_datetime_operator.py    |               |          
+example_branch_dop_operator | /home/airflow/.local/lib/py | airflow       | True     
+_v3                         | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bra |               |          
+                            | nch_python_dop_operator_3.p |               |          
+                            | y                           |               |          
+example_branch_labels       | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bra |               |          
+                            | nch_labels.py               |               |          
+example_branch_operator     | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bra |               |          
+                            | nch_operator.py             |               |          
+example_branch_python_opera | /home/airflow/.local/lib/py | airflow       | True     
+tor_decorator               | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bra |               |          
+                            | nch_operator_decorator.py   |               |          
+example_complex             | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_com |               |          
+                            | plex.py                     |               |          
+example_dag_decorator       | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dag |               |          
+                            | _decorator.py               |               |          
+example_display_name        | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dis |               |          
+                            | play_name.py                |               |          
+example_dynamic_task_mappin | /home/airflow/.local/lib/py | airflow       | True     
+g                           | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_dyn |               |          
+                            | amic_task_mapping.py        |               |          
+example_dynamic_task_mappin | /home/airflow/.local/lib/py | airflow       | True     
+g_with_no_taskflow_operator | thon3.9/site-packages/airfl |               |          
+s                           | ow/example_dags/example_dyn |               |          
+                            | amic_task_mapping_with_no_t |               |          
+                            | askflow_operators.py        |               |          
+example_external_task_marke | /home/airflow/.local/lib/py | airflow       | True     
+r_child                     | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_ext |               |          
+                            | ernal_task_marker_dag.py    |               |          
+example_external_task_marke | /home/airflow/.local/lib/py | airflow       | True     
+r_parent                    | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_ext |               |          
+                            | ernal_task_marker_dag.py    |               |          
+example_kubernetes_executor | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_kub |               |          
+                            | ernetes_executor.py         |               |          
+example_local_kubernetes_ex | /home/airflow/.local/lib/py | airflow       | True     
+ecutor                      | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_loc |               |          
+                            | al_kubernetes_executor.py   |               |          
+example_nested_branch_dag   | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_nes |               |          
+                            | ted_branch_dag.py           |               |          
+example_params_trigger_ui   | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_par |               |          
+                            | ams_trigger_ui.py           |               |          
+example_params_ui_tutorial  | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_par |               |          
+                            | ams_ui_tutorial.py          |               |          
+example_passing_params_via_ | /home/airflow/.local/lib/py | airflow       | True     
+test_command                | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_pas |               |          
+                            | sing_params_via_test_comman |               |          
+                            | d.py                        |               |          
+example_python_decorator    | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_pyt |               |          
+                            | hon_decorator.py            |               |          
+example_python_operator     | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_pyt |               |          
+                            | hon_operator.py             |               |          
+example_sensor_decorator    | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_sen |               |          
+                            | sor_decorator.py            |               |          
+example_sensors             | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_sen |               |          
+                            | sors.py                     |               |          
+example_setup_teardown      | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_set |               |          
+                            | up_teardown.py              |               |          
+example_setup_teardown_task | /home/airflow/.local/lib/py | airflow       | True     
+flow                        | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_set |               |          
+                            | up_teardown_taskflow.py     |               |          
+example_short_circuit_decor | /home/airflow/.local/lib/py | airflow       | True     
+ator                        | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_sho |               |          
+                            | rt_circuit_decorator.py     |               |          
+example_short_circuit_opera | /home/airflow/.local/lib/py | airflow       | True     
+tor                         | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_sho |               |          
+                            | rt_circuit_operator.py      |               |          
+example_skip_dag            | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_ski |               |          
+                            | p_dag.py                    |               |          
+example_sla_dag             | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_sla |               |          
+                            | _dag.py                     |               |          
+example_subdag_operator     | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_sub |               |          
+                            | dag_operator.py             |               |          
+example_subdag_operator.sec | /home/airflow/.local/lib/py | airflow       | True     
+tion-1                      | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_sub |               |          
+                            | dag_operator.py             |               |          
+example_subdag_operator.sec | /home/airflow/.local/lib/py | airflow       | True     
+tion-2                      | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_sub |               |          
+                            | dag_operator.py             |               |          
+example_task_group          | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_tas |               |          
+                            | k_group.py                  |               |          
+example_task_group_decorato | /home/airflow/.local/lib/py | airflow       | True     
+r                           | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_tas |               |          
+                            | k_group_decorator.py        |               |          
+example_time_delta_sensor_a | /home/airflow/.local/lib/py | airflow       | True     
+sync                        | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_tim |               |          
+                            | e_delta_sensor_async.py     |               |          
+example_trigger_controller_ | /home/airflow/.local/lib/py | airflow       | True     
+dag                         | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_tri |               |          
+                            | gger_controller_dag.py      |               |          
+example_trigger_target_dag  | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_tri |               |          
+                            | gger_target_dag.py          |               |          
+example_weekday_branch_oper | /home/airflow/.local/lib/py | airflow       | True     
+ator                        | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_bra |               |          
+                            | nch_day_of_week_operator.py |               |          
+example_xcom                | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_xco |               |          
+                            | m.py                        |               |          
+example_xcom_args           | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_xco |               |          
+                            | margs.py                    |               |          
+example_xcom_args_with_oper | /home/airflow/.local/lib/py | airflow       | True     
+ators                       | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_xco |               |          
+                            | margs.py                    |               |          
+latest_only                 | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_lat |               |          
+                            | est_only.py                 |               |          
+latest_only_with_trigger    | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/example_lat |               |          
+                            | est_only_with_trigger.py    |               |          
+tutorial                    | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/tutorial.py |               |          
+tutorial_dag                | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/tutorial_da |               |          
+                            | g.py                        |               |          
+tutorial_objectstorage      | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/tutorial_ob |               |          
+                            | jectstorage.py              |               |          
+tutorial_taskflow_api       | /home/airflow/.local/lib/py | airflow       | True     
+                            | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/tutorial_ta |               |          
+                            | skflow_api.py               |               |          
+tutorial_taskflow_api_virtu | /home/airflow/.local/lib/py | airflow       | True     
+alenv                       | thon3.9/site-packages/airfl |               |          
+                            | ow/example_dags/tutorial_ta |               |          
+                            | skflow_api_virtualenv.py    |               |          
+                                                                                     
+theia@theiadocker-hirewillieco:/home/project$

@@ -1,0 +1,5 @@
+airflow dags list|grep "my-first-dag"
+
+theia@theiadocker-hirewillieco:/home/project/airflow$ airflow dags list|grep "my-first-dag"
+my-first-dag                                            | /home/project/airflow/dags/my_first_dag.py                                                                         | Willie Conway | True     
+theia@theiadocker-hirewillieco:/home/project/airflow$ 

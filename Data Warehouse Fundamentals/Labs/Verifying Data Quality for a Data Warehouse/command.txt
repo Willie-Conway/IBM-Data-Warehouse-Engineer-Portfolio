@@ -1,0 +1,2 @@
+export PGPASSWORD=Z3rrbD6rQsrmiG1Ptfsjx1jt
+bash setupstagingarea.sh
