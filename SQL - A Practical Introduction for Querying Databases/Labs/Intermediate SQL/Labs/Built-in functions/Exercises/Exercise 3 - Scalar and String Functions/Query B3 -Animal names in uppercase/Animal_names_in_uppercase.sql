@@ -1,0 +1,1 @@
+select UCASE(ANIMAL) from PETRESCUE;

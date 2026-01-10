@@ -1,0 +1,1 @@
+select DISTINCT(UCASE(ANIMAL)) from PETRESCUE;

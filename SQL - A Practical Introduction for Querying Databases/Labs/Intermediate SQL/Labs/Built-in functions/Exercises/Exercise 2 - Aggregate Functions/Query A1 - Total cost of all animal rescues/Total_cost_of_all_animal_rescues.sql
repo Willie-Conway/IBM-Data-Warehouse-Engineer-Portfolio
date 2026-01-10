@@ -1,0 +1,1 @@
+select SUM(COST) from PETRESCUE;

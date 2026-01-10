@@ -1,0 +1,1 @@
+select AVG(COST) from PETRESCUE;

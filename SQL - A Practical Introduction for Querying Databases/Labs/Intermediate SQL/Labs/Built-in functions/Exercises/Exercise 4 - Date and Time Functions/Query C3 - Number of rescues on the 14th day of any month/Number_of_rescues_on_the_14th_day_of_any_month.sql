@@ -1,0 +1,1 @@
+select SUM(QUANTITY) from PETRESCUE where DAY(RESCUEDATE)='14';
