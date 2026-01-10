@@ -1,0 +1,8 @@
+-- Employees in departments located in department 2
+SELECT E.*
+FROM EMPLOYEES E, DEPARTMENTS D
+WHERE E.DEP_ID = D.DEPT_ID_DEP
+  AND D.LOC_ID IN (
+    SELECT LOC_ID FROM LOCATIONS 
+    WHERE DEPT_ID_DEP = '2'
+);

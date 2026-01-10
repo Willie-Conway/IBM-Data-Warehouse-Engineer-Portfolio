@@ -1,0 +1,9 @@
+-- Departments with more than 3 employees
+SELECT DEP_NAME 
+FROM DEPARTMENTS 
+WHERE DEPT_ID_DEP IN (
+    SELECT DEP_ID 
+    FROM EMPLOYEES 
+    GROUP BY DEP_ID 
+    HAVING COUNT(*) > 3
+);

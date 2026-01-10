@@ -1,0 +1,13 @@
+Best Practices
+
+1 - Use explicit JOIN syntax for production code (more readable)
+
+2 - Always qualify ambiguous column names
+
+3 - Use meaningful table aliases (not just a, b, c)
+
+4 - Test sub-queries independently before combining
+
+5 - Consider EXISTS instead of IN for large datasets
+
+6 - Add indexes on join columns for better performance
