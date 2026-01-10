@@ -1,0 +1,3 @@
+SELECT * 
+FROM EMPLOYEES 
+WHERE salary < AVG(salary);

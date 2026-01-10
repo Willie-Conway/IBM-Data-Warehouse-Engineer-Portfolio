@@ -1,0 +1,5 @@
+-- Create a public view without sensitive data
+CREATE VIEW EMPLOYEE_PUBLIC_INFO AS
+SELECT * FROM 
+    (SELECT EMP_ID, F_NAME, L_NAME, JOB_ID, DEP_ID, MANAGER_ID 
+     FROM EMPLOYEES) AS PUBLIC_DATA;

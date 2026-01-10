@@ -1,0 +1,8 @@
+-- Find managers who supervise above-average earners
+SELECT DISTINCT MANAGER_ID
+FROM EMPLOYEES
+WHERE EMP_ID IN (
+    SELECT EMP_ID 
+    FROM EMPLOYEES 
+    WHERE SALARY > (SELECT AVG(SALARY) FROM EMPLOYEES)
+);
