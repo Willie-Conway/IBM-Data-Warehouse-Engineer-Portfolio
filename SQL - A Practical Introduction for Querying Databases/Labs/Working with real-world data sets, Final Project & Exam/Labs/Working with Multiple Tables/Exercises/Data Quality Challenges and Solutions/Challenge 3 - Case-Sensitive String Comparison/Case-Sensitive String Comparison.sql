@@ -1,0 +1,1 @@
+WHERE school_type = 'ES'  -- Exact match needed

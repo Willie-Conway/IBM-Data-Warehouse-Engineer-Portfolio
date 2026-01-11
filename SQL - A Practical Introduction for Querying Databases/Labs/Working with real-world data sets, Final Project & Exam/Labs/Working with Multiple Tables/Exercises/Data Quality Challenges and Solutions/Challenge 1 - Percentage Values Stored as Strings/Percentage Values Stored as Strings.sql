@@ -1,0 +1,1 @@
+CAST(REPLACE(Average_Student_Attendance, '%', '') AS DOUBLE)
