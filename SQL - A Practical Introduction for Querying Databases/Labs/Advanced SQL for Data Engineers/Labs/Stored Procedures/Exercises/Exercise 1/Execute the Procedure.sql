@@ -1,0 +1,1 @@
+CALL RETRIEVE_ALL();
