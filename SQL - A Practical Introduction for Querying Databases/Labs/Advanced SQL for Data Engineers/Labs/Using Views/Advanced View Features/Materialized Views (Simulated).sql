@@ -1,0 +1,12 @@
+-- Create a table that acts like a materialized view
+CREATE TABLE DEPARTMENT_STATS_CACHE AS
+SELECT 
+    DEP_ID,
+    COUNT(*) AS EMP_COUNT,
+    AVG(SALARY) AS AVG_SAL
+FROM EMPLOYEES
+GROUP BY DEP_ID;
+
+-- Create a view on top of the cache
+CREATE VIEW DEPARTMENT_STATS AS
+SELECT * FROM DEPARTMENT_STATS_CACHE;

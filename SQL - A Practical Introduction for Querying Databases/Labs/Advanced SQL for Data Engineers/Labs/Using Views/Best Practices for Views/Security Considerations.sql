@@ -1,0 +1,5 @@
+-- Create read-only views for different user roles
+CREATE VIEW EMPLOYEE_PUBLIC_INFO AS
+SELECT EMP_ID, F_NAME, L_NAME, DEP_ID FROM EMPLOYEES;
+
+GRANT SELECT ON EMPLOYEE_PUBLIC_INFO TO public_user;
