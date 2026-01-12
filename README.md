@@ -220,6 +220,15 @@ This repository showcases my comprehensive journey through the **IBM Data Wareho
 └── 📜 README.md
 ```
 
+## 📈 **Key Achievements** 
+
+✅ **IBM Data Warehouse Engineer Professional Certificate earned**  
+✅ **20+ hands-on data warehousing projects completed**  
+✅ **Full-stack data engineering skills mastered**  
+✅ **Real-world ETL/ELT pipelines implemented**  
+✅ **Cloud data warehouses designed and deployed**  
+✅ **Interactive business intelligence dashboards created**  
+✅ **Big data solutions with Snowflake & Redshift developed**
 ## 🚀 Key Projects Showcase
 
 ### 🏗️ **Waste Management Data Warehouse** 
