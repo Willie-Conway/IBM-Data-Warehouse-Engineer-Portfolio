@@ -1,0 +1,73 @@
+How to Use This Script:
+Replace the passwords with your actual passwords:
+
+MYSQL_PASSWORD="123456" → Your MySQL password
+
+PG_PASSWORD="password123" → Your PostgreSQL password
+
+Make the script executable:
+
+bash
+chmod +x ETL.sh
+Run the script:
+
+bash
+bash ETL.sh
+Screenshots to Take:
+extract_load_data.png - Show the command bash ETL.sh being executed
+
+DimDate.png - Show PostgreSQL query output:
+
+sql
+select * from DimDate limit 5;
+FactSales.png - Show PostgreSQL query output:
+
+sql
+select * from FactSales limit 5;
+exportDimDate.png - Show CSV file content:
+
+bash
+head -n 5 /home/project/DimDate.csv
+exportFactSales.png - Show CSV file content:
+
+bash
+head -n 5 /home/project/FactSales.csv
+schedule_job.jpg - Show crontab entry:
+
+bash
+crontab -e
+# Add: 0 2 * * * /bin/bash /home/project/ETL.sh >> /home/project/etl_cron.log 2>&1
+cron_start.jpg - Show cron service command:
+
+bash
+sudo service cron restart
+sudo service cron status
+Key Changes Made:
+Changed PostgreSQL host from localhost to postgres
+
+Changed database name from sales_new to staging (as per lab instructions)
+
+Added table creation commands for each table
+
+Added ON CONFLICT handling for duplicate data
+
+Added proper logging and progress messages
+
+Used 4-hour window for extraction as specified
+
+Fixed CSV export commands with proper syntax
+
+For Cron Job Setup:
+bash
+# Open crontab editor
+crontab -e
+
+# Add this line for daily at 2 AM
+0 2 * * * /bin/bash /home/project/ETL.sh >> /home/project/etl_cron.log 2>&1
+
+# For testing (every 5 minutes)
+*/5 * * * * /bin/bash /home/project/ETL.sh >> /home/project/etl_cron.log 2>&1
+
+# Start/restart cron service
+sudo service cron restart
+The script is now complete and ready for execution. Make sure to take all the required screenshots as you run each step!

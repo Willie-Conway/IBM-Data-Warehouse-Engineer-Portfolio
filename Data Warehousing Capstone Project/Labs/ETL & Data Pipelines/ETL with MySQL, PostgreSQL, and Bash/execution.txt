@@ -1,0 +1,57 @@
+theia@theiadocker-hirewillieco:/home/project$ # Make sure it's executable
+chmod +x ETL.sh
+
+# Run the script
+bash ETL.sh
+==========================================
+Starting ETL Process...
+==========================================
+Step 1: Extracting data from MySQL (last 4 hours)...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data extracted successfully. Records extracted: 1304
+Converting tabs to commas...
+CSV file prepared: /home/project/sales.csv
+Step 2: Loading data into PostgreSQL...
+NOTICE:  relation "sales_data" already exists, skipping
+CREATE TABLE
+COPY 1304
+Data loaded into PostgreSQL sales_data table
+Step 3: Creating and populating DimDate table...
+NOTICE:  relation "dimdate" already exists, skipping
+      ?column?      
+--------------------
+ DimDate records: 1
+(1 row)
+
+Step 4: Creating and populating FactSales table...
+NOTICE:  relation "factsales" already exists, skipping
+        ?column?         
+-------------------------
+ FactSales records: 1304
+(1 row)
+
+Step 5: Exporting DimDate table to CSV...
+COPY 1
+DimDate exported to: /home/project/DimDate.csv
+Step 6: Exporting FactSales table to CSV...
+COPY 1304
+FactSales exported to: /home/project/FactSales.csv
+Step 7: Performing cleanup...
+Removed temporary file: /home/project/sales.csv
+==========================================
+ETL Process Completed Successfully!
+==========================================
+Generated files:
+1. DimDate.csv: /home/project/DimDate.csv
+2. FactSales.csv: /home/project/FactSales.csv
+==========================================
+
+Sample of DimDate.csv:
+dateid,date,year,month,day,quarter,dayofweek
+1,2026-01-12,2026,1,12,1,1
+
+Sample of FactSales.csv:
+salesid,dateid,product_id,customer_id,quantity,price,total_amount
+1,1,6304,12350,5,1186.00,5930.00
+2,1,8414,3462,4,3262.00,13048.00
+theia@theiadocker-hirewillieco:/home/project$ 
