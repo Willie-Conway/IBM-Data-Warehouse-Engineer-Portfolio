@@ -1,6 +1,6 @@
 # 📊 IBM Data Warehouse Engineer Certificate Portfolio
 
-![IBM Data Warehouse Engineer](https://images.credly.com/size/680x680/images/a6ea6fbd-f79a-4e82-9b7c-6b4260e6c2a0/IBM_Data_Warehouse_Engineer.png)
+![IBM Data Warehouse Engineer](https://images.credly.com/size/680x680/images/7af512b2-3290-43b8-867b-0d4352b1927a/image.png)
 
 ![IBM Data Warehouse](https://img.shields.io/badge/IBM-Data_Warehouse_Engineer-0072CE?style=for-the-badge&logo=ibm)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
