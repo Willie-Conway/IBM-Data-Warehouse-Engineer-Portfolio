@@ -13,6 +13,18 @@
 
 This repository showcases my comprehensive journey through the **IBM Data Warehouse Engineer Professional Certificate** program. It contains hands-on projects, labs, cheat sheets, and final assignments across 9 core courses, demonstrating expertise in data warehousing, ETL/ELT pipelines, database administration, BI reporting, and data pipeline orchestration.
 
+<p float="left">
+   <img src="https://github.com/Willie-Conway/IBM-Data-Warehouse-Engineer-Portfolio/blob/b66bab4548167a0ec6cfe1a7dbbfb2d94651e2e1/Relational%20Database%20Administration%20(DBA)/Labs/Improving%20Performance%20of%20Slow%20Queries%20in%20MySQL/employeesdb/images/employees.gif" width="300" />
+    <img src="https://github.com/Willie-Conway/IBM-Data-Warehouse-Engineer-Portfolio/blob/b66bab4548167a0ec6cfe1a7dbbfb2d94651e2e1/Introduction%20to%20Relational%20Databases%20(RDBMS)/Labs/Database%20Design%20Using%20ERDs/Screenshots/completed%20the%20ERD.png" width="300" />
+    <img src="https://github.com/Willie-Conway/IBM-Data-Warehouse-Engineer-Portfolio/blob/b66bab4548167a0ec6cfe1a7dbbfb2d94651e2e1/SQL%20-%20A%20Practical%20Introduction%20for%20Querying%20Databases/Labs/Working%20with%20real-world%20data%20sets%2C%20Final%20Project%20%26%20Exam/Screenshots/Compare%20school%20safety%20with%20community%20hardship.png" width="300" />
+    <img src="https://github.com/Willie-Conway/IBM-Data-Warehouse-Engineer-Portfolio/blob/b66bab4548167a0ec6cfe1a7dbbfb2d94651e2e1/SQL%20-%20A%20Practical%20Introduction%20for%20Querying%20Databases/Labs/Working%20with%20real-world%20data%20sets%2C%20Final%20Project%20%26%20Exam/Screenshots/Which%20schools%20have%20highest%20Safety%20Score.png" width="300" />
+    <img src="https://github.com/Willie-Conway/IBM-Data-Warehouse-Engineer-Portfolio/blob/b66bab4548167a0ec6cfe1a7dbbfb2d94651e2e1/Data%20Warehousing%20Capstone%20Project/Labs/Build%20a%20Data%20Warehouse/Data%20Warehouse%20Reporting%20using%20PostgreSQL/Screenshots/rollup.jpg" width="300" />
+    <img src="https://github.com/Willie-Conway/IBM-Data-Warehouse-Engineer-Portfolio/blob/b66bab4548167a0ec6cfe1a7dbbfb2d94651e2e1/ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Labs/Build%20a%20Streaming%20ETL%20Pipeline%20using%20Kafka/Screenshots/streaming_data_reader.gif" width="300" />
+    <img src="https://github.com/Willie-Conway/IBM-Data-Warehouse-Engineer-Portfolio/blob/b66bab4548167a0ec6cfe1a7dbbfb2d94651e2e1/ETL%20and%20Data%20Pipelines%20with%20Shell%2C%20Airflow%20and%20Kafka/Labs/Build%20a%20Streaming%20ETL%20Pipeline%20using%20Kafka/Screenshots/toll_traffic_generator.gif" width="300" />
+</p>
+
+
+
 ## 🏗️ Core Competencies Demonstrated
 
 ### **Data Warehousing & Architecture**
